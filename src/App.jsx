@@ -34,9 +34,11 @@ function App() {
             <button onClick={() => scrollToSection('contact')} className="cta-button">Solicitar Consulta</button>
           </div>
           <div className="hero-image">
-            <div className="image-placeholder">
-              <span>👩‍⚖️</span>
-            </div>
+            <img
+              src="/andrea-esparza-showing-diploma.webp"
+              alt="Dra. María Andrea Esparza con diploma"
+              className="profile-image"
+            />
           </div>
         </div>
       </section>
