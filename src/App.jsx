@@ -56,6 +56,18 @@ function App() {
         <div className="container">
           <h2>Trayectoria Profesional</h2>
           <div className="timeline">
+            <div className="timeline-item highlight">
+              <div className="timeline-year">1996 - Presente</div>
+              <div className="timeline-content">
+                <h3>Socia Fundadora - Estudio Jurídico Esparza</h3>
+                <p><strong>Más de 25 años de experiencia profesional</strong> especializándose en más de 1,500 casos de derecho de familia, sucesiones y restitución internacional de menores. Trayectoria consolidada en la defensa de derechos familiares y patrimoniales.</p>
+                <div className="experience-highlights">
+                  <span className="badge">+1,500 casos resueltos</span>
+                  <span className="badge">+25 años de experiencia</span>
+                  <span className="badge">Especialista certificada</span>
+                </div>
+              </div>
+            </div>
             <div className="timeline-item">
               <div className="timeline-year">2024 - 2025</div>
               <div className="timeline-content">
@@ -75,13 +87,6 @@ function App() {
               <div className="timeline-content">
                 <h3>Docente por Concurso</h3>
                 <p>UBA, UNLZ, Universidad de Morón y Universidad Abierta Interamericana</p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-year">1996 - Presente</div>
-              <div className="timeline-content">
-                <h3>Fundadora</h3>
-                <p>Estudio Jurídico Esparza</p>
               </div>
             </div>
           </div>
@@ -302,6 +307,7 @@ function App() {
       <footer className="footer">
         <div className="container">
           <p>&copy; 2025 Dra. María Andrea Esparza – Estudio Jurídico Esparza. Todos los derechos reservados.</p>
+          <p className="credit">Creado por <a href="https://pensanta.com" target="_blank" rel="noopener noreferrer">Pensanta.com</a> | Productos Digitales</p>
         </div>
       </footer>
 

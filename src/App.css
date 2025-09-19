@@ -231,6 +231,45 @@ body {
   line-height: 1.6;
 }
 
+/* Highlight Timeline Item */
+.timeline-item.highlight {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  color: white;
+  border: 2px solid var(--gold);
+}
+
+.timeline-item.highlight .timeline-year {
+  background: var(--gold);
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.timeline-item.highlight .timeline-content h3 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.timeline-item.highlight .timeline-content p {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.experience-highlights {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  background: var(--gold);
+  color: var(--primary);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 /* Accomplishments Section */
 .accomplishments {
   margin-top: 4rem;
@@ -638,6 +677,25 @@ body {
 .footer p {
   font-size: 0.95rem;
   opacity: 0.9;
+}
+
+.footer .credit {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 0.5rem;
+}
+
+.footer .credit a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footer .credit a:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
 
 /* Floating WhatsApp Button */
