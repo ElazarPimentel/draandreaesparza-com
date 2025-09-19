@@ -3,6 +3,7 @@ import './App.css'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
+  const [expandedCard, setExpandedCard] = useState(null)
 
   const scrollToSection = (section) => {
     setActiveSection(section)
