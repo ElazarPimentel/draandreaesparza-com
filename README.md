@@ -1,60 +1,32 @@
 # Dra. María Andrea Esparza - Sitio Web Profesional
 
-Sitio web profesional para la Dra. María Andrea Esparza, especialista en Derecho de Familia, Sucesiones y Derecho Internacional Privado.
+Professional website for Dra. María Andrea Esparza, specialist in Family Law, Successions, and International Private Law.
 
-## 🎯 Características
+## 🎯 Key Features
 
-- **Diseño moderno y responsive** optimizado para todos los dispositivos
-- **SEO optimizado** con contenido legal especializado
-- **Cards expandibles** con normativa aplicable por especialidad
-- **Sección de publicaciones** con PDF descargable y video YouTube
-- **Contacto directo** via WhatsApp, email y redes sociales
-- **Performance optimizada** con imágenes WebP
+- **Modern responsive design** optimized for all devices
+- **SEO optimized** with specialized legal content and keywords
+- **Expandable cards** with applicable legal framework for each specialty
+- **Publications section** with downloadable PDF and YouTube video
+- **Direct contact** via WhatsApp, email and social media
+- **Performance optimized** with WebP images and modern CSS
 
-## 🛠️ Tecnologías
+## 🎨 Legal Specialties Covered
 
-- **React 19** + **Vite 7** para desarrollo rápido
-- **CSS moderno** con variables y grid layouts
-- **WebP images** para mejor performance
-- **Google Fonts** (Inter + Playfair Display)
+- **Family Law** - Divorces, alimony, family violence, parental responsibility
+- **Successions** - Wills, inheritance, asset partition, intestate succession
+- **International Private Law** - International child restitution, cross-border cases
 
-## 🚀 Comandos
+## 🚀 Implementation Highlights
 
-```bash
-# Instalar dependencias
-pnpm install
+- **React 19 + Vite 7** for fast development and modern tooling
+- **CSS Grid + Flexbox** for responsive layouts without frameworks
+- **WebP image optimization** for faster loading
+- **Google Fonts** (Inter + Playfair Display) for professional typography
+- **SEO structured** with expandable content visible to crawlers
+- **Custom SVG favicon** with legal theme
 
-# Desarrollo (puerto 5173)
-pnpm run dev
-
-# Build para producción
-pnpm run build
-
-# Preview del build
-pnpm run preview
-```
-
-## 📁 Estructura
-
-```
-src/
-├── App.jsx          # Componente principal
-├── App.css          # Estilos principales
-└── main.jsx         # Punto de entrada
-
-public/
-├── favicon.svg      # Favicon personalizado
-├── *.webp          # Imágenes optimizadas
-└── *.pdf           # Documentos descargables
-```
-
-## 🎨 Especialidades Incluidas
-
-1. **Derecho de Familia** - Divorcios, alimentos, violencia familiar
-2. **Sucesiones** - Testamentos, herencias, partición de bienes
-3. **Derecho Internacional Privado** - Restitución de menores, casos transfronterizos
-
-## 📧 Contacto
+## 📧 Client Contact Information
 
 **Dra. María Andrea Esparza**
 - Email: andrea@estudioesparza.com
@@ -63,4 +35,4 @@ public/
 
 ---
 
-*Desarrollado por [Pensanta.com](https://pensanta.com) | Productos Digitales*
+*Developed by [Pensanta.com](https://pensanta.com) | Digital Products*
