@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
-  const [expandedCard, setExpandedCard] = useState(null)
+  const [expandedCard, setExpandedCard] = useState(['familia', 'sucesiones', 'internacional'])
 
   const scrollToSection = (section) => {
     setActiveSection(section)
@@ -11,7 +11,11 @@ function App() {
   }
 
   const toggleCard = (cardId) => {
-    setExpandedCard(expandedCard === cardId ? null : cardId)
+    setExpandedCard(prev =>
+      prev.includes(cardId)
+        ? prev.filter(id => id !== cardId)
+        : [...prev, cardId]
+    )
   }
 
   return (
@@ -101,18 +105,70 @@ function App() {
           <div className="cards-grid">
             <div className="specialty-card">
               <div className="card-icon">👪</div>
-              <h3>Derecho de Familia</h3>
-              <p>Divorcios, régimen de parentalidad, compensación económica y todas las cuestiones relacionadas con el derecho de familia.</p>
+              <h3>Derecho de Familia - Divorcios y Alimentos</h3>
+              <p>Divorcios, régimen de parentalidad, compensación económica, alimentos, cuidado personal de hijos, violencia familiar y todas las cuestiones relacionadas con el derecho de familia en Argentina.</p>
+              <button
+                className="expand-btn"
+                onClick={() => toggleCard('familia')}
+                aria-label="Ver normativa aplicable"
+              >
+                {expandedCard.includes('familia') ? '−' : '+'}
+              </button>
+              {expandedCard.includes('familia') && (
+                <div className="card-expanded">
+                  <h4>Normativa aplicable:</h4>
+                  <ul>
+                    <li><strong>Código Civil y Comercial de la Nación (Ley 26.994):</strong> regula el matrimonio, divorcio, responsabilidad parental, alimentos y cuidado personal.</li>
+                    <li><strong>Ley 26.061 (Protección Integral de los Derechos de Niñas, Niños y Adolescentes):</strong> establece el derecho del niño a ser oído y protegido en conflictos familiares.</li>
+                    <li><strong>Ley 114 (CABA):</strong> amplía la protección local para niños, niñas y adolescentes en contextos de familia, incluyendo medidas de abrigo y fortalecimiento familiar.</li>
+                  </ul>
+                </div>
+              )}
             </div>
             <div className="specialty-card">
               <div className="card-icon">⚖️</div>
-              <h3>Sucesiones</h3>
-              <p>Testamentos, partición de bienes hereditarios y asesoramiento integral en materia sucesoria.</p>
+              <h3>Sucesiones y Testamentos</h3>
+              <p>Testamentos, herencias, partición de bienes hereditarios, sucesión intestada, legítima hereditaria y asesoramiento integral en materia sucesoria en Argentina.</p>
+              <button
+                className="expand-btn"
+                onClick={() => toggleCard('sucesiones')}
+                aria-label="Ver normativa aplicable"
+              >
+                {expandedCard.includes('sucesiones') ? '−' : '+'}
+              </button>
+              {expandedCard.includes('sucesiones') && (
+                <div className="card-expanded">
+                  <h4>Normativa aplicable:</h4>
+                  <ul>
+                    <li><strong>Código Civil y Comercial de la Nación (Libros Quinto y Sexto):</strong> regula testamentos, sucesión legítima, legítima hereditaria, partición de bienes y procesos sucesorios.</li>
+                    <li><strong>Ley 23.515:</strong> modificó el régimen de herencia en favor del cónyuge supérstite.</li>
+                    <li><strong>Tratados internacionales bilaterales:</strong> en caso de sucesiones con bienes o herederos en el extranjero, rige la ley del último domicilio del causante, salvo excepciones.</li>
+                  </ul>
+                </div>
+              )}
             </div>
             <div className="specialty-card">
               <div className="card-icon">🌐</div>
-              <h3>Derecho Internacional Privado</h3>
-              <p>Restitución internacional de menores, casos transfronterizos y derecho internacional privado.</p>
+              <h3>Derecho Internacional Privado - Restitución de Menores</h3>
+              <p>Restitución internacional de menores, sustracción de menores, Convenio de La Haya, casos transfronterizos, jurisdicción internacional y derecho internacional privado.</p>
+              <button
+                className="expand-btn"
+                onClick={() => toggleCard('internacional')}
+                aria-label="Ver normativa aplicable"
+              >
+                {expandedCard.includes('internacional') ? '−' : '+'}
+              </button>
+              {expandedCard.includes('internacional') && (
+                <div className="card-expanded">
+                  <h4>Normativa aplicable:</h4>
+                  <ul>
+                    <li><strong>Convención sobre los Derechos del Niño (Ley 23.849):</strong> reconoce el derecho del niño a mantener vínculos familiares incluso en contextos internacionales.</li>
+                    <li><strong>Convenio de La Haya de 1980 sobre Sustracción Internacional de Menores (Ley 23.857):</strong> permite reclamar la restitución internacional del menor trasladado o retenido ilícitamente.</li>
+                    <li><strong>Código Civil y Comercial (art. 2594 y ss.):</strong> regula conflictos de jurisdicción, ley aplicable y reconocimiento de sentencias extranjeras.</li>
+                    <li><strong>Ley 26.061 y Ley 114 (CABA):</strong> se aplican subsidiariamente para proteger derechos del niño en causas internacionales.</li>
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -128,6 +184,87 @@ function App() {
             <blockquote className="testimonial">
               <p>"Me dio confianza desde el primer contacto. Su conocimiento y dedicación son excepcionales."</p>
             </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" className="publications-section">
+        <div className="container">
+          <h2>Publicaciones y Medios</h2>
+          <div className="publications-grid">
+            <div className="publication-card">
+              <div className="publication-icon">📄</div>
+              <h3>Artículo Académico</h3>
+              <h4>"Problemáticas en torno a la Restitución Internacional de Niños, Niñas y Adolescentes"</h4>
+              <p>Análisis especializado sobre los desafíos jurídicos en casos de sustracción internacional de menores conforme al Convenio de La Haya de 1980.</p>
+              <div className="publication-meta">
+                <span>Repositorio UBA</span>
+                <span>•</span>
+                <span>Derecho Internacional Privado</span>
+              </div>
+              <div className="publication-actions">
+                <a
+                  href="/PROBLEMATICAS EN TORNO A LA RESTITUCION INTERNACIONAL DE NIÑOS, NIÑAS Y ADOLESCENTES7911.pdf"
+                  target="_blank"
+                  className="download-btn"
+                  download
+                >
+                  📥 Descargar PDF
+                </a>
+                <a
+                  href="https://repositoriouba.sisbi.uba.ar/gsdl/collect/juridica/index/assoc/HWA_7911.dir/7911.PDF"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="external-btn"
+                >
+                  🔗 Ver en UBA
+                </a>
+              </div>
+            </div>
+
+            <div className="publication-card">
+              <div className="publication-icon">🎥</div>
+              <h3>Conferencia Magistral</h3>
+              <h4>"El Matrimonio y sus Efectos Internacionales"</h4>
+              <p>Disertación especializada sobre los aspectos jurídicos del matrimonio en el ámbito del derecho internacional privado.</p>
+              <div className="publication-meta">
+                <span>YouTube</span>
+                <span>•</span>
+                <span>7 de Septiembre 2021</span>
+              </div>
+              <div className="publication-actions">
+                <a
+                  href="https://www.youtube.com/watch?v=lgmqemeKqA0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="video-btn"
+                >
+                  ▶️ Ver Video
+                </a>
+              </div>
+            </div>
+
+            <div className="publication-card">
+              <div className="publication-icon">🌍</div>
+              <h3>Membresía Internacional</h3>
+              <h4>ASIME - Asociación de Profesionales contra la Sustracción Internacional de Menores</h4>
+              <p>Miembro activo de la asociación española dedicada a combatir la sustracción internacional de menores.</p>
+              <div className="publication-meta">
+                <span>España</span>
+                <span>•</span>
+                <span>Derecho Internacional</span>
+              </div>
+              <div className="publication-actions">
+                <a
+                  href="https://www.asime.org/andrea-esparza/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="external-btn"
+                >
+                  🔗 Ver Perfil ASIME
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>

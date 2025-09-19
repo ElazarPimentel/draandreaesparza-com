@@ -1,0 +1,96 @@
+# TODO - Mejoras SEO Futuras (Bajo Mantenimiento)
+# Prioridad: Alta=1, Media=2, Baja=3
+
+seo_optimizations:
+
+  # PRIORIDAD ALTA (Impacto SEO máximo)
+  structured_data:
+    priority: 1
+    description: "Agregar JSON-LD structured data para Google"
+    tasks:
+      - "Schema.org/LegalService para la página principal"
+      - "Schema.org/Person para perfil de Andrea"
+      - "Schema.org/Article para publicaciones"
+    impact: "Aparece en rich snippets de Google"
+
+  landing_pages:
+    priority: 1
+    description: "Páginas dedicadas para keywords principales"
+    tasks:
+      - "Página /divorcios (divorcio express, trámites, costos)"
+      - "Página /testamentos (cómo hacer testamento, requisitos)"
+      - "Página /herencias (trámite sucesión, documentos)"
+      - "Página /restitution-menores (Convenio La Haya, casos)"
+    impact: "Captará búsquedas específicas de long-tail keywords"
+
+  # PRIORIDAD MEDIA (Mejora contenido)
+  content_expansion:
+    priority: 2
+    description: "Más contenido en cards existentes"
+    tasks:
+      - "FAQ por cada especialidad (3-5 preguntas comunes)"
+      - "Casos típicos que maneja"
+      - "Procedimientos paso a paso básicos"
+      - "Costos aproximados y tiempos"
+    impact: "Mejora tiempo en página y reduce bounce rate"
+
+  blog_legal:
+    priority: 2
+    description: "Blog/recursos legales simples"
+    tasks:
+      - "Artículos sobre cambios en leyes"
+      - "Guías prácticas descargables"
+      - "Casos de éxito (anonimizados)"
+    impact: "Content marketing para SEO sostenido"
+
+  # PRIORIDAD BAJA (Nice to have)
+  technical_seo:
+    priority: 3
+    description: "Optimizaciones técnicas"
+    tasks:
+      - "Sitemap.xml automático"
+      - "Robots.txt optimizado"
+      - "Meta tags dinámicos por sección"
+      - "Alt tags en todas las imágenes"
+      - "Lazy loading de imágenes"
+    impact: "Mejora crawling y indexación"
+
+  local_seo:
+    priority: 3
+    description: "SEO local para Buenos Aires"
+    tasks:
+      - "Google My Business optimizado"
+      - "Schema.org/LocalBusiness"
+      - "Keywords geo-localizadas"
+      - "Testimonios con ubicación"
+    impact: "Aparece en búsquedas locales"
+
+# KEYWORDS TARGET (para implementación futura)
+target_keywords:
+  primary:
+    - "abogada divorcios Buenos Aires"
+    - "testamentos Argentina"
+    - "herencias sin testamento"
+    - "restitución internacional menores"
+    - "abogado familia Buenos Aires"
+
+  long_tail:
+    - "cómo hacer testamento Argentina 2025"
+    - "trámite divorcio express Buenos Aires"
+    - "sustracción internacional menores Convenio La Haya"
+    - "partición bienes herencia Argentina"
+    - "violencia familiar medidas protección"
+
+# HERRAMIENTAS RECOMENDADAS
+tools:
+  analytics: "Google Analytics 4 + Search Console"
+  seo_monitoring: "Ubersuggest o SEMrush (plan básico)"
+  performance: "PageSpeed Insights + Core Web Vitals"
+
+# NOTAS DE IMPLEMENTACIÓN
+notes:
+  - "Priorizar tareas que generen contenido duradero"
+  - "Evitar over-optimization (keyword stuffing)"
+  - "Mantener foco en experiencia de usuario"
+  - "Implementar gradualmente (1 tarea por mes)"
+  - "Medir impacto antes de seguir"
