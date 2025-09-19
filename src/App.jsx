@@ -10,6 +10,10 @@ function App() {
     document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' })
   }
 
+  const toggleCard = (cardId) => {
+    setExpandedCard(expandedCard === cardId ? null : cardId)
+  }
+
   return (
     <div className="App">
       <nav className="navbar">
