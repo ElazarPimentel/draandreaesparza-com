@@ -48,6 +48,13 @@ function App() {
           <h2>Trayectoria Profesional</h2>
           <div className="timeline">
             <div className="timeline-item">
+              <div className="timeline-year">2024 - 2025</div>
+              <div className="timeline-content">
+                <h3>Abogada de Niños, Niñas y Adolescentes</h3>
+                <p>Designada por la Defensoría Comunal Nº 8 - Ciudad de Buenos Aires</p>
+              </div>
+            </div>
+            <div className="timeline-item">
               <div className="timeline-year">2008 - Presente</div>
               <div className="timeline-content">
                 <h3>Directora Adjunta</h3>
@@ -58,7 +65,7 @@ function App() {
               <div className="timeline-year">2005 - Presente</div>
               <div className="timeline-content">
                 <h3>Docente por Concurso</h3>
-                <p>Universidad de Buenos Aires (UBA)</p>
+                <p>UBA, UNLZ, Universidad de Morón y Universidad Abierta Interamericana</p>
               </div>
             </div>
             <div className="timeline-item">
@@ -68,6 +75,17 @@ function App() {
                 <p>Estudio Jurídico Esparza</p>
               </div>
             </div>
+          </div>
+
+          <div className="accomplishments">
+            <h3>Logros Académicos y Profesionales</h3>
+            <ul className="accomplishments-list">
+              <li>Autora de artículos y capítulos de libros especializados en Derecho Internacional Privado</li>
+              <li>Disertante en eventos académicos y conferencias sobre restitución internacional de menores</li>
+              <li>Miembro de la Asociación de Profesionales contra la Sustracción Internacional de Menores de España (ASIME)</li>
+              <li>Organiza capacitaciones virtuales para abogados especializados en derecho del niño, niña y adolescente</li>
+              <li>Publicaciones en el Repositorio de la Universidad de Buenos Aires</li>
+            </ul>
           </div>
         </div>
       </section>

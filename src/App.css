@@ -231,6 +231,49 @@ body {
   line-height: 1.6;
 }
 
+/* Accomplishments Section */
+.accomplishments {
+  margin-top: 4rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.accomplishments h3 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.accomplishments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.accomplishments-list li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-light);
+  line-height: 1.6;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.accomplishments-list li:last-child {
+  border-bottom: none;
+}
+
+.accomplishments-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+}
+
 /* Specialties Section */
 .specialties-section {
   padding: 100px 0;
