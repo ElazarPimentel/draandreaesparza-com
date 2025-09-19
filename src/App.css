@@ -104,8 +104,9 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 2rem;
   align-items: center;
+  padding: 0 1rem;
 }
 
 .hero-text h1 {
@@ -302,7 +303,7 @@ body {
 
 .testimonials-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
 }
 
@@ -338,9 +339,10 @@ body {
 .contact-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 2rem;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .contact-info h3 {
