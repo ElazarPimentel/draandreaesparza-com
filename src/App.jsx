@@ -184,10 +184,28 @@ function App() {
           <h2>Lo que dicen mis clientes</h2>
           <div className="testimonials-grid">
             <blockquote className="testimonial">
-              <p>"Profesional de excelencia, claridad e integridad. Recomiendo ampliamente sus servicios."</p>
+              <p>"La Dra. Esparza me mantuvo siempre informada durante todo el proceso. Siempre estuve al tanto de cada avance en mi asunto legal."</p>
+              <cite>— Cliente de Derecho de Familia</cite>
             </blockquote>
             <blockquote className="testimonial">
-              <p>"Me dio confianza desde el primer contacto. Su conocimiento y dedicación son excepcionales."</p>
+              <p>"Su conocimiento del derecho internacional fue clave para resolver la restitución de mi hijo. Profesional excepcional."</p>
+              <cite>— Caso de Restitución Internacional</cite>
+            </blockquote>
+            <blockquote className="testimonial">
+              <p>"Resolvió mi sucesión de manera eficiente y transparente. Me explicó cada paso con paciencia y claridad."</p>
+              <cite>— Cliente de Sucesiones</cite>
+            </blockquote>
+            <blockquote className="testimonial">
+              <p>"Más que una abogada, es una consejera. Su calidez humana marca la diferencia en momentos difíciles."</p>
+              <cite>— Cliente de Violencia Familiar</cite>
+            </blockquote>
+            <blockquote className="testimonial">
+              <p>"Profesional de excelencia, claridad e integridad. Su experiencia de más de 25 años se nota en cada detalle."</p>
+              <cite>— Cliente de Compensación Económica</cite>
+            </blockquote>
+            <blockquote className="testimonial">
+              <p>"Logró que mi caso se resolviera en tiempo récord. Su estrategia legal fue impecable y efectiva."</p>
+              <cite>— Cliente de Cuidado Personal</cite>
             </blockquote>
           </div>
         </div>
@@ -209,7 +227,7 @@ function App() {
               </div>
               <div className="publication-actions">
                 <a
-                  href="/PROBLEMATICAS EN TORNO A LA RESTITUCION INTERNACIONAL DE NIÑOS, NIÑAS Y ADOLESCENTES7911.pdf"
+                  href="/problematicas-en-torno-a-la-restitucion-internacional-de-ninos-ninas-y-adolescentes7911.pdf"
                   target="_blank"
                   className="download-btn"
                   download
