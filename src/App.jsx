@@ -130,32 +130,29 @@ function App() {
       <section id="contact" className="contact-section">
         <div className="container">
           <h2>Contacto</h2>
-          <div className="contact-content">
-            <div className="contact-info">
-              <h3>Información de Contacto</h3>
+          <div className="contact-info-centered">
+            <div className="contact-methods">
               <div className="contact-item">
-                <strong>Email:</strong>
+                <div className="contact-icon">✉️</div>
+                <strong>Email</strong>
                 <a href="mailto:andrea@estudioesparza.com">andrea@estudioesparza.com</a>
               </div>
               <div className="contact-item">
-                <strong>WhatsApp:</strong>
-                <a href="https://wa.me/5491155617919" target="_blank" rel="noopener noreferrer">+54 9 11 5561-7919</a>
+                <div className="contact-icon">💬</div>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20me%20gustaría%20solicitar%20una%20consulta%20legal." target="_blank" rel="noopener noreferrer">+54 9 11 5561-7919</a>
               </div>
               <div className="contact-item">
-                <strong>LinkedIn:</strong>
+                <div className="contact-icon">💼</div>
+                <strong>LinkedIn</strong>
                 <a href="https://www.linkedin.com/in/mar%C3%ADa-andrea-esparza-b478608b" target="_blank" rel="noopener noreferrer">María Andrea Esparza</a>
               </div>
               <div className="contact-item">
-                <strong>Instagram:</strong>
+                <div className="contact-icon">📱</div>
+                <strong>Instagram</strong>
                 <a href="https://www.instagram.com/estudiojuridico.andreaesparza/" target="_blank" rel="noopener noreferrer">@estudiojuridico.andreaesparza</a>
               </div>
             </div>
-            <form className="contact-form">
-              <input type="text" placeholder="Tu nombre" required />
-              <input type="email" placeholder="Tu correo electrónico" required />
-              <textarea placeholder="Describe tu consulta" rows="5" required></textarea>
-              <button type="submit">Enviar Mensaje</button>
-            </form>
           </div>
         </div>
       </section>
