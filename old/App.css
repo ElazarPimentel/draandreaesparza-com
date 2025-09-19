@@ -1,0 +1,115 @@
+:root {
+  --primary: #0b3d51;
+  --accent: #1f6f8b;
+  --text: #333;
+  --bg: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  color: var(--primary);
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: var(--accent);
+  color: white;
+  padding: 2rem;
+}
+
+.hero img {
+  max-width: 220px;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: .5rem 0;
+}
+
+.cta-button {
+  background: white;
+  color: var(--accent);
+  padding: .8rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  padding: 1.5rem;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.timeline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.timeline li {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  border-left: 4px solid var(--accent);
+}
+
+form {
+  display: grid;
+  gap: .8rem;
+  max-width: 400px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: .7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: var(--primary);
+  color: white;
+  padding: .8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
