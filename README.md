@@ -1,6 +1,6 @@
-# Dra. María Andrea Esparza - Sitio Web Profesional
+# Dra. Andrea Esparza - Sitio Web Profesional
 
-Professional website for Dra. María Andrea Esparza, specialist in Family Law, Successions, and International Private Law.
+Professional website for Dra. Andrea Esparza, specialist in Family Law, Successions, and International Private Law.
 
 ## 🎯 Key Features
 
@@ -28,10 +28,10 @@ Professional website for Dra. María Andrea Esparza, specialist in Family Law, S
 
 ## 📧 Client Contact Information
 
-**Dra. María Andrea Esparza**
+**Dra. Andrea Esparza**
 - Email: andrea@estudioesparza.com
 - WhatsApp: +54 9 11 5561-7919
-- LinkedIn: [María Andrea Esparza](https://www.linkedin.com/in/mar%C3%ADa-andrea-esparza-b478608b)
+- LinkedIn: [Andrea Esparza](https://www.linkedin.com/in/mar%C3%ADa-andrea-esparza-b478608b)
 
 ---
 

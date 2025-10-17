@@ -23,7 +23,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            <h3>Dra. María Andrea Esparza</h3>
+            <h3>Dra. Andrea Esparza</h3>
           </div>
           <ul className="nav-menu">
             <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>Inicio</button></li>
@@ -37,7 +37,7 @@ function App() {
       <section id="home" className="hero">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Dra. María Andrea Esparza</h1>
+            <h1>Dra. Andrea Esparza</h1>
             <p className="subtitle">Directora Adjunta – Instituto de Derecho Internacional Privado</p>
             <p className="description">Especialista en derecho de familia y sucesiones nacional e internacional. Adopción, divorcio, alimentos, cuidado personal de hijos, régimen de comunicación, restitución internacional de menores y sucesiones. Combino la práctica jurídica con la docencia universitaria.</p>
             <button onClick={() => scrollToSection('contact')} className="cta-button">Solicitar Consulta</button>
@@ -45,7 +45,7 @@ function App() {
           <div className="hero-image">
             <img
               src="/andrea-esparza-showing-diploma.webp"
-              alt="Dra. María Andrea Esparza con diploma"
+              alt="Dra. Andrea Esparza con diploma"
               className="profile-image"
             />
           </div>
@@ -310,7 +310,7 @@ function App() {
               <div className="contact-item">
                 <div className="contact-icon">💼</div>
                 <strong>LinkedIn</strong>
-                <a href="https://www.linkedin.com/in/mar%C3%ADa-andrea-esparza-b478608b" target="_blank" rel="noopener noreferrer">María Andrea Esparza</a>
+                <a href="https://www.linkedin.com/in/mar%C3%ADa-andrea-esparza-b478608b" target="_blank" rel="noopener noreferrer">Andrea Esparza</a>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">📱</div>
@@ -324,7 +324,7 @@ function App() {
 
       <footer className="footer">
         <div className="container">
-          <p>&copy; 2025 Dra. María Andrea Esparza – Estudio Jurídico Esparza. Todos los derechos reservados.</p>
+          <p>&copy; 2025 Dra. Andrea Esparza – Estudio Jurídico Esparza. Todos los derechos reservados.</p>
           <p className="credit">Creado por <a href="https://pensanta.com" target="_blank" rel="noopener noreferrer">Pensanta.com</a> | Productos Digitales</p>
         </div>
       </footer>
