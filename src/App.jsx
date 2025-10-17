@@ -300,7 +300,7 @@ function App() {
               <div className="contact-item">
                 <div className="contact-icon">✉️</div>
                 <strong>Email</strong>
-                <a href="mailto:andrea@estudioesparza.com">andrea@estudioesparza.com</a>
+                <a href="mailto:estudiomaesparza@gmail.com">estudiomaesparza@gmail.com</a>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">💬</div>

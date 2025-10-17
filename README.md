@@ -29,7 +29,7 @@ Professional website for Dra. Andrea Esparza, specialist in Family Law, Successi
 ## 📧 Client Contact Information
 
 **Dra. Andrea Esparza**
-- Email: andrea@estudioesparza.com
+- Email: estudiomaesparza@gmail.com
 - WhatsApp: +54 9 11 5561-7919
 - LinkedIn: [Andrea Esparza](https://www.linkedin.com/in/mar%C3%ADa-andrea-esparza-b478608b)
 
