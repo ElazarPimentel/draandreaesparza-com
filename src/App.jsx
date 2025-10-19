@@ -64,7 +64,6 @@ function App() {
                 <div className="experience-highlights">
                   <span className="badge">+1,500 casos resueltos</span>
                   <span className="badge">+25 años de experiencia</span>
-                  <span className="badge">Especialista certificada</span>
                 </div>
               </div>
             </div>
