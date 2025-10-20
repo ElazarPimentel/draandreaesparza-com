@@ -55,7 +55,9 @@ function App() {
         <div className="hero-content">
           <div className="hero-text">
             <h1>Dra. Andrea Esparza</h1>
-            <p className="subtitle">Directora Adjunta – Instituto de Derecho Internacional Privado</p>
+            <p className="subtitle">
+              Directora Adjunta <br /> Instituto de Derecho Internacional Privado
+            </p>
             <p className="description">Especialista en derecho de familia y sucesiones nacional e internacional. Adopción, divorcio, alimentos, cuidado personal de hijos, régimen de comunicación, restitución internacional de menores y sucesiones. Combino la práctica jurídica con la docencia universitaria.</p>
             <button onClick={() => scrollToSection('contact')} className="cta-button">Solicitar Consulta</button>
           </div>
@@ -85,13 +87,6 @@ function App() {
               </div>
             </div>
             <div className="timeline-item">
-              <div className="timeline-year">2024 - 2025</div>
-              <div className="timeline-content">
-                <h3>Abogada de Niños, Niñas y Adolescentes</h3>
-                <p>Designada por la Defensoría Comunal Nº 8 - Ciudad de Buenos Aires</p>
-              </div>
-            </div>
-            <div className="timeline-item">
               <div className="timeline-year">2008 - Presente</div>
               <div className="timeline-content">
                 <h3>Directora Adjunta</h3>
@@ -101,8 +96,8 @@ function App() {
             <div className="timeline-item">
               <div className="timeline-year">2005 - Presente</div>
               <div className="timeline-content">
-                <h3>Docente por Concurso</h3>
-                <p>UBA, UNLZ, Universidad de Morón y Universidad Abierta Interamericana</p>
+                <h3>Profesora Adjunta</h3>
+                <p>Derecho internacional privado en la Facultad de Derecho de la UBA y UNLZ</p>
               </div>
             </div>
           </div>
@@ -111,10 +106,12 @@ function App() {
             <h3>Logros Académicos y Profesionales</h3>
             <ul className="accomplishments-list">
               <li>Autora de artículos y capítulos de libros especializados en Derecho Internacional Privado</li>
-              <li>Disertante en eventos académicos y conferencias sobre restitución internacional de menores</li>
+              <li>Disertante en eventos académicos y conferencias sobre sobre temas de derecho de familia internacional ( restitución internacional de menores, alimentos, comunicación transfronteriza, matrimonio y divorcio, sucesiones, responsabilidad civil extracontractual, kafala, entre otros )</li>
               <li>Miembro de la Asociación de Profesionales contra la Sustracción Internacional de Menores de España (ASIME)</li>
               <li>Organiza capacitaciones virtuales para abogados especializados en derecho del niño, niña y adolescente</li>
               <li>Publicaciones en el Repositorio de la Universidad de Buenos Aires</li>
+              <li>Miembro de la Asociación Argentina de Derecho Internacional</li>
+              <li>Colaboradora del Instituto de Familia Internacional Multidisciplinar de España ( IFIM )</li>
             </ul>
           </div>
         </div>
