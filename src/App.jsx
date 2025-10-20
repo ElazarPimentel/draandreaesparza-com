@@ -1,10 +1,45 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
   const [expandedCard, setExpandedCard] = useState(['familia', 'sucesiones', 'internacional'])
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  // Dynamic page titles for SEO
+  useEffect(() => {
+    const titles = {
+      home: 'Dra. Andrea Esparza - Abogada Especialista en Derecho de Familia y Sucesiones',
+      about: 'Trayectoria Profesional - Dra. Andrea Esparza | +25 Años de Experiencia',
+      specialties: 'Áreas de Especialización - Derecho de Familia, Sucesiones y DIP | Dra. Esparza',
+      testimonials: 'Testimonios de Clientes - Dra. Andrea Esparza',
+      publications: 'Publicaciones y Medios - Dra. Andrea Esparza',
+      contact: 'Contacto - Dra. Andrea Esparza | Estudio Jurídico'
+    }
+    document.title = titles[activeSection] || titles.home
+  }, [activeSection])
+
+  // Intersection Observer to update active section on scroll
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id)
+          }
+        })
+      },
+      { threshold: 0.3 }
+    )
+
+    const sections = ['home', 'about', 'specialties', 'testimonials', 'publications', 'contact']
+    sections.forEach((id) => {
+      const element = document.getElementById(id)
+      if (element) observer.observe(element)
+    })
+
+    return () => observer.disconnect()
+  }, [])
 
   const scrollToSection = (section) => {
     setActiveSection(section)
@@ -63,8 +98,8 @@ function App() {
           </div>
           <div className="hero-image">
             <img
-              src="/andrea-esparza-showing-diploma.webp"
-              alt="Dra. Andrea Esparza con diploma"
+              src="/andrea-esparza-portrait-web.jpg"
+              alt="Dra. Andrea Esparza - Abogada Especialista en Derecho de Familia"
               className="profile-image"
             />
           </div>
