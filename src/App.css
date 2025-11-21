@@ -1020,3 +1020,36 @@ body {
     height: 350px;
   }
 }
+/* Article Read Button */
+.read-btn {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  background-color: #1a365d;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: background-color 0.2s;
+  margin-right: 0.5rem;
+}
+
+.read-btn:hover {
+  background-color: #2d4a7c;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: background-color 0.2s;
+}
+
+.download-btn:hover {
+  background-color: #2563eb;
+}

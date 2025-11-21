@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -262,10 +263,142 @@ function App() {
       <section id="publications" className="publications-section">
         <div className="container">
           <h2>Publicaciones y Medios</h2>
+
+          <h3 style={{ marginTop: '2rem', marginBottom: '1.5rem', fontSize: '1.5rem' }}>Artículos Académicos</h3>
           <div className="publications-grid">
+            {/* Article 1 - Bioética */}
             <div className="publication-card">
               <div className="publication-icon">📄</div>
               <h3>Artículo Académico</h3>
+              <h4>Filiación, Técnicas de Reproducción Humana Asistida y Subrogación de Vientres</h4>
+              <p>Dilemas bioéticos y jurídicos de la reproducción asistida y maternidad subrogada en el derecho internacional privado.</p>
+              <div className="publication-meta">
+                <span>Agosto 2022</span>
+                <span>•</span>
+                <span>Bioética y DIP</span>
+              </div>
+              <div className="publication-actions">
+                <Link to="/articulos/bioetica-reproduccion-asistida-subrogacion-vientres" className="read-btn">
+                  📖 Leer artículo
+                </Link>
+                <a href="/articulos/trabajo-bioetica.pdf" className="download-btn" download>
+                  📥 PDF
+                </a>
+              </div>
+            </div>
+
+            {/* Article 2 - Finanzas Islámicas */}
+            <div className="publication-card">
+              <div className="publication-icon">📄</div>
+              <h3>Artículo Académico</h3>
+              <h4>Finanzas en el Derecho Musulmán</h4>
+              <p>Análisis de las finanzas islámicas, sus principios basados en la Sharía y los contratos compatibles con el derecho musulmán.</p>
+              <div className="publication-meta">
+                <span>Octubre 2023</span>
+                <span>•</span>
+                <span>Derecho Comparado</span>
+              </div>
+              <div className="publication-actions">
+                <Link to="/articulos/finanzas-islamicas-derecho-musulman" className="read-btn">
+                  📖 Leer artículo
+                </Link>
+                <a href="/articulos/trabajo-finanzas-islamicas-para-el-dial.pdf" className="download-btn" download>
+                  📥 PDF
+                </a>
+              </div>
+            </div>
+
+            {/* Article 3 - Identidad de Género */}
+            <div className="publication-card">
+              <div className="publication-icon">📄</div>
+              <h3>Análisis Jurisprudencial</h3>
+              <h4>Identidad de Género: Una Mirada Esperanzadora</h4>
+              <p>Comentario sobre un fallo innovador de cambio de prenombre sin modificar género, analizando capacidad progresiva.</p>
+              <div className="publication-meta">
+                <span>Diciembre 2021</span>
+                <span>•</span>
+                <span>Derechos del Niño</span>
+              </div>
+              <div className="publication-actions">
+                <Link to="/articulos/identidad-de-genero-analisis-fallo" className="read-btn">
+                  📖 Leer artículo
+                </Link>
+                <a href="/articulos/comentario-a-fallo-sobre-identidad-de-genero.pdf" className="download-btn" download>
+                  📥 PDF
+                </a>
+              </div>
+            </div>
+
+            {/* Article 4 - Historia Derecho Musulmán */}
+            <div className="publication-card">
+              <div className="publication-icon">📄</div>
+              <h3>Artículo Académico</h3>
+              <h4>Historia del Derecho Musulmán y Sustracción de Menores</h4>
+              <p>Caso Shaban-Arias Uriburu: análisis de sustracción internacional con elementos de derecho islámico.</p>
+              <div className="publication-meta">
+                <span>Noviembre 2007</span>
+                <span>•</span>
+                <span>DIP y Derecho Islámico</span>
+              </div>
+              <div className="publication-actions">
+                <Link to="/articulos/historia-derecho-musulman-sustraccion-menores" className="read-btn">
+                  📖 Leer artículo
+                </Link>
+                <a href="/articulos/historia-del-derecho-musulm-n-caso-sustracci-n-internacional-de-menores-shaban-arias-uriburu.pdf" className="download-btn" download>
+                  📥 PDF
+                </a>
+              </div>
+            </div>
+
+            {/* Article 5 - Interés Superior */}
+            <div className="publication-card">
+              <div className="publication-icon">📄</div>
+              <h3>Artículo Académico</h3>
+              <h4>Interés Superior del Niño vs. Tratados Internacionales</h4>
+              <p>Análisis del conflicto entre el principio del interés superior del niño y obligaciones de tratados internacionales.</p>
+              <div className="publication-meta">
+                <span>Marzo 2015</span>
+                <span>•</span>
+                <span>Revista Panamá</span>
+              </div>
+              <div className="publication-actions">
+                <Link to="/articulos/interes-superior-nino-tratados-internacionales" className="read-btn">
+                  📖 Leer artículo
+                </Link>
+                <a href="/articulos/interes-superior-del-niño-vs-cumplimiento-de-tratados-internacionales-revista-panama.pdf" className="download-btn" download>
+                  📥 PDF
+                </a>
+              </div>
+            </div>
+
+            {/* Article 6 - Análisis Problemas DIP */}
+            <div className="publication-card">
+              <div className="publication-icon">📄</div>
+              <h3>Artículo Académico</h3>
+              <h4>Problemas del DIP en Divorcio Internacional</h4>
+              <p>Análisis de jurisdicción, ley aplicable y reconocimiento de sentencias extranjeras en casos de divorcio.</p>
+              <div className="publication-meta">
+                <span>Noviembre 2007</span>
+                <span>•</span>
+                <span>Derecho Internacional Privado</span>
+              </div>
+              <div className="publication-actions">
+                <Link to="/articulos/analisis-problemas-dip-divorcio-internacional" className="read-btn">
+                  📖 Leer artículo
+                </Link>
+                <a href="/articulos/analisis-de-los-problemas-generales-del-derecho-internacional-privado-vinculados-a-un-divorcio-de.pdf" className="download-btn" download>
+                  📥 PDF
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <h3 style={{ marginTop: '3rem', marginBottom: '1.5rem', fontSize: '1.5rem' }}>Otros Medios y Actividades</h3>
+          <div className="publications-grid">
+            {/* UBA Repository Article */}
+            <div className="publication-card">
+              <div className="publication-icon">📄</div>
+              <h3>Artículo en Repositorio UBA</h3>
               <h4>"Problemáticas en torno a la Restitución Internacional de Niños, Niñas y Adolescentes"</h4>
               <p>Análisis especializado sobre los desafíos jurídicos en casos de sustracción internacional de menores conforme al Convenio de La Haya de 1980.</p>
               <div className="publication-meta">
@@ -274,25 +407,16 @@ function App() {
                 <span>Derecho Internacional Privado</span>
               </div>
               <div className="publication-actions">
-                <a
-                  href="/problematicas-en-torno-a-la-restitucion-internacional-de-ninos-ninas-y-adolescentes7911.pdf"
-                  target="_blank"
-                  className="download-btn"
-                  download
-                >
+                <a href="/problematicas-en-torno-a-la-restitucion-internacional-de-ninos-ninas-y-adolescentes7911.pdf" target="_blank" className="download-btn" download>
                   📥 Descargar PDF
                 </a>
-                <a
-                  href="https://repositoriouba.sisbi.uba.ar/gsdl/collect/juridica/index/assoc/HWA_7911.dir/7911.PDF"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="external-btn"
-                >
+                <a href="https://repositoriouba.sisbi.uba.ar/gsdl/collect/juridica/index/assoc/HWA_7911.dir/7911.PDF" target="_blank" rel="noopener noreferrer" className="external-btn">
                   🔗 Ver en UBA
                 </a>
               </div>
             </div>
 
+            {/* YouTube Conference */}
             <div className="publication-card">
               <div className="publication-icon">🎥</div>
               <h3>Conferencia Magistral</h3>
@@ -304,17 +428,13 @@ function App() {
                 <span>7 de Septiembre 2021</span>
               </div>
               <div className="publication-actions">
-                <a
-                  href="https://www.youtube.com/watch?v=lgmqemeKqA0"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="video-btn"
-                >
+                <a href="https://www.youtube.com/watch?v=lgmqemeKqA0" target="_blank" rel="noopener noreferrer" className="video-btn">
                   ▶️ Ver Video
                 </a>
               </div>
             </div>
 
+            {/* ASIME Membership */}
             <div className="publication-card">
               <div className="publication-icon">🌍</div>
               <h3>Membresía Internacional</h3>
@@ -326,12 +446,7 @@ function App() {
                 <span>Derecho Internacional</span>
               </div>
               <div className="publication-actions">
-                <a
-                  href="https://www.asime.org/andrea-esparza/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="external-btn"
-                >
+                <a href="https://www.asime.org/andrea-esparza/" target="_blank" rel="noopener noreferrer" className="external-btn">
                   🔗 Ver Perfil ASIME
                 </a>
               </div>
