@@ -80,6 +80,7 @@ function App() {
             <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>Inicio</button></li>
             <li><button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>Acerca de</button></li>
             <li><button onClick={() => scrollToSection('specialties')} className={activeSection === 'specialties' ? 'active' : ''}>Especialidades</button></li>
+            <li><button onClick={() => scrollToSection('publications')} className={activeSection === 'publications' ? 'active' : ''}>Publicaciones</button></li>
             <li><button onClick={() => scrollToSection('contact')} className={activeSection === 'contact' ? 'active' : ''}>Contacto</button></li>
           </ul>
         </div>
