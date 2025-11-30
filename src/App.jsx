@@ -1,11 +1,26 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import WhatsAppButton from './components/WhatsAppButton'
 import './App.css'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
   const [expandedCard, setExpandedCard] = useState(['familia', 'sucesiones', 'internacional'])
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const location = useLocation()
+
+  // Handle hash scrolling for SPA navigation
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace('#', '')
+      const element = document.getElementById(id)
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' })
+        }, 100)
+      }
+    }
+  }, [location])
 
   // Dynamic page titles for SEO
   useEffect(() => {
@@ -95,7 +110,7 @@ function App() {
             <p className="subtitle">
               Directora Adjunta <br /> Instituto de Derecho Internacional Privado
             </p>
-            <p className="description">Especialista en derecho de familia y sucesiones nacional e internacional. Adopción, divorcio, alimentos, cuidado personal de hijos, régimen de comunicación, restitución internacional de menores y sucesiones. Combino la práctica jurídica con la docencia universitaria.</p>
+            <p className="description">Especialista en derecho de familia, adopción, sucesiones y violencia familiar. Juicio por alimentos, cuidado personal unilateral, patria potestad, orden de protección, divorcios, restitución internacional de menores. Asesoramiento en hogar de niños y violencia doméstica. +25 años de experiencia en Buenos Aires.</p>
             <button onClick={() => scrollToSection('contact')} className="cta-button">Solicitar Consulta</button>
           </div>
           <div className="hero-image">
@@ -103,6 +118,8 @@ function App() {
               src="/andrea-esparza-portrait-web.jpg"
               alt="Dra. Andrea Esparza - Abogada Especialista en Derecho de Familia"
               className="profile-image"
+              width="1024"
+              height="1024"
             />
           </div>
         </div>
@@ -161,7 +178,7 @@ function App() {
             <div className="specialty-card">
               <div className="card-icon">👪</div>
               <h3>Derecho de Familia - Divorcios y Alimentos</h3>
-              <p>Divorcios, régimen de parentalidad, compensación económica, alimentos, cuidado personal de hijos, violencia familiar y todas las cuestiones relacionadas con el derecho de familia en Argentina.</p>
+              <p>Divorcios, juicio por alimentos, cuidado personal unilateral, patria potestad, adopción, régimen de parentalidad, compensación económica, violencia familiar, violencia doméstica, orden de protección, hogar de niños y todas las cuestiones de derecho de familia en Argentina.</p>
               <button
                 className="expand-btn"
                 onClick={() => toggleCard('familia')}
@@ -456,6 +473,46 @@ function App() {
         </div>
       </section>
 
+      <section id="faq" className="faq-section">
+        <div className="container">
+          <h2>Preguntas Frecuentes</h2>
+          <div className="faq-grid">
+            <details className="faq-item">
+              <summary>¿Cómo inicio un juicio por alimentos en Buenos Aires?</summary>
+              <p>Para iniciar un juicio por alimentos, debe presentar una demanda ante el Juzgado de Familia correspondiente. Debe acreditar el vínculo familiar, la necesidad del alimentante y las posibilidades económicas del alimentado. Asesoramiento legal es fundamental para agilizar el proceso.</p>
+            </details>
+            <details className="faq-item">
+              <summary>¿Qué es el cuidado personal unilateral y cuándo se otorga?</summary>
+              <p>El cuidado personal unilateral implica que uno solo de los progenitores tiene la responsabilidad cotidiana del hijo. Se otorga cuando es lo más conveniente para el niño, considerando su interés superior, edad, opinión y relación con cada progenitor.</p>
+            </details>
+            <details className="faq-item">
+              <summary>¿Cómo solicitar una orden de protección por violencia familiar?</summary>
+              <p>Puede solicitarse en cualquier momento, de urgencia si es necesario, ante el Juzgado de Familia o la Oficina de Violencia Doméstica (OVD). La orden puede incluir exclusión del hogar, prohibición de acercamiento y otras medidas de protección inmediata.</p>
+            </details>
+            <details className="faq-item">
+              <summary>¿Cuál es la diferencia entre patria potestad y cuidado personal?</summary>
+              <p>La patria potestad se refiere a los deberes y derechos de los padres respecto de sus hijos menores (representación legal, administración de bienes). El cuidado personal es la convivencia cotidiana con el hijo. Pueden estar separados: ambos padres mantienen la patria potestad mientras uno tiene el cuidado personal.</p>
+            </details>
+            <details className="faq-item">
+              <summary>¿Qué requisitos se necesitan para adopción en Argentina?</summary>
+              <p>Los adoptantes deben estar inscriptos en el Registro de Adoptantes, tener al menos 25 años, diferencia de edad mínima de 16 años con el adoptado, y acreditar idoneidad física, psíquica, moral y económica. El proceso incluye evaluaciones técnicas multidisciplinarias.</p>
+            </details>
+            <details className="faq-item">
+              <summary>¿Qué hacer si mi hijo está en un hogar de niños?</summary>
+              <p>Si su hijo fue separado de su cuidado y se encuentra en un hogar, tiene derecho a ser informado, mantener comunicación y trabajar en un plan de fortalecimiento familiar para la revinculación. Es fundamental contar con asesoramiento legal especializado en protección de derechos del niño.</p>
+            </details>
+            <details className="faq-item">
+              <summary>¿Cómo se tramita una sucesión en Buenos Aires?</summary>
+              <p>La sucesión se inicia ante el Juzgado Civil correspondiente al último domicilio del causante. Debe presentarse partida de defunción, certificado de bienes, declaración de herederos o testamento. El proceso incluye inventario, avalúo y partición de bienes entre los herederos.</p>
+            </details>
+            <details className="faq-item">
+              <summary>¿Qué protección legal existe contra la violencia doméstica?</summary>
+              <p>La Ley 26.485 de Protección Integral contra la Violencia contra las Mujeres y la Ley 114 (CABA) ofrecen múltiples recursos: órdenes de protección, exclusión del hogar, prohibición de contacto, asistencia psicológica y legal gratuita. La denuncia puede realizarse en comisarías, OVD o Juzgados de Familia.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
       <section id="contact" className="contact-section">
         <div className="container">
           <h2>Contacto</h2>
@@ -500,18 +557,7 @@ function App() {
         </div>
       </footer>
 
-      {/* Floating WhatsApp Button */}
-      <a
-        href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20me%20gustaría%20solicitar%20una%20consulta%20legal."
-        className="whatsapp-float"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Contactar por WhatsApp"
-      >
-        <svg className="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-        </svg>
-      </a>
+      <WhatsAppButton />
     </div>
   )
 }

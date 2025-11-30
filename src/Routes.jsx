@@ -6,6 +6,7 @@ import IdentidadGeneroArticle from './pages/articulos/IdentidadGeneroArticle.jsx
 import HistoriaDerechoMusulmanArticle from './pages/articulos/HistoriaDerechoMusulmanArticle.jsx'
 import InteresSuperiorArticle from './pages/articulos/InteresSuperiorArticle.jsx'
 import AnalisisProblemasArticle from './pages/articulos/AnalisisProblemasArticle.jsx'
+import NotFound from './pages/NotFound.jsx'
 
 function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ function AppRoutes() {
       <Route path="/articulos/historia-derecho-musulman-sustraccion-menores" element={<HistoriaDerechoMusulmanArticle />} />
       <Route path="/articulos/interes-superior-nino-tratados-internacionales" element={<InteresSuperiorArticle />} />
       <Route path="/articulos/analisis-problemas-dip-divorcio-internacional" element={<AnalisisProblemasArticle />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   )
 }

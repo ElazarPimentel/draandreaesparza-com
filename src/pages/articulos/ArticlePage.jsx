@@ -1,16 +1,26 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import WhatsAppButton from '../../components/WhatsAppButton'
 import './ArticlePage.css'
 
 function ArticlePage({ article }) {
   useEffect(() => {
-    // Update page title
-    document.title = `${article.title} - Dra. Andrea Esparza`
+    // Store original values
+    const originalTitle = document.title
+    const originalMeta = {}
 
-    // Update meta tags
-    const updateMetaTag = (name, content, isProperty = false) => {
+    const storeAndUpdateMetaTag = (name, content, isProperty = false) => {
       const attribute = isProperty ? 'property' : 'name'
       let element = document.querySelector(`meta[${attribute}="${name}"]`)
+
+      // Store original value
+      if (element) {
+        originalMeta[`${attribute}:${name}`] = element.getAttribute('content')
+      } else {
+        originalMeta[`${attribute}:${name}`] = null // Mark as newly created
+      }
+
+      // Update or create element
       if (!element) {
         element = document.createElement('meta')
         element.setAttribute(attribute, name)
@@ -19,14 +29,31 @@ function ArticlePage({ article }) {
       element.setAttribute('content', content)
     }
 
-    updateMetaTag('description', article.description)
-    updateMetaTag('keywords', article.keywords)
-    updateMetaTag('og:title', `${article.title} - Dra. Andrea Esparza`, true)
-    updateMetaTag('og:description', article.description, true)
-    updateMetaTag('og:type', 'article', true)
-    updateMetaTag('og:url', `https://draandreaesparza.com/articulos/${article.slug}`, true)
-    updateMetaTag('article:published_time', article.datePublished, true)
-    updateMetaTag('article:author', 'Dra. Andrea Esparza', true)
+    // Update page title
+    document.title = `${article.title} - Dra. Andrea Esparza`
+
+    // Update meta tags
+    storeAndUpdateMetaTag('description', article.description)
+    storeAndUpdateMetaTag('keywords', article.keywords)
+    storeAndUpdateMetaTag('og:title', `${article.title} - Dra. Andrea Esparza`, true)
+    storeAndUpdateMetaTag('og:description', article.description, true)
+    storeAndUpdateMetaTag('og:type', 'article', true)
+    storeAndUpdateMetaTag('og:url', `https://draandreaesparza.com/articulos/${article.slug}`, true)
+    storeAndUpdateMetaTag('og:image', 'https://draandreaesparza.com/andrea-esparza-portrait-web.jpg', true)
+    storeAndUpdateMetaTag('og:image:width', '1024', true)
+    storeAndUpdateMetaTag('og:image:height', '1024', true)
+    storeAndUpdateMetaTag('article:published_time', article.datePublished, true)
+    storeAndUpdateMetaTag('article:author', 'Dra. Andrea Esparza', true)
+
+    // Add canonical link
+    let canonicalLink = document.querySelector('link[rel="canonical"]')
+    const originalCanonical = canonicalLink?.getAttribute('href') || null
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link')
+      canonicalLink.setAttribute('rel', 'canonical')
+      document.head.appendChild(canonicalLink)
+    }
+    canonicalLink.setAttribute('href', `https://draandreaesparza.com/articulos/${article.slug}`)
 
     // Add structured data
     const structuredData = {
@@ -66,7 +93,35 @@ function ArticlePage({ article }) {
     window.scrollTo(0, 0)
 
     return () => {
-      // Cleanup: remove article-specific meta tags when component unmounts
+      // Restore original title
+      document.title = originalTitle
+
+      // Restore or remove meta tags
+      Object.entries(originalMeta).forEach(([key, originalValue]) => {
+        const [attribute, name] = key.split(':')
+        const element = document.querySelector(`meta[${attribute}="${name}"]`)
+
+        if (element) {
+          if (originalValue === null) {
+            // Was created by this component, remove it
+            element.remove()
+          } else {
+            // Restore original value
+            element.setAttribute('content', originalValue)
+          }
+        }
+      })
+
+      // Restore canonical link
+      if (canonicalLink) {
+        if (originalCanonical) {
+          canonicalLink.setAttribute('href', originalCanonical)
+        } else {
+          canonicalLink.remove()
+        }
+      }
+
+      // Remove structured data
       if (scriptTag) {
         scriptTag.remove()
       }
@@ -157,18 +212,7 @@ function ArticlePage({ article }) {
         </footer>
       </article>
 
-      {/* Floating WhatsApp Button */}
-      <a
-        href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20me%20gustaría%20solicitar%20una%20consulta%20legal."
-        className="whatsapp-float"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Contactar por WhatsApp"
-      >
-        <svg className="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-        </svg>
-      </a>
+      <WhatsAppButton />
     </div>
   )
 }
