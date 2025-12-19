@@ -5,9 +5,35 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/generate-sitemap.js",
     "build": "vite build",
+    "postbuild": "react-snap",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "reactSnap": {
+    "source": "dist",
+    "minifyHtml": {
+      "collapseWhitespace": false,
+      "removeComments": false
+    },
+    "puppeteerExecutablePath": "/usr/bin/chromium",
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
+    "skipThirdPartyRequests": true,
+    "cacheAjaxRequests": false,
+    "include": [
+      "/",
+      "/articulos/conceptos-ninez-adolescencia-dip",
+      "/articulos/bioetica-reproduccion-asistida-subrogacion-vientres",
+      "/articulos/finanzas-islamicas-derecho-musulman",
+      "/articulos/identidad-de-genero-analisis-fallo",
+      "/articulos/historia-derecho-musulman-sustraccion-menores",
+      "/articulos/interes-superior-nino-tratados-internacionales",
+      "/articulos/analisis-problemas-dip-divorcio-internacional"
+    ]
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -23,6 +49,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.4.0",
+    "react-snap": "^1.23.0",
     "vite": "^7.1.6"
   }
 }

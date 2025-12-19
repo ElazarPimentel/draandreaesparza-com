@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Página no encontrada - Dra. Andrea Esparza</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 2rem;
+      }
+
+      .container {
+        text-align: center;
+        max-width: 600px;
+      }
+
+      h1 {
+        font-size: 8rem;
+        font-weight: 700;
+        color: #d4af37;
+        margin-bottom: 1rem;
+        line-height: 1;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: white;
+      }
+
+      p {
+        font-size: 1.1rem;
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+
+      .buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      a {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background: #d4af37;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      a:hover {
+        background: #b7791f;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      a.secondary {
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+      }
+
+      a.secondary:hover {
+        background: rgba(255, 255, 255, 0.1);
+        transform: translateY(-2px);
+      }
+
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 5rem;
+        }
+
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+
+        .buttons {
+          flex-direction: column;
+        }
+
+        a {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>404</h1>
+      <h2>Página no encontrada</h2>
+      <p>
+        Lo sentimos, la página que está buscando no existe o ha sido movida.
+      </p>
+      <div class="buttons">
+        <a href="/">Volver al inicio</a>
+        <a href="/#contact" class="secondary">Contactar</a>
+      </div>
+    </div>
+  </body>
+</html>

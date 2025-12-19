@@ -131,7 +131,8 @@ body {
   width: 100%;
 }
 
-.nav-menu button {
+.nav-menu a {
+  display: block;
   width: 100%;
   background: none;
   border: none;
@@ -139,19 +140,20 @@ body {
   font-weight: 500;
   padding: 1rem 2rem;
   text-align: left;
+  text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 1.05rem;
   border-left: 4px solid transparent;
 }
 
-.nav-menu button:hover {
+.nav-menu a:hover {
   background: var(--bg-light);
   color: var(--accent);
   border-left-color: var(--accent);
 }
 
-.nav-menu button.active {
+.nav-menu a.active {
   color: var(--accent);
   background: var(--bg-light);
   border-left-color: var(--accent);
@@ -223,13 +225,14 @@ body {
 }
 
 .cta-button {
+  display: inline-block;
   background: var(--gold);
   color: white;
   padding: 1rem 2rem;
-  border: none;
   border-radius: 8px;
   font-size: 1.1rem;
   font-weight: 600;
+  text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: var(--shadow);
@@ -869,7 +872,7 @@ body {
     width: auto;
   }
 
-  .nav-menu button {
+  .nav-menu a {
     width: auto;
     padding: 0.5rem 1rem;
     text-align: center;
@@ -878,13 +881,13 @@ body {
     border-radius: 6px;
   }
 
-  .nav-menu button:hover {
+  .nav-menu a:hover {
     background: var(--bg-light);
     color: var(--accent);
     border-left-color: transparent;
   }
 
-  .nav-menu button.active {
+  .nav-menu a.active {
     background: var(--bg-light);
     border-left-color: transparent;
   }

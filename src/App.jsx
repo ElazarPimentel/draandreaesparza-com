@@ -57,7 +57,8 @@ function App() {
     return () => observer.disconnect()
   }, [])
 
-  const scrollToSection = (section) => {
+  const scrollToSection = (e, section) => {
+    e.preventDefault()
     setActiveSection(section)
     setMobileMenuOpen(false)
     document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' })
@@ -92,11 +93,11 @@ function App() {
           </button>
 
           <ul className={`nav-menu ${mobileMenuOpen ? 'mobile-open' : ''}`}>
-            <li><button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>Inicio</button></li>
-            <li><button onClick={() => scrollToSection('about')} className={activeSection === 'about' ? 'active' : ''}>Acerca de</button></li>
-            <li><button onClick={() => scrollToSection('specialties')} className={activeSection === 'specialties' ? 'active' : ''}>Especialidades</button></li>
-            <li><button onClick={() => scrollToSection('publications')} className={activeSection === 'publications' ? 'active' : ''}>Publicaciones</button></li>
-            <li><button onClick={() => scrollToSection('contact')} className={activeSection === 'contact' ? 'active' : ''}>Contacto</button></li>
+            <li><a href="#home" onClick={(e) => scrollToSection(e, 'home')} className={activeSection === 'home' ? 'active' : ''}>Inicio</a></li>
+            <li><a href="#about" onClick={(e) => scrollToSection(e, 'about')} className={activeSection === 'about' ? 'active' : ''}>Acerca de</a></li>
+            <li><a href="#specialties" onClick={(e) => scrollToSection(e, 'specialties')} className={activeSection === 'specialties' ? 'active' : ''}>Especialidades</a></li>
+            <li><a href="#publications" onClick={(e) => scrollToSection(e, 'publications')} className={activeSection === 'publications' ? 'active' : ''}>Publicaciones</a></li>
+            <li><a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className={activeSection === 'contact' ? 'active' : ''}>Contacto</a></li>
           </ul>
         </div>
       </nav>
@@ -111,7 +112,7 @@ function App() {
               Directora Adjunta <br /> Instituto de Derecho Internacional Privado
             </p>
             <p className="description">Especialista en derecho de familia, adopción, sucesiones y violencia familiar. Juicio por alimentos, cuidado personal unilateral, patria potestad, orden de protección, divorcios, restitución internacional de menores. Asesoramiento en hogar de niños y violencia doméstica. +25 años de experiencia en Buenos Aires.</p>
-            <button onClick={() => scrollToSection('contact')} className="cta-button">Solicitar Consulta</button>
+            <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="cta-button">Solicitar Consulta</a>
           </div>
           <div className="hero-image">
             <img

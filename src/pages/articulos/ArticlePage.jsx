@@ -39,9 +39,9 @@ function ArticlePage({ article }) {
     storeAndUpdateMetaTag('og:description', article.description, true)
     storeAndUpdateMetaTag('og:type', 'article', true)
     storeAndUpdateMetaTag('og:url', `https://draandreaesparza.com/articulos/${article.slug}`, true)
-    storeAndUpdateMetaTag('og:image', 'https://draandreaesparza.com/andrea-esparza-portrait-web.jpg', true)
-    storeAndUpdateMetaTag('og:image:width', '1024', true)
-    storeAndUpdateMetaTag('og:image:height', '1024', true)
+    storeAndUpdateMetaTag('og:image', 'https://draandreaesparza.com/og-article-default.jpg', true)
+    storeAndUpdateMetaTag('og:image:width', '1200', true)
+    storeAndUpdateMetaTag('og:image:height', '630', true)
     storeAndUpdateMetaTag('article:published_time', article.datePublished, true)
     storeAndUpdateMetaTag('article:author', 'Dra. Andrea Esparza', true)
 
@@ -61,15 +61,29 @@ function ArticlePage({ article }) {
       "@type": "Article",
       "headline": article.title,
       "description": article.description,
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://draandreaesparza.com/og-article-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
       "datePublished": article.datePublished,
+      "dateModified": article.dateModified || article.datePublished,
       "author": {
         "@type": "Person",
         "name": "Maria Andrea Esparza",
-        "url": "https://draandreaesparza.com"
+        "url": "https://draandreaesparza.com",
+        "jobTitle": "Abogada Especialista en Derecho de Familia"
       },
       "publisher": {
-        "@type": "Person",
-        "name": "Maria Andrea Esparza"
+        "@type": "Organization",
+        "name": "Estudio Jurídico Dra. Andrea Esparza",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://draandreaesparza.com/og-article-default.jpg",
+          "width": 1200,
+          "height": 630
+        }
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -88,6 +102,41 @@ function ArticlePage({ article }) {
       document.head.appendChild(scriptTag)
     }
     scriptTag.textContent = JSON.stringify(structuredData)
+
+    // Add BreadcrumbList schema
+    const breadcrumbData = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://draandreaesparza.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Publicaciones",
+          "item": "https://draandreaesparza.com/#publications"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": article.title,
+          "item": `https://draandreaesparza.com/articulos/${article.slug}`
+        }
+      ]
+    }
+
+    let breadcrumbScriptTag = document.querySelector('script[data-breadcrumb-schema]')
+    if (!breadcrumbScriptTag) {
+      breadcrumbScriptTag = document.createElement('script')
+      breadcrumbScriptTag.setAttribute('type', 'application/ld+json')
+      breadcrumbScriptTag.setAttribute('data-breadcrumb-schema', 'true')
+      document.head.appendChild(breadcrumbScriptTag)
+    }
+    breadcrumbScriptTag.textContent = JSON.stringify(breadcrumbData)
 
     // Scroll to top
     window.scrollTo(0, 0)
@@ -124,6 +173,11 @@ function ArticlePage({ article }) {
       // Remove structured data
       if (scriptTag) {
         scriptTag.remove()
+      }
+
+      // Remove breadcrumb schema
+      if (breadcrumbScriptTag) {
+        breadcrumbScriptTag.remove()
       }
     }
   }, [article])
