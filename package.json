@@ -7,7 +7,6 @@
     "dev": "vite",
     "prebuild": "node scripts/generate-sitemap.js",
     "build": "vite build",
-    "postbuild": "react-snap",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -17,10 +16,10 @@
       "collapseWhitespace": false,
       "removeComments": false
     },
-    "puppeteerExecutablePath": "/usr/bin/chromium",
     "puppeteerArgs": [
       "--no-sandbox",
-      "--disable-setuid-sandbox"
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage"
     ],
     "skipThirdPartyRequests": true,
     "cacheAjaxRequests": false,
