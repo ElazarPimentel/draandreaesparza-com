@@ -284,7 +284,28 @@ function App() {
 
           <h3 style={{ marginTop: '2rem', marginBottom: '1.5rem', fontSize: '1.5rem' }}>Artículos Académicos</h3>
           <div className="publications-grid">
-            {/* Article 1 - Bioética */}
+            {/* Article 1 - Conceptos Niñez DIP */}
+            <div className="publication-card">
+              <div className="publication-icon">📄</div>
+              <h3>Artículo Académico</h3>
+              <h4>Revisando Ciertos Conceptos Vinculados a la Niñez y Adolescencia en el DIP</h4>
+              <p>Análisis profundo de los conceptos de residencia habitual y centro de vida en el derecho internacional privado aplicado a niñez y adolescencia.</p>
+              <div className="publication-meta">
+                <span>Mayo 2025</span>
+                <span>•</span>
+                <span>DIP y Niñez</span>
+              </div>
+              <div className="publication-actions">
+                <Link to="/articulos/conceptos-ninez-adolescencia-dip" className="read-btn">
+                  📖 Leer artículo
+                </Link>
+                <a href="/articulos/revisando-conceptos-ninez-adolescencia-dip.pdf" className="download-btn" download>
+                  📥 PDF
+                </a>
+              </div>
+            </div>
+
+            {/* Article 2 - Bioética */}
             <div className="publication-card">
               <div className="publication-icon">📄</div>
               <h3>Artículo Académico</h3>
@@ -305,7 +326,7 @@ function App() {
               </div>
             </div>
 
-            {/* Article 2 - Finanzas Islámicas */}
+            {/* Article 3 - Finanzas Islámicas */}
             <div className="publication-card">
               <div className="publication-icon">📄</div>
               <h3>Artículo Académico</h3>
@@ -326,7 +347,7 @@ function App() {
               </div>
             </div>
 
-            {/* Article 3 - Identidad de Género */}
+            {/* Article 4 - Identidad de Género */}
             <div className="publication-card">
               <div className="publication-icon">📄</div>
               <h3>Análisis Jurisprudencial</h3>
@@ -347,7 +368,7 @@ function App() {
               </div>
             </div>
 
-            {/* Article 4 - Historia Derecho Musulmán */}
+            {/* Article 5 - Historia Derecho Musulmán */}
             <div className="publication-card">
               <div className="publication-icon">📄</div>
               <h3>Artículo Académico</h3>
@@ -368,7 +389,7 @@ function App() {
               </div>
             </div>
 
-            {/* Article 5 - Interés Superior */}
+            {/* Article 6 - Interés Superior */}
             <div className="publication-card">
               <div className="publication-icon">📄</div>
               <h3>Artículo Académico</h3>
@@ -389,7 +410,7 @@ function App() {
               </div>
             </div>
 
-            {/* Article 6 - Análisis Problemas DIP */}
+            {/* Article 7 - Análisis Problemas DIP */}
             <div className="publication-card">
               <div className="publication-icon">📄</div>
               <h3>Artículo Académico</h3>
