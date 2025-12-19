@@ -1,6 +1,9 @@
-# Redirect from non-www to www
-http://draandreaesparza.com/* https://www.draandreaesparza.com/:splat 301!
-https://draandreaesparza.com/* https://www.draandreaesparza.com/:splat 301!
+# Redirect from www to non-www (canonical)
+http://www.draandreaesparza.com/* https://draandreaesparza.com/:splat 301!
+https://www.draandreaesparza.com/* https://draandreaesparza.com/:splat 301!
 
-# Handle SPA routing
+# Custom 404 page
+/404.html /404.html 404
+
+# Handle SPA routing (but let 404s through)
 /* /index.html 200

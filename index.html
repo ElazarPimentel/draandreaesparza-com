@@ -25,6 +25,7 @@
     <meta property="og:image" content="https://draandreaesparza.com/og-home.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Dra. Andrea Esparza - Abogada Especialista en Derecho de Familia y Sucesiones" />
     <meta property="og:site_name" content="Dra. Andrea Esparza - Estudio Jurídico" />
     <meta property="og:locale" content="es_AR" />
 
@@ -249,6 +250,33 @@
       ]
     }
     </script>
+
+    <!-- WebSite Schema with SearchAction -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Dra. Andrea Esparza - Estudio Jurídico",
+      "url": "https://draandreaesparza.com",
+      "description": "Estudio jurídico especializado en derecho de familia, adopción, sucesiones y derecho internacional privado en Buenos Aires, Argentina",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://draandreaesparza.com/#publications?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Performance: Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Performance: Preload critical assets -->
+    <link rel="preload" as="image" href="/og-home.jpg">
+    <link rel="preload" as="image" href="/andrea-esparza-portrait-web.jpg">
   </head>
   <body>
     <div id="root"></div>

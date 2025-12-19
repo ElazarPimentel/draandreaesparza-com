@@ -42,6 +42,7 @@ function ArticlePage({ article }) {
     storeAndUpdateMetaTag('og:image', 'https://draandreaesparza.com/og-article-default.jpg', true)
     storeAndUpdateMetaTag('og:image:width', '1200', true)
     storeAndUpdateMetaTag('og:image:height', '630', true)
+    storeAndUpdateMetaTag('og:image:alt', `${article.title} - Dra. Andrea Esparza`, true)
     storeAndUpdateMetaTag('article:published_time', article.datePublished, true)
     storeAndUpdateMetaTag('article:author', 'Dra. Andrea Esparza', true)
 
