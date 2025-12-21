@@ -1,0 +1,223 @@
+.service-page {
+  min-height: 100vh;
+  background: var(--bg-light);
+}
+
+.service-nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  box-shadow: var(--shadow);
+  z-index: 100;
+  padding: 1rem 0;
+}
+
+.service-nav .nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-nav .back-link,
+.service-nav .services-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.service-nav .back-link:hover,
+.service-nav .services-link:hover {
+  color: var(--text-dark);
+}
+
+.service-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.breadcrumb {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.breadcrumb a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb span:last-child {
+  color: var(--text-dark);
+}
+
+.service-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--gold);
+}
+
+.service-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.service-intro {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.service-content {
+  margin-bottom: 3rem;
+}
+
+.service-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin: 2rem 0 1rem;
+}
+
+.service-content h3 {
+  font-size: 1.3rem;
+  color: var(--accent);
+  margin: 1.5rem 0 1rem;
+}
+
+.service-content p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
+.service-content ul {
+  margin: 1rem 0 1rem 2rem;
+}
+
+.service-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  color: var(--text-light);
+}
+
+.service-faqs {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 3rem;
+}
+
+.service-faqs h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--bg-light);
+  padding: 1.5rem 0;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-item h3 {
+  font-size: 1.1rem;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.faq-item p {
+  line-height: 1.7;
+  color: var(--text-light);
+}
+
+.service-cta {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.service-cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.service-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.service-cta .cta-button {
+  display: inline-block;
+  background: var(--gold);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+}
+
+.service-cta .cta-button:hover {
+  background: #b7791f;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 768px) {
+  .service-nav .nav-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .service-container {
+    padding: 1rem;
+  }
+
+  .service-header h1 {
+    font-size: 2rem;
+  }
+
+  .service-intro {
+    font-size: 1.1rem;
+  }
+
+  .service-cta {
+    padding: 2rem 1.5rem;
+  }
+
+  .service-cta h2 {
+    font-size: 1.5rem;
+  }
+}

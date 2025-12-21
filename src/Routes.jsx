@@ -7,12 +7,20 @@ import HistoriaDerechoMusulmanArticle from './pages/articulos/HistoriaDerechoMus
 import InteresSuperiorArticle from './pages/articulos/InteresSuperiorArticle.jsx'
 import AnalisisProblemasArticle from './pages/articulos/AnalisisProblemasArticle.jsx'
 import ConceptosNinezArticle from './pages/articulos/ConceptosNinezArticle.jsx'
+import DivorciosPage from './pages/servicios/DivorciosPage.jsx'
+import DerechoFamiliaPage from './pages/servicios/DerechoFamiliaPage.jsx'
+import SucesionesPage from './pages/servicios/SucesionesPage.jsx'
+import AlimentosPage from './pages/servicios/AlimentosPage.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/servicios/divorcios-buenos-aires" element={<DivorciosPage />} />
+      <Route path="/servicios/derecho-familia" element={<DerechoFamiliaPage />} />
+      <Route path="/servicios/sucesiones" element={<SucesionesPage />} />
+      <Route path="/servicios/alimentos" element={<AlimentosPage />} />
       <Route path="/articulos/bioetica-reproduccion-asistida-subrogacion-vientres" element={<BioeticaArticle />} />
       <Route path="/articulos/finanzas-islamicas-derecho-musulman" element={<FinanzasIslamicasArticle />} />
       <Route path="/articulos/identidad-de-genero-analisis-fallo" element={<IdentidadGeneroArticle />} />
