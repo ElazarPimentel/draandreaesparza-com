@@ -1,53 +1,67 @@
 # CLAUDE.md
 
-This is a simple React website for lawyer Andrea Esparza.
+Website for lawyer Andrea Esparza - Family Law specialist in Buenos Aires.
 
-## Project Structure
-- Single-page React application with 5 main sections
-- Built with Vite + React for static deployment
-- Professional lawyer website in Spanish
-- Sections: Home (Hero), Acerca de (About), Especialidades (Specialties), Testimonios (Testimonials), Publicaciones (Publications), Contacto (Contact)
+## Tech Stack
+- Vite + React (SPA)
+- SCSS styling
+- Vercel deployment
 
-## Development Commands
+## Commands
 ```bash
 pnpm install     # Install dependencies
-pnpm run dev     # Start development server
-pnpm run build   # Build for production
-pnpm run preview # Preview production build
+pnpm run build   # Build for production (runs sitemap generation)
+gitpush.sh       # Deploy to Vercel
 ```
 
-## IMPORTANT: Development Server
-**NEVER run `pnpm run dev` or start the development server.**
-The user has a dev server running all the time and doesn't want it to be started by Claude.
+**NEVER run `pnpm run dev`** - user runs dev server separately.
 
-## Website Features
-✅ Modern, responsive single-page design with professional styling
-✅ Fixed navigation bar with smooth scrolling to sections
-✅ Hero section with professional photo and call-to-action button
-✅ Professional timeline showing 25+ years career trajectory with experience badges
-✅ Academic accomplishments section (publications, conferences, memberships)
-✅ 3 expandable specialty area cards with detailed legal framework information:
-  - Derecho de Familia (Family Law, Divorce, Alimony)
-  - Sucesiones y Testamentos (Successions and Wills)
-  - Derecho Internacional Privado (International Private Law - Child Restitution)
-✅ Testimonials section with 6 client testimonials
-✅ Publications and Media section with:
-  - Academic article with PDF download and UBA repository link
-  - YouTube conference video
-  - ASIME international membership profile
-✅ Contact section with multiple methods:
-  - Email
-  - WhatsApp with pre-filled message
-  - LinkedIn profile
-  - Instagram account
-✅ Floating WhatsApp button for easy contact
-✅ Footer with copyright and Pensanta.com credit
-✅ Mobile-responsive design
-✅ Professional color scheme and typography (Inter + Playfair Display)
-✅ Comprehensive SEO optimization:
-  - Spanish language meta tags
-  - Open Graph tags for social sharing
-  - Twitter Card tags
-  - Google site verification
-  - Canonical URL
-  - Keywords optimized for Argentine legal services
+## Site Structure
+
+### Main Sections (Single Page)
+- Hero, About, Specialties, Testimonials, Publications, Contact
+
+### Service Pages (SEO Landing Pages)
+- `/servicios/divorcios-buenos-aires`
+- `/servicios/derecho-familia`
+- `/servicios/sucesiones`
+- `/servicios/alimentos`
+
+### Article Pages
+- 7 academic articles under `/articulos/`
+
+## SEO Status
+
+### Completed
+- Google Business Profile: Place ID `09771868979169933047`
+- Schema.org markup (LegalService, FAQPage, WebSite)
+- 4 service pages with targeted keywords
+- Sitemap with 12 URLs
+- Homepage title optimized for local SEO
+- Indexación manual solicitada (2025-12-27)
+
+### Pending (External)
+- Service pages indexing (submitted, waiting for Google)
+- Backlink from Colegio de Abogados de Morón (requested)
+- Google reviews (Andrea to request from clients)
+- Article publication for backlinks (REDIC, LinkedIn Articles)
+
+### GSC Property
+- URL: `https://draandreaesparza.com/`
+- Type: URL-prefix (not domain)
+
+## Key Files
+- `index.html` - Main HTML with all schema markup
+- `scripts/generate-sitemap.js` - Auto-generates sitemap on build
+- `src/pages/servicios/` - Service landing pages
+- `gsc-reports/` - GSC reports and SEO status
+
+## Contact Info (for schema)
+- Phone: +54-9-11-5561-7919
+- Email: estudiomaesparza@gmail.com
+- Areas: Buenos Aires, Morón, Argentina
+
+## Professional Affiliations
+- Directora Adjunta, Instituto DIP - Colegio de Abogados de Morón
+- ASIME member
+- UBA professor (DIP, International Law of Children)
