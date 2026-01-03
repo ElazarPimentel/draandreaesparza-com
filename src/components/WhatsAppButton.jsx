@@ -8,7 +8,7 @@ function WhatsAppButton() {
 
   return (
     <a
-      href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20me%20gustaría%20solicitar%20una%20consulta%20legal.%20(via%20web)"
+      href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20vengo%20de%20https://draandreaesparza.com%20y%20me%20gustaría%20solicitar%20una%20consulta%20legal."
       className="whatsapp-float"
       target="_blank"
       rel="noopener noreferrer"

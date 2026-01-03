@@ -1,9 +1,13 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { track } from '@vercel/analytics'
 import WhatsAppButton from './components/WhatsAppButton'
 import './App.css'
 
 function App() {
+  const handleContactWhatsAppClick = () => {
+    track('whatsapp_click', { source: 'contact_section' })
+  }
   const [activeSection, setActiveSection] = useState('home')
   const [expandedCard, setExpandedCard] = useState(['familia', 'sucesiones', 'internacional'])
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -548,7 +552,7 @@ function App() {
               <div className="contact-item">
                 <div className="contact-icon">💬</div>
                 <strong>WhatsApp</strong>
-                <a href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20me%20gustaría%20solicitar%20una%20consulta%20legal.%20(via%20contacto)" target="_blank" rel="noopener noreferrer">+54 9 11 5561-7919</a>
+                <a href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20vengo%20de%20https://draandreaesparza.com%20y%20me%20gustaría%20solicitar%20una%20consulta%20legal." target="_blank" rel="noopener noreferrer" onClick={handleContactWhatsAppClick}>+54 9 11 5561-7919</a>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">💼</div>

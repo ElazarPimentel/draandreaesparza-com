@@ -190,7 +190,7 @@ function ServicePage({ service }) {
           <h2>¿Necesita asesoramiento legal?</h2>
           <p>Más de 25 años de experiencia en derecho de familia y sucesiones</p>
           <a
-            href={`https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20me%20gustaría%20consultar%20sobre%20${encodeURIComponent(service.title)}%20(via%20servicios)`}
+            href={`https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20vengo%20de%20https://draandreaesparza.com%20y%20me%20gustaría%20consultar%20sobre%20${encodeURIComponent(service.title)}`}
             className="cta-button"
             target="_blank"
             rel="noopener noreferrer"
