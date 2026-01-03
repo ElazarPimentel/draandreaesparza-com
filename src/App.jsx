@@ -548,7 +548,7 @@ function App() {
               <div className="contact-item">
                 <div className="contact-icon">💬</div>
                 <strong>WhatsApp</strong>
-                <a href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20me%20gustaría%20solicitar%20una%20consulta%20legal." target="_blank" rel="noopener noreferrer">+54 9 11 5561-7919</a>
+                <a href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20me%20gustaría%20solicitar%20una%20consulta%20legal.%20(via%20contacto)" target="_blank" rel="noopener noreferrer">+54 9 11 5561-7919</a>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">💼</div>

@@ -1,9 +1,13 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { track } from '@vercel/analytics'
 import WhatsAppButton from '../../components/WhatsAppButton'
 import './ServicePage.css'
 
 function ServicePage({ service }) {
+  const handleWhatsAppClick = () => {
+    track('whatsapp_click', { source: 'service_cta', service: service.slug })
+  }
   useEffect(() => {
     const originalTitle = document.title
     const originalMeta = {}
@@ -186,10 +190,11 @@ function ServicePage({ service }) {
           <h2>¿Necesita asesoramiento legal?</h2>
           <p>Más de 25 años de experiencia en derecho de familia y sucesiones</p>
           <a
-            href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20me%20gustaría%20consultar%20sobre%20"
+            href={`https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza,%20me%20gustaría%20consultar%20sobre%20${encodeURIComponent(service.title)}%20(via%20servicios)`}
             className="cta-button"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleWhatsAppClick}
           >
             Consultar por WhatsApp
           </a>
