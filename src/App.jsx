@@ -574,7 +574,7 @@ function App() {
           <p>&copy; 2025 Dra. Andrea Esparza – Estudio Jurídico Esparza. Todos los derechos reservados.</p>
           <small className="credit">
             <span className="credit-text">Un sitio así para vos →</span>
-            <a href="https://elazarpimentel.com/?utm_source=portfolio&utm_medium=footer&utm_campaign=client-sites&utm_content=draandreaesparza" target="_blank" rel="noopener noreferrer">ElazarPimentel.com</a>
+            <a href="https://elazarpimentel.com/?utm_source=portfolio&utm_medium=footer&utm_campaign=client-sites&utm_content=draandreaesparza" target="_blank">ElazarPimentel.com</a>
           </small>
         </div>
       </footer>
