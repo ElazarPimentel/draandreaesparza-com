@@ -812,21 +812,36 @@ body {
   border-color: #606060;
 }
 
-.footer .credit svg {
-  flex-shrink: 0;
-  opacity: 0.8;
+.footer .credit .credit-text {
+  opacity: 0.85;
 }
 
 .footer .credit a {
+  position: relative;
   color: #e0e0e0;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease;
 }
 
+.footer .credit a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(90deg, #4a9eff, #52a783);
+  transition: width 0.3s ease;
+}
+
+.footer .credit:hover a::after {
+  width: 100%;
+}
+
 .footer .credit a:hover {
   color: white;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+  text-shadow: 0 0 8px rgba(74, 158, 255, 0.4);
 }
 
 /* Mobile responsive footer */

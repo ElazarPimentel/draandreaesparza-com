@@ -573,12 +573,8 @@ function App() {
         <div className="container footer-content">
           <p>&copy; 2025 Dra. Andrea Esparza – Estudio Jurídico Esparza. Todos los derechos reservados.</p>
           <small className="credit">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M12 2L2 7l10 5 10-5-10-5z" />
-              <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
-            </svg>
-            Digitally carved by
-            <a href="https://pensanta.com?utm_source=draandreaesparza&utm_medium=footer" target="_blank">Pensanta</a>
+            <span className="credit-text">✨ Un sitio así para vos →</span>
+            <a href="https://elazarpimentel.com/?utm_source=portfolio&utm_medium=footer&utm_campaign=client-sites&utm_content=draandreaesparza" target="_blank" rel="noopener noreferrer">ElazarPimentel.com</a>
           </small>
         </div>
       </footer>
