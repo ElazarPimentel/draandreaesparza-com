@@ -437,6 +437,111 @@ function App() {
             </div>
           </div>
 
+          <h3 style={{ marginTop: '3rem', marginBottom: '1.5rem', fontSize: '1.5rem' }}>Publicaciones Académicas (RIDCA - AIDCA)</h3>
+          <div className="publications-grid">
+            {/* AIDCA Article 1 - Filiación */}
+            <div className="publication-card">
+              <div className="publication-icon">📚</div>
+              <h3>RIDCA - Revista Iberoamericana</h3>
+              <h4>Filiación, técnicas de reproducción humana asistida y subrogación de vientres a la luz del Derecho Internacional Privado. Dilemas bioéticos</h4>
+              <div className="publication-meta">
+                <span>Diciembre 2022</span>
+                <span>•</span>
+                <span>RIDCA Nº 2</span>
+              </div>
+              <div className="publication-actions">
+                <a href="https://aidca.org/ridca2-internacional-esparza-filiacion/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                  🔗 Leer en AIDCA
+                </a>
+              </div>
+            </div>
+
+            {/* AIDCA Article 2 - Finanzas */}
+            <div className="publication-card">
+              <div className="publication-icon">📚</div>
+              <h3>RIDCA - Revista Iberoamericana</h3>
+              <h4>Finanzas en el Derecho Musulmán. Un viaje en el tiempo</h4>
+              <div className="publication-meta">
+                <span>Julio 2023</span>
+                <span>•</span>
+                <span>RIDCA Nº 3</span>
+              </div>
+              <div className="publication-actions">
+                <a href="https://aidca.org/ridca3-internacional7/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                  🔗 Leer en AIDCA
+                </a>
+              </div>
+            </div>
+
+            {/* AIDCA Article 3 - Adultos Mayores */}
+            <div className="publication-card">
+              <div className="publication-icon">📚</div>
+              <h3>RIDCA - Revista Iberoamericana</h3>
+              <h4>Protección internacional de los adultos mayores</h4>
+              <div className="publication-meta">
+                <span>Diciembre 2023</span>
+                <span>•</span>
+                <span>RIDCA Nº 4</span>
+              </div>
+              <div className="publication-actions">
+                <a href="https://aidca.org/ridca4-internacional2-maria-andrea-esparza-proteccion-internacional-de-los-adultos-mayores/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                  🔗 Leer en AIDCA
+                </a>
+              </div>
+            </div>
+
+            {/* AIDCA Article 4 - Identidad de Género */}
+            <div className="publication-card">
+              <div className="publication-icon">📚</div>
+              <h3>RIDCA - Revista Iberoamericana</h3>
+              <h4>Análisis de un fallo sobre identidad de género. Una mirada esperanzadora</h4>
+              <div className="publication-meta">
+                <span>Julio 2024</span>
+                <span>•</span>
+                <span>RIDCA Nº 5</span>
+              </div>
+              <div className="publication-actions">
+                <a href="https://aidca.org/analisis-de-un-fallo-sobre-identidad-de-genero-una-mirada-esperanzadora/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                  🔗 Leer en AIDCA
+                </a>
+              </div>
+            </div>
+
+            {/* AIDCA Article 5 - DIP del Trabajo */}
+            <div className="publication-card">
+              <div className="publication-icon">📚</div>
+              <h3>RIDCA - Revista Iberoamericana</h3>
+              <h4>Derecho Internacional Privado del Trabajo. Análisis de una sentencia dictada por el Tribunal Superior de Justicia de Venezuela</h4>
+              <div className="publication-meta">
+                <span>Marzo 2025</span>
+                <span>•</span>
+                <span>RIDCA Nº 7</span>
+              </div>
+              <div className="publication-actions">
+                <a href="https://aidca.org/derecho-internacional-privado-del-trabajo-analisis-de-una-sentencia-dictada-por-el-tribunal-superior-de-justicia-de-venezuela/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                  🔗 Leer en AIDCA
+                </a>
+              </div>
+            </div>
+
+            {/* AIDCA Article 6 - Insolvencia */}
+            <div className="publication-card">
+              <div className="publication-icon">📚</div>
+              <h3>RIDCA - Revista Iberoamericana</h3>
+              <h4>Insolvencia transfronteriza a la luz del derecho español y del derecho de la comunidad europea e interpretación del mismo por el TSJUE en el caso INTEREDIL</h4>
+              <div className="publication-meta">
+                <span>2025</span>
+                <span>•</span>
+                <span>RIDCA Nº 8</span>
+              </div>
+              <div className="publication-actions">
+                <a href="https://aidca.org/ridca8-internacional-esparza-insolvencia-transfronteriza-a-la-luz-del-derecho-espanol-y-del-derecho-de-la-comunidad-europea-e-interpretacion-del-mismo-por-el-tsjue-en-el-caso-interedil-c-fallimento-i/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                  🔗 Leer en AIDCA
+                </a>
+              </div>
+            </div>
+          </div>
+
           <h3 style={{ marginTop: '3rem', marginBottom: '1.5rem', fontSize: '1.5rem' }}>Otros Medios y Actividades</h3>
           <div className="publications-grid">
             {/* UBA Repository Article */}
