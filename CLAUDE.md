@@ -50,6 +50,36 @@ gitpush.sh       # Deploy to Vercel
 - URL: `https://draandreaesparza.com/`
 - Type: URL-prefix (not domain)
 
+## Analytics & Tracking (IMPORTANT)
+
+**All new clickable elements MUST have tracking.** This site uses dual tracking:
+
+```javascript
+import { track } from '@vercel/analytics'
+
+// For any new link/button, add onClick handler:
+onClick={() => {
+  track('event_name', { source: 'component_name' })
+  window.dataLayer?.push({ event: 'event_name', source: 'component_name' })
+}}
+```
+
+### Required tracking for:
+- WhatsApp links → `whatsapp_click`
+- Phone links (tel:) → `phone_click`
+- External article links → `publication_click`
+- CTA buttons → `cta_click`
+
+### Current Analytics Stack
+| Tool | ID |
+|------|-----|
+| GA4 | G-96WW8CDVWG |
+| GTM | GTM-T89DRSWW |
+| Vercel Analytics | Active |
+| Vercel Speed Insights | Active |
+
+**DO NOT add links without tracking. Check existing components for patterns.**
+
 ## Key Files
 - `index.html` - Main HTML with all schema markup
 - `scripts/generate-sitemap.js` - Auto-generates sitemap on build
