@@ -83,6 +83,43 @@ const routes = [
     lastmod: '2007-11-07',
     changefreq: 'yearly',
     priority: 0.7
+  },
+  // RIDCA/AIDCA Articles
+  {
+    path: '/articulos/filiacion-reproduccion-asistida-subrogacion-dip',
+    lastmod: '2022-12-20',
+    changefreq: 'yearly',
+    priority: 0.7
+  },
+  {
+    path: '/articulos/finanzas-derecho-musulman-ridca',
+    lastmod: '2023-07-15',
+    changefreq: 'yearly',
+    priority: 0.7
+  },
+  {
+    path: '/articulos/proteccion-internacional-adultos-mayores',
+    lastmod: '2023-12-20',
+    changefreq: 'yearly',
+    priority: 0.7
+  },
+  {
+    path: '/articulos/identidad-genero-fallo-ridca',
+    lastmod: '2024-07-15',
+    changefreq: 'yearly',
+    priority: 0.7
+  },
+  {
+    path: '/articulos/dip-trabajo-sentencia-venezuela',
+    lastmod: '2025-03-01',
+    changefreq: 'yearly',
+    priority: 0.7
+  },
+  {
+    path: '/articulos/insolvencia-transfronteriza-derecho-europeo',
+    lastmod: '2025-12-01',
+    changefreq: 'yearly',
+    priority: 0.7
   }
 ]
 

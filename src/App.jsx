@@ -439,105 +439,111 @@ function App() {
 
           <h3 style={{ marginTop: '3rem', marginBottom: '1.5rem', fontSize: '1.5rem' }}>Publicaciones Académicas (RIDCA - AIDCA)</h3>
           <div className="publications-grid">
-            {/* AIDCA Article 1 - Filiación */}
+            {/* RIDCA Article 1 - Filiación */}
             <div className="publication-card">
-              <div className="publication-icon">📚</div>
+              <div className="publication-icon">📄</div>
               <h3>RIDCA - Revista Iberoamericana</h3>
-              <h4>Filiación, técnicas de reproducción humana asistida y subrogación de vientres a la luz del Derecho Internacional Privado. Dilemas bioéticos</h4>
+              <h4>Filiación, técnicas de reproducción humana asistida y subrogación de vientres</h4>
+              <p>Dilemas bioéticos en el derecho internacional privado.</p>
               <div className="publication-meta">
                 <span>Diciembre 2022</span>
                 <span>•</span>
                 <span>RIDCA Nº 2</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/ridca2-internacional-esparza-filiacion/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca2-filiacion', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca2-filiacion', source: 'aidca' }) }}>
-                  🔗 Leer en AIDCA
-                </a>
+                <Link to="/articulos/filiacion-reproduccion-asistida-subrogacion-dip" className="read-btn">
+                  📖 Leer artículo
+                </Link>
               </div>
             </div>
 
-            {/* AIDCA Article 2 - Finanzas */}
+            {/* RIDCA Article 2 - Finanzas */}
             <div className="publication-card">
-              <div className="publication-icon">📚</div>
+              <div className="publication-icon">📄</div>
               <h3>RIDCA - Revista Iberoamericana</h3>
               <h4>Finanzas en el Derecho Musulmán. Un viaje en el tiempo</h4>
+              <p>Principios y contratos del comercio islámico.</p>
               <div className="publication-meta">
                 <span>Julio 2023</span>
                 <span>•</span>
                 <span>RIDCA Nº 3</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/ridca3-internacional7/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca3-finanzas', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca3-finanzas', source: 'aidca' }) }}>
-                  🔗 Leer en AIDCA
-                </a>
+                <Link to="/articulos/finanzas-derecho-musulman-ridca" className="read-btn">
+                  📖 Leer artículo
+                </Link>
               </div>
             </div>
 
-            {/* AIDCA Article 3 - Adultos Mayores */}
+            {/* RIDCA Article 3 - Adultos Mayores */}
             <div className="publication-card">
-              <div className="publication-icon">📚</div>
+              <div className="publication-icon">📄</div>
               <h3>RIDCA - Revista Iberoamericana</h3>
               <h4>Protección internacional de los adultos mayores</h4>
+              <p>Marcos convencionales interamericanos y europeos.</p>
               <div className="publication-meta">
                 <span>Diciembre 2023</span>
                 <span>•</span>
                 <span>RIDCA Nº 4</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/ridca4-internacional2-maria-andrea-esparza-proteccion-internacional-de-los-adultos-mayores/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca4-adultos-mayores', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca4-adultos-mayores', source: 'aidca' }) }}>
-                  🔗 Leer en AIDCA
-                </a>
+                <Link to="/articulos/proteccion-internacional-adultos-mayores" className="read-btn">
+                  📖 Leer artículo
+                </Link>
               </div>
             </div>
 
-            {/* AIDCA Article 4 - Identidad de Género */}
+            {/* RIDCA Article 4 - Identidad de Género */}
             <div className="publication-card">
-              <div className="publication-icon">📚</div>
+              <div className="publication-icon">📄</div>
               <h3>RIDCA - Revista Iberoamericana</h3>
-              <h4>Análisis de un fallo sobre identidad de género. Una mirada esperanzadora</h4>
+              <h4>Análisis de un fallo sobre identidad de género</h4>
+              <p>Una mirada esperanzadora sobre autodeterminación.</p>
               <div className="publication-meta">
                 <span>Julio 2024</span>
                 <span>•</span>
                 <span>RIDCA Nº 5</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/analisis-de-un-fallo-sobre-identidad-de-genero-una-mirada-esperanzadora/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca5-identidad-genero', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca5-identidad-genero', source: 'aidca' }) }}>
-                  🔗 Leer en AIDCA
-                </a>
+                <Link to="/articulos/identidad-genero-fallo-ridca" className="read-btn">
+                  📖 Leer artículo
+                </Link>
               </div>
             </div>
 
-            {/* AIDCA Article 5 - DIP del Trabajo */}
+            {/* RIDCA Article 5 - DIP del Trabajo */}
             <div className="publication-card">
-              <div className="publication-icon">📚</div>
+              <div className="publication-icon">📄</div>
               <h3>RIDCA - Revista Iberoamericana</h3>
-              <h4>Derecho Internacional Privado del Trabajo. Análisis de una sentencia dictada por el Tribunal Superior de Justicia de Venezuela</h4>
+              <h4>Derecho Internacional Privado del Trabajo</h4>
+              <p>Análisis de sentencia del TSJ de Venezuela.</p>
               <div className="publication-meta">
                 <span>Marzo 2025</span>
                 <span>•</span>
                 <span>RIDCA Nº 7</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/derecho-internacional-privado-del-trabajo-analisis-de-una-sentencia-dictada-por-el-tribunal-superior-de-justicia-de-venezuela/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca7-dip-trabajo', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca7-dip-trabajo', source: 'aidca' }) }}>
-                  🔗 Leer en AIDCA
-                </a>
+                <Link to="/articulos/dip-trabajo-sentencia-venezuela" className="read-btn">
+                  📖 Leer artículo
+                </Link>
               </div>
             </div>
 
-            {/* AIDCA Article 6 - Insolvencia */}
+            {/* RIDCA Article 6 - Insolvencia */}
             <div className="publication-card">
-              <div className="publication-icon">📚</div>
+              <div className="publication-icon">📄</div>
               <h3>RIDCA - Revista Iberoamericana</h3>
-              <h4>Insolvencia transfronteriza a la luz del derecho español y del derecho de la comunidad europea e interpretación del mismo por el TSJUE en el caso INTEREDIL</h4>
+              <h4>Insolvencia transfronteriza en el derecho europeo</h4>
+              <p>Caso INTEREDIL y el TJUE.</p>
               <div className="publication-meta">
-                <span>2025</span>
+                <span>Diciembre 2025</span>
                 <span>•</span>
                 <span>RIDCA Nº 8</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/ridca8-internacional-esparza-insolvencia-transfronteriza-a-la-luz-del-derecho-espanol-y-del-derecho-de-la-comunidad-europea-e-interpretacion-del-mismo-por-el-tsjue-en-el-caso-interedil-c-fallimento-i/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca8-insolvencia', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca8-insolvencia', source: 'aidca' }) }}>
-                  🔗 Leer en AIDCA
-                </a>
+                <Link to="/articulos/insolvencia-transfronteriza-derecho-europeo" className="read-btn">
+                  📖 Leer artículo
+                </Link>
               </div>
             </div>
           </div>
