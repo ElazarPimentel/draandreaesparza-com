@@ -683,7 +683,7 @@ function App() {
 
       <footer className="footer">
         <div className="container footer-content">
-          <p>&copy; 2025 Dra. Andrea Esparza – Estudio Jurídico Esparza. Todos los derechos reservados.</p>
+          <p>&copy; 2025 Dra. Andrea Esparza – Estudio Jurídico Esparza. Todos los derechos reservados. <span style={{ opacity: 0.5, fontSize: '0.8em' }}>v42.1</span></p>
           <small className="credit">
             <span className="credit-text">Un sitio así para vos →</span>
             <a href="https://elazarpimentel.com/?utm_source=portfolio&utm_medium=footer&utm_campaign=client-sites&utm_content=draandreaesparza" target="_blank">ElazarPimentel.com</a>
