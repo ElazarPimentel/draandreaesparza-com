@@ -34,6 +34,7 @@ function App() {
       specialties: 'Áreas de Especialización - Derecho de Familia, Sucesiones y DIP | Dra. Esparza',
       testimonials: 'Testimonios de Clientes - Dra. Andrea Esparza',
       publications: 'Publicaciones y Medios - Dra. Andrea Esparza',
+      faq: 'Preguntas Frecuentes - Dra. Andrea Esparza | Derecho de Familia',
       contact: 'Contacto - Dra. Andrea Esparza | Estudio Jurídico'
     }
     document.title = titles[activeSection] || titles.home
@@ -52,7 +53,7 @@ function App() {
       { threshold: 0.3 }
     )
 
-    const sections = ['home', 'about', 'specialties', 'testimonials', 'publications', 'contact']
+    const sections = ['home', 'about', 'specialties', 'testimonials', 'publications', 'faq', 'contact']
     sections.forEach((id) => {
       const element = document.getElementById(id)
       if (element) observer.observe(element)
