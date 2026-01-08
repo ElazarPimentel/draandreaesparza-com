@@ -450,7 +450,7 @@ function App() {
                 <span>RIDCA Nº 2</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/ridca2-internacional-esparza-filiacion/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                <a href="https://aidca.org/ridca2-internacional-esparza-filiacion/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca2-filiacion', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca2-filiacion', source: 'aidca' }) }}>
                   🔗 Leer en AIDCA
                 </a>
               </div>
@@ -467,7 +467,7 @@ function App() {
                 <span>RIDCA Nº 3</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/ridca3-internacional7/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                <a href="https://aidca.org/ridca3-internacional7/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca3-finanzas', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca3-finanzas', source: 'aidca' }) }}>
                   🔗 Leer en AIDCA
                 </a>
               </div>
@@ -484,7 +484,7 @@ function App() {
                 <span>RIDCA Nº 4</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/ridca4-internacional2-maria-andrea-esparza-proteccion-internacional-de-los-adultos-mayores/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                <a href="https://aidca.org/ridca4-internacional2-maria-andrea-esparza-proteccion-internacional-de-los-adultos-mayores/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca4-adultos-mayores', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca4-adultos-mayores', source: 'aidca' }) }}>
                   🔗 Leer en AIDCA
                 </a>
               </div>
@@ -501,7 +501,7 @@ function App() {
                 <span>RIDCA Nº 5</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/analisis-de-un-fallo-sobre-identidad-de-genero-una-mirada-esperanzadora/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                <a href="https://aidca.org/analisis-de-un-fallo-sobre-identidad-de-genero-una-mirada-esperanzadora/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca5-identidad-genero', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca5-identidad-genero', source: 'aidca' }) }}>
                   🔗 Leer en AIDCA
                 </a>
               </div>
@@ -518,7 +518,7 @@ function App() {
                 <span>RIDCA Nº 7</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/derecho-internacional-privado-del-trabajo-analisis-de-una-sentencia-dictada-por-el-tribunal-superior-de-justicia-de-venezuela/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                <a href="https://aidca.org/derecho-internacional-privado-del-trabajo-analisis-de-una-sentencia-dictada-por-el-tribunal-superior-de-justicia-de-venezuela/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca7-dip-trabajo', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca7-dip-trabajo', source: 'aidca' }) }}>
                   🔗 Leer en AIDCA
                 </a>
               </div>
@@ -535,7 +535,7 @@ function App() {
                 <span>RIDCA Nº 8</span>
               </div>
               <div className="publication-actions">
-                <a href="https://aidca.org/ridca8-internacional-esparza-insolvencia-transfronteriza-a-la-luz-del-derecho-espanol-y-del-derecho-de-la-comunidad-europea-e-interpretacion-del-mismo-por-el-tsjue-en-el-caso-interedil-c-fallimento-i/" target="_blank" rel="noopener noreferrer" className="external-btn">
+                <a href="https://aidca.org/ridca8-internacional-esparza-insolvencia-transfronteriza-a-la-luz-del-derecho-espanol-y-del-derecho-de-la-comunidad-europea-e-interpretacion-del-mismo-por-el-tsjue-en-el-caso-interedil-c-fallimento-i/" target="_blank" rel="noopener noreferrer" className="external-btn" onClick={() => { track('publication_click', { article: 'ridca8-insolvencia', source: 'aidca' }); window.dataLayer?.push({ event: 'publication_click', article: 'ridca8-insolvencia', source: 'aidca' }) }}>
                   🔗 Leer en AIDCA
                 </a>
               </div>
