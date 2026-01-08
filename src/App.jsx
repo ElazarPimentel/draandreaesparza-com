@@ -37,7 +37,9 @@ function App() {
       faq: 'Preguntas Frecuentes - Dra. Andrea Esparza | Derecho de Familia',
       contact: 'Contacto - Dra. Andrea Esparza | Estudio Jurídico'
     }
-    document.title = titles[activeSection] || titles.home
+    const newTitle = titles[activeSection] || titles.home
+    document.title = newTitle
+    console.log(`[Title] ${activeSection} → ${newTitle}`)
   }, [activeSection])
 
   // Intersection Observer to update active section on scroll
