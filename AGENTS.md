@@ -31,6 +31,9 @@
   - WhatsApp/phone: `+54 9 11 5561-7919`
   - Email: `estudiomaesparza@gmail.com`
 
+## GSC Service Account
+- `gsc-service-account.json` (gitignored) — GSC API credentials for `search-console-api@calensa.iam.gserviceaccount.com`. Master copy in `websites/` root.
+
 ## Analytics Rules
 - Tracking is handled in `js/main.js`.
 - New clickable CTA/link elements should use existing hooks:

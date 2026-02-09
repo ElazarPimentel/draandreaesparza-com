@@ -77,6 +77,10 @@ Use data attributes handled by `js/main.js`:
 
 **DO NOT add links without tracking. Check existing components for patterns.**
 
+## GSC Service Account
+
+`gsc-service-account.json` (gitignored) — Google Search Console API credentials for the service account `search-console-api@calensa.iam.gserviceaccount.com`. Used by `tools/gsc_report_generator.py` and `tools/gsc-submit-sitemap.py` to generate reports and submit sitemaps without browser-based OAuth. Master copy lives in the `websites/` root.
+
 ## Key Files
 - `index.html` - Main HTML with all schema markup
 - `scripts/generate-sitemap.js` - Auto-generates sitemap on build
