@@ -142,8 +142,8 @@ const generateSitemap = () => {
   return xml
 }
 
-// Write sitemap to public folder
-const outputPath = path.join(__dirname, '..', 'public', 'sitemap.xml')
+// Write sitemap to project root
+const outputPath = path.join(__dirname, '..', 'sitemap.xml')
 const sitemap = generateSitemap()
 
 fs.writeFileSync(outputPath, sitemap, 'utf-8')

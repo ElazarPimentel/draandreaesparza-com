@@ -3,18 +3,20 @@
 Website for lawyer Andrea Esparza - Family Law specialist in Buenos Aires.
 
 ## Tech Stack
-- Vite + React (SPA)
-- SCSS styling
+- Static HTML + CSS + vanilla JavaScript (root-based)
+- Shared stylesheet at `css/style.css`
+- Shared JS behaviors/tracking at `js/main.js`
 - Vercel deployment
 
 ## Commands
 ```bash
 pnpm install     # Install dependencies
-pnpm run build   # Build for production (runs sitemap generation)
+pnpm run build   # Regenerate sitemap.xml
+pnpm run sitemap # Same as build
 gitpush.sh       # Deploy to Vercel
 ```
 
-**NEVER run `pnpm run dev`** - user runs dev server separately.
+No React/Vite dev server is required for production pages.
 
 ## Site Structure
 
@@ -28,7 +30,7 @@ gitpush.sh       # Deploy to Vercel
 - `/servicios/alimentos`
 
 ### Article Pages
-- 7 academic articles under `/articulos/`
+- 13+ academic articles under `/articulos/`
 
 ## SEO Status
 
@@ -36,7 +38,7 @@ gitpush.sh       # Deploy to Vercel
 - Google Business Profile: Place ID `09771868979169933047`
 - Schema.org markup (LegalService, FAQPage, WebSite)
 - 4 service pages with targeted keywords
-- Sitemap with 12 URLs
+- Sitemap with 18 URLs
 - Homepage title optimized for local SEO
 - Indexación manual solicitada (2025-12-27)
 
@@ -54,15 +56,10 @@ gitpush.sh       # Deploy to Vercel
 
 **All new clickable elements MUST have tracking.** This site uses dual tracking:
 
-```javascript
-import { track } from '@vercel/analytics'
-
-// For any new link/button, add onClick handler:
-onClick={() => {
-  track('event_name', { source: 'component_name' })
-  window.dataLayer?.push({ event: 'event_name', source: 'component_name' })
-}}
-```
+Use data attributes handled by `js/main.js`:
+- `data-track-whatsapp="source_name"`
+- `data-track-publication="source_name"`
+- `data-track-cta="source_name"`
 
 ### Required tracking for:
 - WhatsApp links → `whatsapp_click`
@@ -83,7 +80,8 @@ onClick={() => {
 ## Key Files
 - `index.html` - Main HTML with all schema markup
 - `scripts/generate-sitemap.js` - Auto-generates sitemap on build
-- `src/pages/servicios/` - Service landing pages
+- `servicios/` - Service landing pages
+- `articulos/` - Article pages
 - `gsc-reports/` - GSC reports and SEO status
 
 ## Contact Info (for schema)
