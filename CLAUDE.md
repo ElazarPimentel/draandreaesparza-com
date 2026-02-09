@@ -35,7 +35,7 @@ No React/Vite dev server is required for production pages.
 ## SEO Status
 
 ### Completed
-- Google Business Profile: Place ID `09771868979169933047`
+- Google Business Profile: CID `6939803818651803775` (Maps ID: `0x95bccb9af98c8873:0x606d2ea88931f07f`)
 - Schema.org markup (LegalService, FAQPage, WebSite)
 - 4 service pages with targeted keywords
 - Sitemap with 18 URLs
@@ -49,8 +49,8 @@ No React/Vite dev server is required for production pages.
 - Article publication for backlinks (REDIC, LinkedIn Articles)
 
 ### GSC Property
-- URL: `https://draandreaesparza.com/`
-- Type: URL-prefix (not domain)
+- Property: `sc-domain:draandreaesparza.com`
+- Type: Domain property
 
 ## Analytics & Tracking (IMPORTANT)
 
@@ -89,6 +89,7 @@ Use data attributes handled by `js/main.js`:
 - `gsc-reports/` - GSC reports and SEO status
 
 ## Contact Info (for schema)
+- Address: Uruguay 651, Piso 14, Of. I, CABA (C1015ABM)
 - Phone: +54-9-11-5561-7919
 - Email: estudiomaesparza@gmail.com
 - Areas: Buenos Aires, Morón, Argentina
