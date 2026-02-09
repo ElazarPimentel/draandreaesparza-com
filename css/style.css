@@ -251,18 +251,6 @@ body {
   text-decoration: underline;
 }
 
-.moron-section {
-  padding: 4rem 1rem;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-}
-
-.moron-intro {
-  max-width: 760px;
-  margin: 0 auto 2rem;
-  text-align: center;
-  color: var(--text-light);
-}
-
 .cta-button:hover {
   background: #b7791f;
   transform: translateY(-2px);
