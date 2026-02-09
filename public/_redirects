@@ -4,6 +4,3 @@ https://www.draandreaesparza.com/* https://draandreaesparza.com/:splat 301!
 
 # Custom 404 page
 /404.html /404.html 404
-
-# Handle SPA routing (but let 404s through)
-/* /index.html 200

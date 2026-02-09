@@ -1,8 +1,12 @@
 {
-  "rewrites": [
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "redirects": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.draandreaesparza.com" }],
+      "destination": "https://draandreaesparza.com/:path*",
+      "permanent": true
     }
   ]
 }
