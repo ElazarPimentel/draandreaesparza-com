@@ -41,14 +41,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- Performance: Preload critical assets -->
-    <link rel="preload" as="image" href="./assets/images/og-home.jpg">
     <link rel="preload" as="image" href="./assets/images/andrea-esparza-portrait-web.webp" type="image/webp">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 
     <!-- Google Analytics (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-96WW8CDVWG"></script>
@@ -206,6 +205,44 @@
     }
     </script>
 
+    <!-- Structured Data: Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://draandreaesparza.com/#person",
+      "name": "Maria Andrea Esparza",
+      "honorificPrefix": "Dra.",
+      "jobTitle": "Abogada Especialista en Derecho de Familia y Derecho Internacional Privado",
+      "description": "Abogada con más de 25 años de experiencia en derecho de familia, sucesiones y derecho internacional privado en Buenos Aires y Morón.",
+      "url": "https://draandreaesparza.com",
+      "email": "mailto:estudiomaesparza@gmail.com",
+      "telephone": "+54-9-11-5561-7919",
+      "worksFor": {
+        "@type": "LegalService",
+        "name": "Estudio Jurídico Dra. Andrea Esparza",
+        "url": "https://draandreaesparza.com"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidad de Buenos Aires"
+      },
+      "knowsAbout": [
+        "Derecho de Familia",
+        "Divorcios",
+        "Alimentos",
+        "Sucesiones",
+        "Restitución Internacional de Menores",
+        "Derecho Internacional Privado"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/maría-andrea-esparza-b478608b",
+        "https://www.instagram.com/estudiojuridico.andreaesparza/",
+        "https://www.asime.org/andrea-esparza/"
+      ]
+    }
+    </script>
+
     <!-- Structured Data: FAQPage -->
     <script type="application/ld+json">
     {
@@ -339,7 +376,7 @@
             <h1>Dra. Andrea Esparza</h1>
             <p class="subtitle">Directora Adjunta<br>Instituto de Derecho Internacional Privado</p>
             <p class="description">Especialista en derecho de familia, adopción, sucesiones y violencia familiar. Juicio por alimentos, cuidado personal unilateral, patria potestad, orden de protección, divorcios, restitución internacional de menores. Asesoramiento en hogar de niños y violencia doméstica. +25 años de experiencia en Buenos Aires.</p>
-            <a href="#contact" class="cta-button">Solicitar Consulta</a>
+            <a href="#contact" class="cta-button" data-track-cta="hero_consulta">Solicitar Consulta</a>
           </div>
           <div class="hero-image">
             <img src="./assets/images/andrea-esparza-portrait-web.webp" alt="Dra. Andrea Esparza - Abogada Especialista en Derecho de Familia" width="1024" height="1024" class="profile-image" />
@@ -414,6 +451,7 @@
                   <li><strong>Ley 114 (CABA):</strong> amplía la protección local para niños, niñas y adolescentes en contextos de familia, incluyendo medidas de abrigo y fortalecimiento familiar.</li>
                 </ul>
               </div>
+              <p><a href="/servicios/derecho-familia" class="service-card-link" data-track-cta="specialty_derecho_familia">Ver servicio completo</a></p>
             </div>
 
             <!-- Sucesiones Card -->
@@ -430,6 +468,7 @@
                   <li><strong>Tratados internacionales bilaterales:</strong> en caso de sucesiones con bienes o herederos en el extranjero, rige la ley del último domicilio del causante, salvo excepciones.</li>
                 </ul>
               </div>
+              <p><a href="/servicios/sucesiones" class="service-card-link" data-track-cta="specialty_sucesiones">Ver servicio completo</a></p>
             </div>
 
             <!-- DIP Card -->
@@ -447,8 +486,33 @@
                   <li><strong>Ley 26.061 y Ley 114 (CABA):</strong> se aplican subsidiariamente para proteger derechos del niño en causas internacionales.</li>
                 </ul>
               </div>
+              <p><a href="/servicios/divorcios-buenos-aires" class="service-card-link" data-track-cta="specialty_divorcios">Ver servicio completo</a></p>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      <section id="moron" class="moron-section">
+        <div class="container">
+          <h2>Atención Legal en Morón</h2>
+          <p class="moron-intro">Páginas especializadas para búsquedas locales en Morón y zona oeste.</p>
+          <div class="cards-grid">
+            <div class="specialty-card">
+              <h3>Abogada de Familia en Morón</h3>
+              <p>Consultas sobre cuidado personal, régimen de comunicación, alimentos y violencia familiar.</p>
+              <p><a href="/servicios/abogada-familia-moron" class="service-card-link" data-track-cta="moron_familia">Ver página local</a></p>
+            </div>
+            <div class="specialty-card">
+              <h3>Divorcio en Morón</h3>
+              <p>Asesoramiento en divorcio por mutuo acuerdo, divorcio unilateral y compensación económica.</p>
+              <p><a href="/servicios/divorcio-moron" class="service-card-link" data-track-cta="moron_divorcio">Ver página local</a></p>
+            </div>
+            <div class="specialty-card">
+              <h3>Sucesiones en Morón</h3>
+              <p>Tramitación de declaratoria de herederos, testamentos y partición de bienes.</p>
+              <p><a href="/servicios/sucesiones-moron" class="service-card-link" data-track-cta="moron_sucesiones">Ver página local</a></p>
+            </div>
           </div>
         </div>
       </section>
@@ -506,8 +570,8 @@
                 <span>DIP y Niñez</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/conceptos-ninez-adolescencia-dip" class="read-btn">📖 Leer artículo</a>
-                <a href="./articulos/revisando-conceptos-ninez-adolescencia-dip.pdf" class="download-btn" download>📥 PDF</a>
+                <a href="./articulos/conceptos-ninez-adolescencia-dip" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
+                <a href="./articulos/revisando-conceptos-ninez-adolescencia-dip.pdf" class="download-btn" data-track-publication="homepage_download_pdf" download>📥 PDF</a>
               </div>
             </div>
 
@@ -523,8 +587,8 @@
                 <span>Bioética y DIP</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/bioetica-reproduccion-asistida-subrogacion-vientres" class="read-btn">📖 Leer artículo</a>
-                <a href="./articulos/trabajo-bioetica.pdf" class="download-btn" download>📥 PDF</a>
+                <a href="./articulos/bioetica-reproduccion-asistida-subrogacion-vientres" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
+                <a href="./articulos/trabajo-bioetica.pdf" class="download-btn" data-track-publication="homepage_download_pdf" download>📥 PDF</a>
               </div>
             </div>
 
@@ -540,8 +604,8 @@
                 <span>Derecho Comparado</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/finanzas-islamicas-derecho-musulman" class="read-btn">📖 Leer artículo</a>
-                <a href="./articulos/trabajo-finanzas-islamicas-para-el-dial.pdf" class="download-btn" download>📥 PDF</a>
+                <a href="./articulos/finanzas-islamicas-derecho-musulman" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
+                <a href="./articulos/trabajo-finanzas-islamicas-para-el-dial.pdf" class="download-btn" data-track-publication="homepage_download_pdf" download>📥 PDF</a>
               </div>
             </div>
 
@@ -557,8 +621,8 @@
                 <span>Derechos del Niño</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/identidad-de-genero-analisis-fallo" class="read-btn">📖 Leer artículo</a>
-                <a href="./articulos/comentario-a-fallo-sobre-identidad-de-genero.pdf" class="download-btn" download>📥 PDF</a>
+                <a href="./articulos/identidad-de-genero-analisis-fallo" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
+                <a href="./articulos/comentario-a-fallo-sobre-identidad-de-genero.pdf" class="download-btn" data-track-publication="homepage_download_pdf" download>📥 PDF</a>
               </div>
             </div>
 
@@ -574,8 +638,8 @@
                 <span>DIP y Derecho Islámico</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/historia-derecho-musulman-sustraccion-menores" class="read-btn">📖 Leer artículo</a>
-                <a href="./articulos/historia-del-derecho-musulm-n-caso-sustracci-n-internacional-de-menores-shaban-arias-uriburu.pdf" class="download-btn" download>📥 PDF</a>
+                <a href="./articulos/historia-derecho-musulman-sustraccion-menores" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
+                <a href="./articulos/historia-del-derecho-musulm-n-caso-sustracci-n-internacional-de-menores-shaban-arias-uriburu.pdf" class="download-btn" data-track-publication="homepage_download_pdf" download>📥 PDF</a>
               </div>
             </div>
 
@@ -591,8 +655,8 @@
                 <span>Revista Panamá</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/interes-superior-nino-tratados-internacionales" class="read-btn">📖 Leer artículo</a>
-                <a href="./articulos/interes-superior-del-niño-vs-cumplimiento-de-tratados-internacionales-revista-panama.pdf" class="download-btn" download>📥 PDF</a>
+                <a href="./articulos/interes-superior-nino-tratados-internacionales" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
+                <a href="./articulos/interes-superior-del-niño-vs-cumplimiento-de-tratados-internacionales-revista-panama.pdf" class="download-btn" data-track-publication="homepage_download_pdf" download>📥 PDF</a>
               </div>
             </div>
 
@@ -608,8 +672,8 @@
                 <span>DIP</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/analisis-problemas-dip-divorcio-internacional" class="read-btn">📖 Leer artículo</a>
-                <a href="./articulos/analisis-de-los-problemas-generales-del-derecho-internacional-privado-vinculados-a-un-divorcio-de.pdf" class="download-btn" download>📥 PDF</a>
+                <a href="./articulos/analisis-problemas-dip-divorcio-internacional" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
+                <a href="./articulos/analisis-de-los-problemas-generales-del-derecho-internacional-privado-vinculados-a-un-divorcio-de.pdf" class="download-btn" data-track-publication="homepage_download_pdf" download>📥 PDF</a>
               </div>
             </div>
 
@@ -630,7 +694,7 @@
                 <span>RIDCA Nº 2</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/filiacion-reproduccion-asistida-subrogacion-dip" class="read-btn">📖 Leer artículo</a>
+                <a href="./articulos/filiacion-reproduccion-asistida-subrogacion-dip" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
               </div>
             </div>
 
@@ -646,7 +710,7 @@
                 <span>RIDCA Nº 3</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/finanzas-derecho-musulman-ridca" class="read-btn">📖 Leer artículo</a>
+                <a href="./articulos/finanzas-derecho-musulman-ridca" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
               </div>
             </div>
 
@@ -662,7 +726,7 @@
                 <span>RIDCA Nº 4</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/proteccion-internacional-adultos-mayores" class="read-btn">📖 Leer artículo</a>
+                <a href="./articulos/proteccion-internacional-adultos-mayores" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
               </div>
             </div>
 
@@ -678,7 +742,7 @@
                 <span>RIDCA Nº 5</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/identidad-genero-fallo-ridca" class="read-btn">📖 Leer artículo</a>
+                <a href="./articulos/identidad-genero-fallo-ridca" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
               </div>
             </div>
 
@@ -694,7 +758,7 @@
                 <span>RIDCA Nº 7</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/dip-trabajo-sentencia-venezuela" class="read-btn">📖 Leer artículo</a>
+                <a href="./articulos/dip-trabajo-sentencia-venezuela" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
               </div>
             </div>
 
@@ -710,7 +774,7 @@
                 <span>RIDCA Nº 8</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/insolvencia-transfronteriza-derecho-europeo" class="read-btn">📖 Leer artículo</a>
+                <a href="./articulos/insolvencia-transfronteriza-derecho-europeo" class="read-btn" data-track-publication="homepage_read_article">📖 Leer artículo</a>
               </div>
             </div>
 
@@ -731,8 +795,8 @@
                 <span>Derecho Internacional Privado</span>
               </div>
               <div class="publication-actions">
-                <a href="./articulos/problematicas-en-torno-a-la-restitucion-internacional-de-ninos-ninas-y-adolescentes7911.pdf" target="_blank" class="download-btn" download>📥 Descargar PDF</a>
-                <a href="https://repositoriouba.sisbi.uba.ar/gsdl/collect/juridica/index/assoc/HWA_7911.dir/7911.PDF" target="_blank" rel="noopener noreferrer" class="external-btn">🔗 Ver en UBA</a>
+                <a href="./articulos/problematicas-en-torno-a-la-restitucion-internacional-de-ninos-ninas-y-adolescentes7911.pdf" target="_blank" class="download-btn" data-track-publication="homepage_download_pdf" download>📥 Descargar PDF</a>
+                <a href="https://repositoriouba.sisbi.uba.ar/gsdl/collect/juridica/index/assoc/HWA_7911.dir/7911.PDF" target="_blank" rel="noopener noreferrer" class="external-btn" data-track-publication="homepage_external_link">🔗 Ver en UBA</a>
               </div>
             </div>
 
@@ -748,7 +812,7 @@
                 <span>7 de Septiembre 2021</span>
               </div>
               <div class="publication-actions">
-                <a href="https://www.youtube.com/watch?v=lgmqemeKqA0" target="_blank" rel="noopener noreferrer" class="video-btn">▶️ Ver Video</a>
+                <a href="https://www.youtube.com/watch?v=lgmqemeKqA0" target="_blank" rel="noopener noreferrer" class="video-btn" data-track-publication="homepage_video_link">▶️ Ver Video</a>
               </div>
             </div>
 
@@ -764,7 +828,7 @@
                 <span>Derecho Internacional</span>
               </div>
               <div class="publication-actions">
-                <a href="https://www.asime.org/andrea-esparza/" target="_blank" rel="noopener noreferrer" class="external-btn">🔗 Ver Perfil ASIME</a>
+                <a href="https://www.asime.org/andrea-esparza/" target="_blank" rel="noopener noreferrer" class="external-btn" data-track-publication="homepage_external_link">🔗 Ver Perfil ASIME</a>
               </div>
             </div>
 
@@ -863,7 +927,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="./js/main.js" defer></script>
+    <script src="/js/main.js" defer></script>
     <script src="/_vercel/insights/script.js" defer></script>
     <script src="/_vercel/speed-insights/script.js" defer></script>
   </body>

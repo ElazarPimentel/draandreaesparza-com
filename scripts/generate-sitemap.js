@@ -41,6 +41,24 @@ const routes = [
     changefreq: 'monthly',
     priority: 0.9
   },
+  {
+    path: '/servicios/abogada-familia-moron',
+    lastmod: today,
+    changefreq: 'monthly',
+    priority: 0.85
+  },
+  {
+    path: '/servicios/divorcio-moron',
+    lastmod: today,
+    changefreq: 'monthly',
+    priority: 0.85
+  },
+  {
+    path: '/servicios/sucesiones-moron',
+    lastmod: today,
+    changefreq: 'monthly',
+    priority: 0.85
+  },
   // Articles
   {
     path: '/articulos/conceptos-ninez-adolescencia-dip',
