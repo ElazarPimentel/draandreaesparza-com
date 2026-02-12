@@ -9,12 +9,6 @@
       "source": "/problematicas-en-torno-a-la-restitucion-internacional-de-ninos-ninas-y-adolescentes7911.pdf",
       "destination": "https://draandreaesparza.com/articulos/problematicas-en-torno-a-la-restitucion-internacional-de-ninos-ninas-y-adolescentes7911.pdf",
       "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.draandreaesparza.com" }],
-      "destination": "https://draandreaesparza.com/:path*",
-      "permanent": true
     }
   ]
 }

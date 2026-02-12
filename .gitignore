@@ -25,3 +25,12 @@ dist-ssr
 
 # GSC service account key
 gsc-service-account.json
+
+# Internal project files (not for Vercel)
+gsc-reports/
+AGENTS.md
+.grok/
+.project-auto.json
+.project-meta.json
+.env.local
+scripts/
