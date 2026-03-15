@@ -28,6 +28,9 @@ No React/Vite dev server is required for production pages.
 - `/servicios/derecho-familia`
 - `/servicios/sucesiones`
 - `/servicios/alimentos`
+- `/servicios/cuidado-personal`
+- `/servicios/violencia-familiar`
+- `/servicios/medida-proteccion-excepcional`
 
 ### Article Pages
 - 13+ academic articles under `/articulos/`
@@ -38,7 +41,7 @@ No React/Vite dev server is required for production pages.
 - Google Business Profile: CID `6939803818651803775` (Maps ID: `0x95bccb9af98c8873:0x606d2ea88931f07f`)
 - Schema.org markup (LegalService, FAQPage, WebSite)
 - 4 service pages with targeted keywords
-- Sitemap with 18 URLs
+- Sitemap with 21 URLs
 - Homepage title optimized for local SEO
 - Indexación manual solicitada (2025-12-27)
 
