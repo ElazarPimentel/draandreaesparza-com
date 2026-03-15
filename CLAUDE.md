@@ -40,14 +40,11 @@ No React/Vite dev server is required for production pages.
 ### Completed
 - Google Business Profile: CID `6939803818651803775` (Maps ID: `0x95bccb9af98c8873:0x606d2ea88931f07f`)
 - Schema.org markup (LegalService, FAQPage, WebSite)
-- 4 service pages with targeted keywords
-- Sitemap with 21 URLs
 - Homepage title optimized for local SEO
 - Indexación manual solicitada (2025-12-27)
 
 ### Pending (External)
 - Service pages indexing (submitted, waiting for Google)
-- Backlink from Colegio de Abogados de Morón (requested)
 - Google reviews (Andrea to request from clients)
 - Article publication for backlinks (REDIC, LinkedIn Articles)
 
@@ -95,9 +92,9 @@ Use data attributes handled by `js/main.js`:
 - Address: Uruguay 651, Piso 14, Of. I, CABA (C1015ABM)
 - Phone: +54-9-11-5561-7919
 - Email: estudiomaesparza@gmail.com
-- Areas: Buenos Aires, Morón, Argentina
+- Areas: Buenos Aires, Argentina
 
 ## Professional Affiliations
-- Directora Adjunta, Instituto DIP - Colegio de Abogados de Morón
+- Directora Adjunta, Instituto de Derecho Internacional Privado
 - ASIME member
 - UBA professor (DIP, International Law of Children)
