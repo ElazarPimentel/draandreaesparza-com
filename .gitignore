@@ -37,3 +37,5 @@ AGENTS.md
 .project-meta.json
 .env.local
 scripts/
+.vercel
+.env*.local
