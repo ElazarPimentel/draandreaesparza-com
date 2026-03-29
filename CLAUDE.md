@@ -98,3 +98,20 @@ Use data attributes handled by `js/main.js`:
 - Directora Adjunta, Instituto de Derecho Internacional Privado
 - ASIME member
 - UBA professor (DIP, International Law of Children)
+- Published in Revista Internacional Personalidades Jurídicas (Vol. 1, 2024): "Agencias Especializadas en Ley Islámica"
+- Docente: "Responsabilidad Parental Transfronteriza", Colegio de Abogados de la Prov. de Buenos Aires + Fundación CIJUSO (Mar 2026)
+- Completed: two Elevify courses in Islamic law (Mar 2026, 10h total)
+
+## Content Strategy — Hub Model (DO NOT treat informational queries as noise)
+
+The site's long-term SEO strategy is a **content hub**: attract users with real, useful answers to informational queries, build trust, and convert a subset into consultation clients.
+
+**Queries like `denunciar`, `modelo`, `honorarios`, `cuánto cobra`, `qué pasa si`, `requisitos`, `ley`, etc. are NOT negative keywords and NOT noise.** Do not suggest filtering them out. They represent people actively navigating a legal situation who may hire a lawyer once they understand the complexity.
+
+- `honorarios` is a valid topic: lawyer fees in Argentina are calculated in UMA (Unidad de Medida Arancelaria) with a mandatory minimum set by the Colegio de Abogados. The general formula can be published publicly.
+- Informational content → demonstrates expertise → motivates contact over other lawyers.
+- When writing content, it's appropriate to answer the question fully, then note when professional advice is warranted.
+
+## Islamic Law / DIP Angle
+
+Andrea has published on Islamic law agencies, completed 10h of Islamic law courses (Elevify), and has deep DIP (Derecho Internacional Privado) expertise. There is apparent organic interest in this angle (high impressions on the Islamic finance article). **Lean into it without deprioritizing core family law efforts.** The Islamic angle is a differentiator in Buenos Aires - few family lawyers cover it.

@@ -27,6 +27,7 @@ dist-ssr
 gsc-service-account.json
 
 # Internal project files (not for Vercel)
+pm/
 gsc-reports/
 AGENTS.md
 .grok/
