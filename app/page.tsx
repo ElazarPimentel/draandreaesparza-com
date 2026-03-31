@@ -90,8 +90,12 @@ const personSchema = {
   telephone: '+54-9-11-5561-7919',
   worksFor: { '@type': 'LegalService', name: 'Estudio Jurídico Dra. Andrea Esparza', url: 'https://draandreaesparza.com' },
   alumniOf: { '@type': 'CollegeOrUniversity', name: 'Universidad de Buenos Aires' },
-  knowsAbout: ['Derecho de Familia', 'Divorcios', 'Alimentos', 'Sucesiones', 'Restitución Internacional de Menores', 'Derecho Internacional Privado'],
+  knowsAbout: ['Derecho de Familia', 'Divorcios', 'Alimentos', 'Sucesiones', 'Restitución Internacional de Menores', 'Derecho Internacional Privado', 'Derecho Islámico', 'Finanzas Islámicas', 'Responsabilidad Parental Transfronteriza'],
   sameAs: ['https://www.linkedin.com/in/maría-andrea-esparza-b478608b', 'https://www.asime.org/andrea-esparza/'],
+  hasCredential: [
+    { '@type': 'EducationalOccupationalCredential', name: 'Fundamentos del Derecho Islámico Relevantes para Disputas Familiares', credentialCategory: 'Certificate', recognizedBy: { '@type': 'EducationalOrganization', name: 'Elevify' } },
+    { '@type': 'EducationalOccupationalCredential', name: 'DIP: Reconocimiento y Ejecución de Matrimonios Religiosos Extranjeros', credentialCategory: 'Certificate', recognizedBy: { '@type': 'EducationalOrganization', name: 'Elevify' } },
+  ],
 }
 
 const faqSchema = {
@@ -194,7 +198,33 @@ export default function HomePage() {
               <li>Publicaciones en el Repositorio de la Universidad de Buenos Aires</li>
               <li>Miembro de la Asociación Argentina de Derecho Internacional</li>
               <li>Colaboradora del Instituto de Familia Internacional Multidisciplinar de España (IFIM)</li>
+              <li>Docente del curso &ldquo;Responsabilidad Parental Transfronteriza&rdquo; — Colegio de Abogados de la Prov. de Buenos Aires y Fundación CIJUSO (2026)</li>
+              <li>Especialización en Derecho Islámico aplicado a Disputas Familiares y DIP — Elevify (2026)</li>
+              <li>Publicada en Revista Internacional Personalidades Jurídicas, Vol. 1 (2024): &ldquo;Agencias Especializadas en Ley Islámica&rdquo;</li>
             </ul>
+          </div>
+          <div className="accomplishments">
+            <h3>Formación Continua</h3>
+            <div className="cards-grid">
+              <div className="specialty-card">
+                <div className="card-icon">🎓</div>
+                <h3>Docente</h3>
+                <h4>Responsabilidad Parental Transfronteriza</h4>
+                <p>Colegio de Abogados de la Prov. de Buenos Aires y Fundación CIJUSO. Capacitación dictada en marzo 2026.</p>
+              </div>
+              <div className="specialty-card">
+                <div className="card-icon">📜</div>
+                <h3>Certificación — Elevify</h3>
+                <h4>Fundamentos del Derecho Islámico Relevantes para Disputas Familiares</h4>
+                <p>Curso de derecho islámico, capítulo 2. Conforme a la Ley de Educación Nacional N° 26.206.</p>
+              </div>
+              <div className="specialty-card">
+                <div className="card-icon">📜</div>
+                <h3>Certificación — Elevify</h3>
+                <h4>DIP: Reconocimiento y Ejecución de Matrimonios Religiosos Extranjeros</h4>
+                <p>Curso de derecho islámico, capítulo 3. Conforme a la Ley de Educación Nacional N° 26.206.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -495,8 +525,18 @@ export default function HomePage() {
             </div>
           </div>
 
-          <h3 className="section-subtitle-extra">Otros Medios y Actividades</h3>
+          <h3 className="section-subtitle-extra">Otras Publicaciones y Actividades</h3>
           <div className="publications-grid">
+            <div className="publication-card">
+              <div className="publication-icon">📄</div>
+              <h3>Revista Internacional</h3>
+              <h4>Agencias Especializadas en Ley Islámica</h4>
+              <p>Análisis de las agencias y comités de expertos (Sharia boards) en el tráfico financiero islámico, las fatawa y la práctica del opinion shopping.</p>
+              <div className="publication-meta"><span>Septiembre 2024</span><span>•</span><span>Revista Internacional Personalidades Jurídicas, Vol. 1</span></div>
+              <div className="publication-actions">
+                <TrackedLink href="/articulos/agencias-especializadas-ley-islamica" trackEvent="publication_click" trackSource="homepage_read_article" className="read-btn">📖 Leer artículo</TrackedLink>
+              </div>
+            </div>
             <div className="publication-card">
               <div className="publication-icon">📄</div>
               <h3>Artículo en Repositorio UBA</h3>

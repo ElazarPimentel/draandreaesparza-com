@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'insolvencia-transfronteriza-derecho-europeo',
     'interes-superior-nino-tratados-internacionales',
     'proteccion-internacional-adultos-mayores',
+    'agencias-especializadas-ley-islamica',
   ]
 
   return [
