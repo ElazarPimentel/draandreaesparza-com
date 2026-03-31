@@ -1266,6 +1266,12 @@ body {
   padding: 1.5rem 0;
   box-shadow: none;
   border-radius: 0;
+  cursor: default;
+}
+
+.service-faqs .faq-item:hover {
+  box-shadow: none;
+  transform: none;
 }
 
 .service-faqs .faq-item:last-child {
