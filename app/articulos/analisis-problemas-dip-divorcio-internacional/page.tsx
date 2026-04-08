@@ -8,9 +8,9 @@ const CANONICAL = 'https://draandreaesparza.com/articulos/analisis-problemas-dip
 const PDF_URL = '/articulos/analisis-de-los-problemas-generales-del-derecho-internacional-privado-vinculados-a-un-divorcio-de.pdf'
 
 export const metadata: Metadata = {
-  title: 'Análisis de los Problemas del DIP Vinculados a un Divorcio Internacional - Dra. Andrea Esparza',
+  title: 'Divorcio Internacional: Validez en Argentina, Jurisdicción y Ley Aplicable | Dra. Esparza',
   description:
-    'Análisis exhaustivo de los problemas de derecho internacional privado que surgen en casos de divorcio decretado en el extranjero, incluyendo reconocimiento de sentencias, jurisdicción internacional y ley aplicable.',
+    '¿Divorciado en el extranjero? Qué ocurre con el reconocimiento de la sentencia, la jurisdicción internacional y la ley aplicable para bienes y alimentos en Argentina. Por Dra. Andrea Esparza.',
   openGraph: {
     type: 'article',
     url: CANONICAL,
