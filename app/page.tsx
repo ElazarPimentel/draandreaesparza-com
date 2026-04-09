@@ -5,9 +5,10 @@ import TrackedLink from '@/components/TrackedLink'
 import JsonLd from '@/components/JsonLd'
 
 export const metadata: Metadata = {
-  title: 'Abogada Divorcios, Sucesiones y Cuidado Personal en Buenos Aires | Dra. Andrea Esparza',
+  title:
+    'Abogada Especialista en Derecho de Familia, Divorcios y Sucesiones en Buenos Aires | Dra. Andrea Esparza',
   description:
-    'Abogada de divorcios, sucesiones, cuota alimentaria y cuidado personal en Buenos Aires. Más de 25 años de experiencia en derecho de familia y derecho internacional privado.',
+    'Abogada especialista en derecho de familia en Buenos Aires. Divorcios, divorcio express, sucesiones, cuota alimentaria y cuidado personal. Más de 25 años de experiencia.',
   keywords:
     'derecho de familia, adopción, orden de protección, hogar de niños, juicio por alimentos, violencia familiar, violencia domestica, sucesiones, cuidado personal unilateral, patria potestad, abogada, divorcios, alimentos, testamentos, herencias, restitución internacional menores, sustracción menores, convenio la haya, Buenos Aires, Argentina',
   alternates: {
@@ -17,18 +18,20 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://draandreaesparza.com/',
-    title: 'Abogada Divorcios, Sucesiones y Cuidado Personal en Buenos Aires | Dra. Andrea Esparza',
+    title:
+      'Abogada Especialista en Derecho de Familia, Divorcios y Sucesiones en Buenos Aires | Dra. Andrea Esparza',
     description:
-      'Abogada de divorcios, sucesiones, cuota alimentaria y cuidado personal en Buenos Aires. Más de 25 años de experiencia en derecho de familia y derecho internacional privado.',
+      'Abogada especialista en derecho de familia en Buenos Aires. Divorcios, divorcio express, sucesiones, cuota alimentaria y cuidado personal. Más de 25 años de experiencia.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg', width: 1200, height: 630 }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Abogada Divorcios, Sucesiones y Cuidado Personal en Buenos Aires | Dra. Andrea Esparza',
+    title:
+      'Abogada Especialista en Derecho de Familia, Divorcios y Sucesiones en Buenos Aires | Dra. Andrea Esparza',
     description:
-      'Abogada de divorcios, sucesiones, cuota alimentaria y cuidado personal en Buenos Aires.',
+      'Abogada especialista en derecho de familia, divorcios, divorcio express y sucesiones en Buenos Aires.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }
@@ -138,7 +141,7 @@ export default function HomePage() {
           <div className="hero-text">
             <h1>Dra. Andrea Esparza</h1>
             <p className="subtitle">Directora Adjunta<br />Instituto de Derecho Internacional Privado</p>
-            <p className="description">Especialista en derecho de familia, adopción, sucesiones y violencia familiar. Juicio por alimentos, cuidado personal unilateral, patria potestad, orden de protección, divorcios, restitución internacional de menores. Asesoramiento en hogar de niños y violencia doméstica. +25 años de experiencia en Buenos Aires.</p>
+            <p className="description">Abogada especialista en derecho de familia en Buenos Aires. Divorcios, divorcio express, cuota alimentaria, cuidado personal, sucesiones, violencia familiar y restitución internacional de menores. +25 años de experiencia.</p>
             <TrackedLink href="#contact" trackEvent="cta_click" trackSource="hero_consulta" className="cta-button">
               Solicitar Consulta
             </TrackedLink>

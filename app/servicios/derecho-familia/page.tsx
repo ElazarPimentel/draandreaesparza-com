@@ -6,9 +6,10 @@ import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
-  title: 'Abogada Derecho de Familia en Buenos Aires | Cuidado Personal y Régimen de Comunicación',
+  title:
+    'Abogada Especialista en Derecho de Familia en Buenos Aires | Cuidado Personal y Régimen de Comunicación',
   description:
-    'Abogada de derecho de familia en Buenos Aires: cuidado personal unilateral o compartido, régimen de comunicación, patria potestad, divorcios, alimentos y adopción.',
+    'Abogada especialista en derecho de familia en Buenos Aires. Divorcios, cuidado personal, régimen de comunicación, alimentos, violencia familiar y adopción.',
   keywords:
     'derecho de familia, abogada familia, cuidado personal, patria potestad, régimen de comunicación, violencia familiar, violencia doméstica, orden de protección, adopción, Buenos Aires, Argentina',
   robots: 'index, follow',
@@ -20,9 +21,9 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://draandreaesparza.com/servicios/derecho-familia',
     title:
-      'Abogada Derecho de Familia en Buenos Aires | Cuidado Personal y Régimen de Comunicación',
+      'Abogada Especialista en Derecho de Familia en Buenos Aires | Cuidado Personal y Régimen de Comunicación',
     description:
-      'Abogada de derecho de familia en Buenos Aires: cuidado personal unilateral o compartido, régimen de comunicación, patria potestad, divorcios, alimentos y adopción.',
+      'Abogada especialista en derecho de familia en Buenos Aires. Divorcios, cuidado personal, régimen de comunicación, alimentos, violencia familiar y adopción.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -30,9 +31,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title:
-      'Abogada Derecho de Familia en Buenos Aires | Cuidado Personal y Régimen de Comunicación',
+      'Abogada Especialista en Derecho de Familia en Buenos Aires | Cuidado Personal y Régimen de Comunicación',
     description:
-      'Abogada de derecho de familia en Buenos Aires: cuidado personal unilateral o compartido, régimen de comunicación, patria potestad, divorcios, alimentos y adopción.',
+      'Abogada especialista en derecho de familia en Buenos Aires. Divorcios, cuidado personal, régimen de comunicación, alimentos, violencia familiar y adopción.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }
@@ -78,7 +79,7 @@ const breadcrumbSchema = {
     {
       '@type': 'ListItem',
       position: 3,
-      name: 'Abogada Derecho de Familia en Buenos Aires',
+      name: 'Abogada Especialista en Derecho de Familia en Buenos Aires',
       item: 'https://draandreaesparza.com/servicios/derecho-familia',
     },
   ],
@@ -150,10 +151,10 @@ export default function DerechoFamiliaPage() {
         />
 
         <header className="service-header">
-          <h1>Abogada Especialista en Derecho de Familia</h1>
+          <h1>Abogada Especialista en Derecho de Familia en Buenos Aires</h1>
           <p className="service-intro">
-            Soluciones legales integrales en derecho de familia. Protegiendo los derechos de las
-            familias argentinas desde hace más de 25 años.
+            Soluciones legales integrales para personas que buscan una abogada especialista en
+            familia o asesoramiento experto en derecho de familia en Buenos Aires.
           </p>
         </header>
 
@@ -163,6 +164,11 @@ export default function DerechoFamiliaPage() {
             El derecho de familia abarca todas las cuestiones jurídicas relacionadas con las
             relaciones familiares. Nuestro estudio ofrece asesoramiento especializado con un enfoque
             humano y profesional.
+          </p>
+          <p>
+            Si está buscando <strong>abogados expertos en derecho de familia</strong> o una{' '}
+            <strong>abogada especialista en familia</strong>, aquí encontrará una guía clara sobre
+            divorcios, cuidado personal, alimentos, régimen de comunicación y violencia familiar.
           </p>
 
           <h3>Áreas de Práctica</h3>

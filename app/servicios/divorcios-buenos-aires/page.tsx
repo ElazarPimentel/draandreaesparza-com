@@ -6,9 +6,9 @@ import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
-  title: 'Divorcio Express y Contencioso en Buenos Aires | Dra. Andrea Esparza',
+  title: 'Abogada de Divorcio Express en CABA y Buenos Aires | Dra. Andrea Esparza',
   description:
-    'Abogada de divorcios en Buenos Aires para divorcio express, de mutuo acuerdo o contencioso. Liquidación de bienes, compensación económica, cuidado personal y régimen de comunicación.',
+    'Si necesita abogado para divorciarse en CABA o Buenos Aires, asesoro en divorcio express, de mutuo acuerdo o contencioso. Bienes, compensación económica, hijos y régimen de comunicación.',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://draandreaesparza.com/servicios/divorcios-buenos-aires',
@@ -19,18 +19,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://draandreaesparza.com/servicios/divorcios-buenos-aires',
-    title: 'Divorcio Express y Contencioso en Buenos Aires | Dra. Andrea Esparza',
+    title: 'Abogada de Divorcio Express en CABA y Buenos Aires | Dra. Andrea Esparza',
     description:
-      'Abogada de divorcios en Buenos Aires para divorcio express, de mutuo acuerdo o contencioso. Liquidación de bienes, compensación económica, cuidado personal y régimen de comunicación.',
+      'Si necesita abogado para divorciarse en CABA o Buenos Aires, asesoro en divorcio express, de mutuo acuerdo o contencioso.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Divorcio Express y Contencioso en Buenos Aires | Dra. Andrea Esparza',
+    title: 'Abogada de Divorcio Express en CABA y Buenos Aires | Dra. Andrea Esparza',
     description:
-      'Abogada de divorcios en Buenos Aires para divorcio express, de mutuo acuerdo o contencioso. Liquidación de bienes, compensación económica, cuidado personal y régimen de comunicación.',
+      'Si necesita abogado para divorciarse en CABA o Buenos Aires, asesoro en divorcio express, de mutuo acuerdo o contencioso.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }
@@ -148,9 +148,10 @@ export default function DivorciosBuenosAiresPage() {
         />
 
         <header className="service-header">
-          <h1>Abogada de Divorcios en Buenos Aires</h1>
+          <h1>Abogada de Divorcio Express y Contencioso en Buenos Aires</h1>
           <p className="service-intro">
-            Asesoramiento integral y tramitación de divorcios en Buenos Aires. Más de 25 años de
+            Si necesita abogado para divorciarse en CABA o Buenos Aires, ofrezco asesoramiento
+            integral para divorcio express, de mutuo acuerdo o contencioso. Más de 25 años de
             experiencia en derecho de familia.
           </p>
         </header>
@@ -161,6 +162,12 @@ export default function DivorciosBuenosAiresPage() {
             El divorcio es una decisión importante que requiere asesoramiento legal profesional.
             Como abogada especialista en derecho de familia con más de 25 años de experiencia,
             ofrezco acompañamiento integral en todo el proceso de divorcio.
+          </p>
+          <p>
+            Muchas búsquedas llegan con frases como <strong>necesito abogado para divorciarme</strong>{' '}
+            o <strong>divorcio express CABA</strong>. Esta página está pensada justamente para
+            responder esa intención: explicar opciones, tiempos, documentación y estrategia legal
+            para iniciar el trámite con claridad.
           </p>
 
           <h3>Tipos de Divorcio</h3>
