@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'cuidado-personal',
     'violencia-familiar',
     'medida-proteccion-excepcional',
+    'derecho-familia-internacional',
   ]
 
   const articles = [

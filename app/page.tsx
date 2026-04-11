@@ -76,6 +76,7 @@ const legalServiceSchema = {
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Cuidado Personal de Hijos', url: 'https://draandreaesparza.com/servicios/cuidado-personal', description: 'Cuidado personal unilateral, compartido y alternado.' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Violencia Familiar', url: 'https://draandreaesparza.com/servicios/violencia-familiar', description: 'Órdenes de protección, medidas perimetrales, exclusión del hogar.' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Medida de Protección Excepcional', url: 'https://draandreaesparza.com/servicios/medida-proteccion-excepcional', description: 'Control de legalidad, coordinación con CDNNyA y Defensoría Zonal.' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Derecho de Familia y Sucesiones Internacionales', url: 'https://draandreaesparza.com/servicios/derecho-familia-internacional', description: 'Divorcios internacionales, sucesiones con bienes en el exterior, alimentos transfronterizos.' } },
     ],
   },
 }
@@ -294,7 +295,13 @@ export default function HomePage() {
                   </ul>
                 </>
               }
-              links={<p><a href="/servicios/derecho-familia" className="service-card-link">Ver servicio completo</a></p>}
+              links={
+                <p>
+                  <a href="/servicios/derecho-familia" className="service-card-link">Ver servicio completo</a>
+                  {' · '}
+                  <a href="/servicios/derecho-familia-internacional" className="service-card-link">Familia y sucesiones internacionales</a>
+                </p>
+              }
             />
           </div>
         </div>
@@ -340,6 +347,12 @@ export default function HomePage() {
               <h3>Medida de Protección Excepcional y Control de Legalidad</h3>
               <p>Asesoramiento cuando un hijo fue separado por una medida excepcional. Coordinación con CDNNyA, Defensoría Zonal y plan de egreso.</p>
               <p><a href="/servicios/medida-proteccion-excepcional" className="service-card-link">Ir al servicio de medida excepcional</a></p>
+            </div>
+            <div className="specialty-card">
+              <div className="card-icon">🌐</div>
+              <h3>Divorcio o Herencia con Elementos Internacionales</h3>
+              <p>Divorcios internacionales, sucesiones con bienes en el exterior, alimentos transfronterizos y coordinación entre jurisdicciones.</p>
+              <p><a href="/servicios/derecho-familia-internacional" className="service-card-link">Ir al servicio internacional</a></p>
             </div>
           </div>
         </div>
