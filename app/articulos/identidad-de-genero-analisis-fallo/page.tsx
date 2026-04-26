@@ -13,14 +13,14 @@ export const metadata: Metadata = {
     'identidad de género, derechos del niño, adolescencia, capacidad progresiva, ley 26.743, decreto 476/21, derecho a la identidad, cambio de nombre, Judith Butler, derecho de familia',
   robots: { index: true, follow: true },
   alternates: {
-    canonical: 'https://draandreaesparza.com/articulos/identidad-de-genero-analisis-fallo/',
+    canonical: 'https://draandreaesparza.com/articulos/identidad-de-genero-analisis-fallo',
     languages: {
-      'es-AR': 'https://draandreaesparza.com/articulos/identidad-de-genero-analisis-fallo/',
+      'es-AR': 'https://draandreaesparza.com/articulos/identidad-de-genero-analisis-fallo',
     },
   },
   openGraph: {
     type: 'article',
-    url: 'https://draandreaesparza.com/articulos/identidad-de-genero-analisis-fallo/',
+    url: 'https://draandreaesparza.com/articulos/identidad-de-genero-analisis-fallo',
     title:
       'Análisis de un Fallo sobre Identidad de Género: Una Mirada Esperanzadora - Dra. Andrea Esparza',
     description:
@@ -67,7 +67,7 @@ const articleSchema = {
   },
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': 'https://draandreaesparza.com/articulos/identidad-de-genero-analisis-fallo/',
+    '@id': 'https://draandreaesparza.com/articulos/identidad-de-genero-analisis-fallo',
   },
   keywords: [
     'Derecho de Familia',

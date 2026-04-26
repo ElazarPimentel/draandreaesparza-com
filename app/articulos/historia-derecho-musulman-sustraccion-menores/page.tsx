@@ -14,15 +14,15 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
   alternates: {
     canonical:
-      'https://draandreaesparza.com/articulos/historia-derecho-musulman-sustraccion-menores/',
+      'https://draandreaesparza.com/articulos/historia-derecho-musulman-sustraccion-menores',
     languages: {
       'es-AR':
-        'https://draandreaesparza.com/articulos/historia-derecho-musulman-sustraccion-menores/',
+        'https://draandreaesparza.com/articulos/historia-derecho-musulman-sustraccion-menores',
     },
   },
   openGraph: {
     type: 'article',
-    url: 'https://draandreaesparza.com/articulos/historia-derecho-musulman-sustraccion-menores/',
+    url: 'https://draandreaesparza.com/articulos/historia-derecho-musulman-sustraccion-menores',
     title:
       'Sustracción de Menores y Derecho Musulmán: Convenio de La Haya | Dra. Esparza',
     description:
@@ -70,7 +70,7 @@ const articleSchema = {
   },
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': 'https://draandreaesparza.com/articulos/historia-derecho-musulman-sustraccion-menores/',
+    '@id': 'https://draandreaesparza.com/articulos/historia-derecho-musulman-sustraccion-menores',
   },
   keywords: [
     'Derecho Internacional Privado',

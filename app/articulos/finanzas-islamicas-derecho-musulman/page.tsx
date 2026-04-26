@@ -12,14 +12,14 @@ export const metadata: Metadata = {
     'derecho musulmán, finanzas islámicas, sharía, derecho internacional, bancos islámicos, contratos islámicos, riba, gharar, maysir, mudarabah, musharakah, sukuk, ijara',
   robots: { index: true, follow: true },
   alternates: {
-    canonical: 'https://draandreaesparza.com/articulos/finanzas-islamicas-derecho-musulman/',
+    canonical: 'https://draandreaesparza.com/articulos/finanzas-islamicas-derecho-musulman',
     languages: {
-      'es-AR': 'https://draandreaesparza.com/articulos/finanzas-islamicas-derecho-musulman/',
+      'es-AR': 'https://draandreaesparza.com/articulos/finanzas-islamicas-derecho-musulman',
     },
   },
   openGraph: {
     type: 'article',
-    url: 'https://draandreaesparza.com/articulos/finanzas-islamicas-derecho-musulman/',
+    url: 'https://draandreaesparza.com/articulos/finanzas-islamicas-derecho-musulman',
     title: 'Finanzas Islámicas: Sharía, Contratos y Prohibición del Interés | Dra. Esparza',
     description:
       'Qué son las finanzas islámicas, cómo funciona la prohibición del riba (interés), y cuáles son los contratos halal: mudarabah, musharakah, sukuk e ijara. Análisis jurídico por Dra. Andrea Esparza.',
@@ -64,7 +64,7 @@ const articleSchema = {
   },
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': 'https://draandreaesparza.com/articulos/finanzas-islamicas-derecho-musulman/',
+    '@id': 'https://draandreaesparza.com/articulos/finanzas-islamicas-derecho-musulman',
   },
   keywords: [
     'Derecho Internacional',

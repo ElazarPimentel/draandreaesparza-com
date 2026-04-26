@@ -4,7 +4,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
-const CANONICAL = 'https://draandreaesparza.com/articulos/analisis-problemas-dip-divorcio-internacional/'
+const CANONICAL = 'https://draandreaesparza.com/articulos/analisis-problemas-dip-divorcio-internacional'
 const PDF_URL = '/articulos/analisis-de-los-problemas-generales-del-derecho-internacional-privado-vinculados-a-un-divorcio-de.pdf'
 
 export const metadata: Metadata = {
