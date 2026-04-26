@@ -191,7 +191,21 @@ export default function DivorciosBuenosAiresPage() {
             <li>Liquidación de la sociedad conyugal</li>
             <li>División de bienes gananciales</li>
             <li>Compensación económica</li>
-            <li>Cuidado personal de los hijos (si corresponde)</li>
+            <li>
+              Cuidado personal de los hijos (antes &ldquo;tenencia&rdquo;) y régimen de
+              comunicación, si corresponde
+            </li>
+            <li>
+              Continuidad de la responsabilidad parental (antes &ldquo;patria potestad&rdquo;) tras
+              el divorcio: el divorcio extingue el matrimonio, no los deberes con los hijos.{' '}
+              <TrackedLink
+                href="/articulos/responsabilidad-parental-patria-potestad-tenencia"
+                trackEvent="cta_click"
+                trackSource="divorcios_to_terminologia_hub"
+              >
+                Más información →
+              </TrackedLink>
+            </li>
             <li>Régimen de comunicación</li>
             <li>Cuota alimentaria para hijos menores</li>
             <li>Atribución de la vivienda familiar</li>

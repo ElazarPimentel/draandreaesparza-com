@@ -179,6 +179,21 @@ export default function CuidadoPersonalPage() {
         </header>
 
         <div className="service-content">
+          <div className="article-cta-box" style={{ background: '#f4f7fb', padding: '1rem 1.25rem', borderLeft: '4px solid #1a365d', margin: '0 0 1.5rem 0', borderRadius: '4px' }}>
+            <p style={{ margin: 0 }}>
+              <strong>¿Buscaste &ldquo;tenencia de hijos&rdquo; o &ldquo;patria potestad&rdquo;?</strong>{' '}
+              Esos términos cambiaron de nombre en 2015 (Código Civil y Comercial). Hoy se llaman{' '}
+              <strong>cuidado personal</strong> y <strong>responsabilidad parental</strong>.{' '}
+              <TrackedLink
+                href="/articulos/responsabilidad-parental-patria-potestad-tenencia"
+                trackEvent="cta_click"
+                trackSource="cuidado_personal_to_terminologia_hub"
+              >
+                Leé la explicación completa →
+              </TrackedLink>
+            </p>
+          </div>
+
           <h2>¿Qué Es el Cuidado Personal de los Hijos?</h2>
           <p>
             El cuidado personal - anteriormente conocido como &ldquo;tenencia&rdquo; - es el

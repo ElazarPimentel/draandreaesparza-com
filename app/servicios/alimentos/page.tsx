@@ -406,6 +406,17 @@ export default function AlimentosPage() {
           </ul>
 
           <h2>Marco Legal</h2>
+          <p>
+            La obligación alimentaria deriva de la <strong>responsabilidad parental</strong>{' '}
+            (antes llamada &ldquo;patria potestad&rdquo; hasta la reforma del CCyCN en 2015).{' '}
+            <TrackedLink
+              href="/articulos/responsabilidad-parental-patria-potestad-tenencia"
+              trackEvent="cta_click"
+              trackSource="alimentos_to_terminologia_hub"
+            >
+              Ver explicación de responsabilidad parental →
+            </TrackedLink>
+          </p>
           <ul>
             <li>
               <strong>Art. 658 CCyCN:</strong> Ambos progenitores tienen obligación alimentaria en

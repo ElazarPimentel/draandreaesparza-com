@@ -116,6 +116,18 @@ export default function Page() {
 
           <h2>Marco legal en Argentina</h2>
           <p>
+            El cambio de residencia es una decisión que excede al cuidado personal cotidiano:
+            integra el ejercicio de la <strong>responsabilidad parental</strong> (la figura que
+            antes se llamaba &ldquo;patria potestad&rdquo;).{' '}
+            <TrackedLink
+              href="/articulos/responsabilidad-parental-patria-potestad-tenencia"
+              trackEvent="cta_click"
+              trackSource="cambio_residencia_to_terminologia_hub"
+            >
+              Más sobre responsabilidad parental →
+            </TrackedLink>
+          </p>
+          <p>
             El Código Civil y Comercial regula esta situación en los artículos:
           </p>
           <ul>

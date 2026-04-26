@@ -172,6 +172,19 @@ export default function Page() {
           </ul>
 
           <h2>Marco legal aplicable</h2>
+          <p>
+            La distancia geográfica no extingue la <strong>responsabilidad parental</strong> (lo
+            que antes se llamaba &ldquo;patria potestad&rdquo; y se renombró en el CCyCN de 2015).
+            Ambos progenitores conservan sus derechos y deberes sobre los hijos aunque vivan en
+            países distintos.{' '}
+            <TrackedLink
+              href="/articulos/responsabilidad-parental-patria-potestad-tenencia"
+              trackEvent="cta_click"
+              trackSource="hijos_otro_pais_to_terminologia_hub"
+            >
+              Más información →
+            </TrackedLink>
+          </p>
           <ul>
             <li>
               <strong>Código Civil y Comercial (Arts. 2594 y ss.):</strong> regula la jurisdicción

@@ -34,6 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'violencia-vicaria-que-es',
     'cambio-residencia-hijos-autorizacion-judicial',
     'hijos-viven-en-otro-pais-mantener-vinculo',
+    'responsabilidad-parental-patria-potestad-tenencia',
   ]
 
   return [

@@ -159,6 +159,22 @@ export default function DerechoFamiliaPage() {
         </header>
 
         <div className="service-content">
+          <div className="article-cta-box" style={{ background: '#f4f7fb', padding: '1rem 1.25rem', borderLeft: '4px solid #1a365d', margin: '0 0 1.5rem 0', borderRadius: '4px' }}>
+            <p style={{ margin: 0 }}>
+              <strong>Aclaración terminológica:</strong> &ldquo;patria potestad&rdquo; y
+              &ldquo;tenencia&rdquo; siguen siendo términos de uso popular, pero la ley argentina
+              vigente desde 2015 los llama <strong>responsabilidad parental</strong> y{' '}
+              <strong>cuidado personal</strong>.{' '}
+              <TrackedLink
+                href="/articulos/responsabilidad-parental-patria-potestad-tenencia"
+                trackEvent="cta_click"
+                trackSource="derecho_familia_to_terminologia_hub"
+              >
+                Ver explicación de la reforma →
+              </TrackedLink>
+            </p>
+          </div>
+
           <h2>Servicios en Derecho de Familia</h2>
           <p>
             El derecho de familia abarca todas las cuestiones jurídicas relacionadas con las
@@ -174,8 +190,8 @@ export default function DerechoFamiliaPage() {
           <h3>Áreas de Práctica</h3>
           <ul>
             <li><strong>Divorcios:</strong> De mutuo acuerdo, contenciosos, express</li>
-            <li><strong>Cuidado Personal:</strong> Unilateral, compartido, alternado</li>
-            <li><strong>Patria Potestad:</strong> Ejercicio, suspensión, privación</li>
+            <li><strong>Cuidado Personal:</strong> Unilateral, compartido, alternado (antes llamado &ldquo;tenencia de hijos&rdquo;)</li>
+            <li><strong>Responsabilidad Parental:</strong> Ejercicio, suspensión, privación (antes llamada &ldquo;patria potestad&rdquo; hasta la reforma del CCyCN en 2015)</li>
             <li><strong>Régimen de Comunicación:</strong> Visitas, contacto con hijos menores</li>
             <li><strong>Alimentos:</strong> Para hijos menores y mayores, cónyuge</li>
             <li><strong>Adopción:</strong> Simple, plena, integración</li>

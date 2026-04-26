@@ -232,6 +232,20 @@ export default function DerechoFamiliaInternacionalPage() {
           </p>
 
           <h3>Alimentos y cuidado personal transfronterizo</h3>
+          <p>
+            <em>Aclaración terminológica:</em> en Argentina, &ldquo;tenencia&rdquo; se llama hoy{' '}
+            <strong>cuidado personal</strong>, y &ldquo;patria potestad&rdquo; se llama{' '}
+            <strong>responsabilidad parental</strong> desde la reforma del CCyCN (2015). En
+            contextos internacionales conviene usar las dos formas, ya que en otros países el
+            vocabulario varía.{' '}
+            <TrackedLink
+              href="/articulos/responsabilidad-parental-patria-potestad-tenencia"
+              trackEvent="cta_click"
+              trackSource="familia_intl_to_terminologia_hub"
+            >
+              Más detalle aquí →
+            </TrackedLink>
+          </p>
           <ul>
             <li>
               <strong>Alimentos internacionales:</strong> reclamos de cuota alimentaria cuando el
