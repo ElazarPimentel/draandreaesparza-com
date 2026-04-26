@@ -203,11 +203,17 @@ export default function CuidadoPersonalPage() {
 
           <h3>1. Cuidado Personal Compartido Indistinto (Regla General)</h3>
           <p>
-            El Art. 651 CCyCN establece que esta es la <strong>regla por defecto</strong>. Ambos
-            progenitores comparten las decisiones cotidianas del hijo, quien tiene su residencia
-            principal con uno de ellos. El otro progenitor mantiene un contacto fluido y participa
-            activamente en la crianza. Es la modalidad que mejor garantiza el derecho del niño a
-            mantener vínculo con ambos padres.
+            El <strong>Art. 651 del Código Civil y Comercial</strong> establece textualmente:
+            &ldquo;A pedido de uno o ambos progenitores o de oficio, el juez debe otorgar, como
+            primera alternativa, el cuidado compartido del hijo con la modalidad indistinta,
+            excepto que no sea posible o resulte perjudicial para el hijo&rdquo;.
+          </p>
+          <p>
+            En esta modalidad, ambos progenitores comparten las decisiones cotidianas del hijo,
+            quien tiene su residencia principal con uno de ellos. El otro progenitor mantiene un
+            contacto fluido y participa activamente en la crianza. Esta es la <strong>regla
+            general</strong> porque garantiza el derecho del niño a mantener vínculo con ambos
+            padres y refleja el principio del interés superior del niño.
           </p>
 
           <h3>2. Cuidado Personal Compartido Alternado</h3>
@@ -270,6 +276,46 @@ export default function CuidadoPersonalPage() {
             situación de hecho originada en negligencia o abuso no genera legitimidad para retener
             el cuidado.
           </p>
+
+          <h2>Consecuencias del Cuidado Personal Unilateral</h2>
+          <p>
+            Que el cuidado personal sea unilateral tiene consecuencias jurídicas y prácticas
+            concretas, tanto para el progenitor que lo ejerce como para el que no convive
+            cotidianamente con el hijo:
+          </p>
+          <ul>
+            <li>
+              <strong>Toma de decisiones cotidianas:</strong> el progenitor con cuidado unilateral
+              decide sobre alimentación, higiene, rutinas y actividades diarias del hijo sin
+              necesidad de consultar al otro
+            </li>
+            <li>
+              <strong>La responsabilidad parental sigue siendo compartida:</strong> las decisiones
+              importantes (escuela, salud grave, viajes al exterior, administración de bienes)
+              siguen requiriendo el acuerdo de ambos padres (Arts. 641 y 645 CCyCN)
+            </li>
+            <li>
+              <strong>Régimen de comunicación obligatorio para el otro progenitor:</strong> no es
+              opcional. El progenitor no conviviente tiene el derecho y el deber de mantener
+              contacto regular con su hijo (Art. 652 CCyCN)
+            </li>
+            <li>
+              <strong>Cuota alimentaria:</strong> el progenitor que no convive habitualmente debe
+              contribuir económicamente. La cuota se calcula sobre sus ingresos y necesidades del
+              hijo, independientemente de quién ejerza el cuidado
+            </li>
+            <li>
+              <strong>Riesgo de revisión judicial:</strong> si el progenitor con cuidado unilateral
+              obstaculiza el contacto del hijo con el otro padre, puede perder esa modalidad de
+              cuidado (Art. 653 inc. a CCyCN)
+            </li>
+            <li>
+              <strong>Impacto emocional sobre el niño:</strong> los estudios psicológicos coinciden
+              en que el cuidado unilateral, cuando no es necesario, puede afectar el desarrollo
+              emocional del niño al privarlo del contacto cotidiano con uno de sus padres. Por eso
+              la ley lo trata como excepción, no como regla
+            </li>
+          </ul>
 
           <h2>El Proceso Judicial: Cómo Funciona en la Práctica</h2>
           <p>
@@ -371,6 +417,54 @@ export default function CuidadoPersonalPage() {
             Si los padres no logran un acuerdo, el juez lo establece priorizando el cuidado
             compartido indistinto, salvo que existan conductas concretas que justifiquen el cuidado
             unilateral (Art. 656 CCyCN).
+          </p>
+
+          <h2>Acuerdo de Cuidado Personal: Cómo Hacerlo</h2>
+          <p>
+            Los progenitores pueden y deben intentar arribar a un <strong>acuerdo de cuidado
+            personal</strong> antes de litigar. Un buen acuerdo evita años de conflicto judicial,
+            reduce el desgaste emocional para los hijos y permite que las propias partes definan
+            la organización familiar en lugar de delegarla en el juez.
+          </p>
+          <p>
+            Un acuerdo de cuidado personal debe contener al menos:
+          </p>
+          <ul>
+            <li>
+              <strong>Modalidad:</strong> compartido indistinto, compartido alternado o unilateral,
+              y los motivos de la elección
+            </li>
+            <li>
+              <strong>Residencia principal:</strong> con qué progenitor vivirá habitualmente el
+              hijo (en el indistinto y unilateral)
+            </li>
+            <li>
+              <strong>Régimen de comunicación detallado:</strong> días, horarios, pernoctes,
+              vacaciones de verano e invierno, fines de semana largos, fechas especiales
+              (cumpleaños, Día del Niño, Navidad, Año Nuevo)
+            </li>
+            <li>
+              <strong>Distribución de gastos:</strong> cuota alimentaria, salud, educación,
+              actividades extracurriculares, vestimenta
+            </li>
+            <li>
+              <strong>Decisiones importantes:</strong> mecanismos para resolver desacuerdos sobre
+              escuela, tratamientos médicos, viajes
+            </li>
+            <li>
+              <strong>Comunicación entre progenitores:</strong> cómo se informarán mutuamente
+              sobre la salud, el rendimiento escolar y las actividades del hijo
+            </li>
+            <li>
+              <strong>Cláusula de revisión:</strong> el acuerdo puede modificarse cuando cambien
+              las circunstancias o por nueva edad del niño
+            </li>
+          </ul>
+          <p>
+            Para que el acuerdo tenga <strong>fuerza ejecutiva</strong> (es decir, que pueda
+            hacerse cumplir judicialmente sin tener que litigar todo de nuevo), debe ser{' '}
+            <strong>homologado por el juez de familia</strong>. La homologación verifica que el
+            acuerdo respete el interés superior del niño y le da el mismo valor que una sentencia.
           </p>
 
           <h2>Obstrucción del Vínculo Paterno/Materno-Filial</h2>
