@@ -5,9 +5,9 @@ import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
-  title: 'Finanzas Islámicas: Sharía, Contratos y Prohibición del Interés | Dra. Esparza',
+  title: 'Riba y Finanzas Islámicas: Qué Es, Sharía y Contratos Halal | Dra. Esparza',
   description:
-    'Qué son las finanzas islámicas, cómo funciona la prohibición del riba (interés), y cuáles son los contratos halal: mudarabah, musharakah, sukuk e ijara. Análisis jurídico por Dra. Andrea Esparza.',
+    '¿Qué es el riba? Significado de la prohibición del interés en el Islam, principios de la Sharía y contratos halal: mudarabah, musharakah, sukuk e ijara. Por Dra. Andrea Esparza.',
   keywords:
     'derecho musulmán, finanzas islámicas, sharía, derecho internacional, bancos islámicos, contratos islámicos, riba, gharar, maysir, mudarabah, musharakah, sukuk, ijara',
   robots: { index: true, follow: true },
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'article',
     url: 'https://draandreaesparza.com/articulos/finanzas-islamicas-derecho-musulman',
-    title: 'Finanzas Islámicas: Sharía, Contratos y Prohibición del Interés | Dra. Esparza',
+    title: 'Riba y Finanzas Islámicas: Qué Es, Sharía y Contratos Halal | Dra. Esparza',
     description:
-      'Qué son las finanzas islámicas, cómo funciona la prohibición del riba (interés), y cuáles son los contratos halal: mudarabah, musharakah, sukuk e ijara. Análisis jurídico por Dra. Andrea Esparza.',
+      '¿Qué es el riba? Significado de la prohibición del interés en el Islam, principios de la Sharía y contratos halal: mudarabah, musharakah, sukuk e ijara. Por Dra. Andrea Esparza.',
     images: [
       {
         url: 'https://draandreaesparza.com/assets/images/og-article-default.jpg',
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Finanzas Islámicas: Sharía, Contratos y Prohibición del Interés | Dra. Esparza',
+    title: 'Riba y Finanzas Islámicas: Qué Es, Sharía y Contratos Halal | Dra. Esparza',
     description:
-      'Qué son las finanzas islámicas, cómo funciona la prohibición del riba (interés), y cuáles son los contratos halal: mudarabah, musharakah, sukuk e ijara. Análisis jurídico por Dra. Andrea Esparza.',
+      '¿Qué es el riba? Significado de la prohibición del interés en el Islam, principios de la Sharía y contratos halal: mudarabah, musharakah, sukuk e ijara. Por Dra. Andrea Esparza.',
     images: ['https://draandreaesparza.com/assets/images/og-article-default.jpg'],
   },
 }

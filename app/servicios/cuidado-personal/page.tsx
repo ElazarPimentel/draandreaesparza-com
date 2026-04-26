@@ -6,9 +6,9 @@ import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
-  title: 'Cuidado Personal de Hijos en Buenos Aires | Unilateral y Compartido | Dra. Esparza',
+  title: 'Cuidado Personal Unilateral: Qué Significa, Consecuencias y Tipos | Dra. Esparza',
   description:
-    'Abogada especialista en cuidado personal de hijos en Buenos Aires. Cuidado unilateral, compartido y alternado. Régimen de comunicación, centro de vida, Art. 648-656 CCyCN. Más de 25 años de experiencia.',
+    'Qué significa cuidado personal unilateral, consecuencias y diferencias con el compartido alternado o indistinto. Régimen de comunicación, centro de vida, Art. 648-656 CCyCN. Por Dra. Andrea Esparza.',
   keywords:
     'cuidado personal hijos, cuidado unilateral, cuidado compartido, tenencia hijos, con quién viven los hijos divorcio, régimen de comunicación, centro de vida, abogada familia Buenos Aires, Art 653 CCyCN',
   robots: 'index, follow',
@@ -19,18 +19,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://draandreaesparza.com/servicios/cuidado-personal',
-    title: 'Cuidado Personal de Hijos en Buenos Aires | Unilateral y Compartido',
+    title: 'Cuidado Personal Unilateral: Qué Significa, Consecuencias y Tipos',
     description:
-      'Abogada especialista en cuidado personal de hijos en Buenos Aires. Cuidado unilateral, compartido y alternado. Régimen de comunicación y centro de vida.',
+      'Qué significa cuidado personal unilateral, consecuencias y diferencias con el compartido alternado o indistinto. Por Dra. Andrea Esparza, abogada de familia en Buenos Aires.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cuidado Personal de Hijos en Buenos Aires | Unilateral y Compartido',
+    title: 'Cuidado Personal Unilateral: Qué Significa, Consecuencias y Tipos',
     description:
-      'Abogada especialista en cuidado personal de hijos en Buenos Aires. Cuidado unilateral, compartido y alternado. Régimen de comunicación y centro de vida.',
+      'Qué significa cuidado personal unilateral, consecuencias y diferencias con el compartido alternado o indistinto. Por Dra. Andrea Esparza, abogada de familia en Buenos Aires.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }

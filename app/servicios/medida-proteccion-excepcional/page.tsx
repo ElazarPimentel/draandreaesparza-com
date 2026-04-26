@@ -6,9 +6,9 @@ import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
-  title: 'Medida de Protección Excepcional en Buenos Aires | Control de Legalidad | Dra. Esparza',
+  title: 'Medida de Protección Excepcional: Qué Es, Quién la Toma y CDNNyA | Dra. Esparza',
   description:
-    'Abogada especialista en medidas de protección excepcional de niños en Buenos Aires. Control de legalidad, CDNNyA, Defensoría Zonal, vinculaciones, egreso. Ley 26.061, Art. 607 CCyCN. Asesoramiento a familias.',
+    'Qué es una medida de protección excepcional, qué organismo está facultado para tomarla (CDNNyA, Defensoría Zonal) y cómo funciona el control de legalidad. Ley 26.061, Art. 607 CCyCN.',
   keywords:
     'medida de protección excepcional, control de legalidad, CDNNyA, Defensoría Zonal, Ley 26.061, Art 607, protección de niños, institucionalización, egreso, vinculaciones, abogada Buenos Aires',
   robots: 'index, follow',
@@ -19,18 +19,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://draandreaesparza.com/servicios/medida-proteccion-excepcional',
-    title: 'Medida de Protección Excepcional en Buenos Aires | Control de Legalidad',
+    title: 'Medida de Protección Excepcional: Qué Es, Quién la Toma y CDNNyA',
     description:
-      'Abogada especialista en medidas de protección excepcional. Control de legalidad, CDNNyA, Defensoría Zonal, vinculaciones y egreso. Asesoramiento a familias.',
+      'Qué es una medida de protección excepcional, qué organismo está facultado para tomarla (CDNNyA, Defensoría Zonal) y cómo funciona el control de legalidad.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Medida de Protección Excepcional en Buenos Aires | Control de Legalidad',
+    title: 'Medida de Protección Excepcional: Qué Es, Quién la Toma y CDNNyA',
     description:
-      'Abogada especialista en medidas de protección excepcional. Control de legalidad, CDNNyA, Defensoría Zonal, vinculaciones y egreso.',
+      'Qué es una medida de protección excepcional, qué organismo está facultado para tomarla y cómo funciona el control de legalidad.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }
