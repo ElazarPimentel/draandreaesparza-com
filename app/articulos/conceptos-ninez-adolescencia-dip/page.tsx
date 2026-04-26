@@ -4,7 +4,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
-const CANONICAL = 'https://draandreaesparza.com/articulos/conceptos-ninez-adolescencia-dip/'
+const CANONICAL = 'https://draandreaesparza.com/articulos/conceptos-ninez-adolescencia-dip'
 const PDF_URL = '/articulos/revisando-conceptos-ninez-adolescencia-dip.pdf'
 
 export const metadata: Metadata = {

@@ -4,7 +4,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
-const CANONICAL = 'https://draandreaesparza.com/articulos/bioetica-reproduccion-asistida-subrogacion-vientres/'
+const CANONICAL = 'https://draandreaesparza.com/articulos/bioetica-reproduccion-asistida-subrogacion-vientres'
 const PDF_URL = '/articulos/trabajo-bioetica.pdf'
 
 export const metadata: Metadata = {
