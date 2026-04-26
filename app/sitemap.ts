@@ -31,6 +31,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'interes-superior-nino-tratados-internacionales',
     'proteccion-internacional-adultos-mayores',
     'agencias-especializadas-ley-islamica',
+    'violencia-vicaria-que-es',
+    'cambio-residencia-hijos-autorizacion-judicial',
+    'hijos-viven-en-otro-pais-mantener-vinculo',
   ]
 
   return [
