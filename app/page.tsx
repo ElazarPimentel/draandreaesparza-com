@@ -117,6 +117,36 @@ const faqSchema = {
   ],
 }
 
+const eventSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: 'Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996. Ante su reciente entrada en vigencia',
+  description: 'Disertación de la Dra. María Andrea Esparza sobre la Convención de La Haya de 1996 y su impacto en la responsabilidad parental transfronteriza, organizada por el Instituto de Derecho Internacional Privado, de la Integración y Mercosur y el Instituto de Derecho de Familia, Niñez y Adolescencia del Colegio de Abogados de La Matanza.',
+  startDate: '2026-05-15T14:30:00-03:00',
+  endDate: '2026-05-15T16:30:00-03:00',
+  eventStatus: 'https://schema.org/EventScheduled',
+  eventAttendanceMode: 'https://schema.org/MixedEventAttendanceMode',
+  inLanguage: 'es-AR',
+  image: 'https://draandreaesparza.com/disertaciones/2026-05-15-responsabilidad-parental-transfronteriza-convencion-haya-1996.pdf',
+  url: 'https://draandreaesparza.com/#formacion',
+  location: [
+    {
+      '@type': 'Place',
+      name: 'Sede Colegio de Abogados de La Matanza (CALM)',
+      address: { '@type': 'PostalAddress', streetAddress: 'Entre Ríos 2942, PB', addressLocality: 'San Justo', addressRegion: 'Buenos Aires', addressCountry: 'AR' },
+    },
+    { '@type': 'VirtualLocation', url: 'https://zoom.us/' },
+  ],
+  performer: { '@type': 'Person', name: 'Dra. María Andrea Esparza', sameAs: 'https://draandreaesparza.com/#person' },
+  organizer: [
+    { '@type': 'Organization', name: 'Colegio de Abogados de La Matanza', url: 'https://www.colegiodelamatanza.com/' },
+    { '@type': 'Organization', name: 'Instituto de Derecho Internacional Privado, de la Integración y Mercosur (CALM)' },
+    { '@type': 'Organization', name: 'Instituto de Derecho de Familia, Niñez y Adolescencia (CALM)' },
+  ],
+  offers: { '@type': 'Offer', url: 'mailto:departamentoacademico@colegiodelamatanza.com', availability: 'https://schema.org/InStock', validFrom: '2026-04-28T00:00:00-03:00' },
+  about: ['Convención de La Haya de 1996', 'Responsabilidad Parental Transfronteriza', 'Derecho Internacional Privado', 'Derecho de Familia Internacional'],
+}
+
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -131,6 +161,7 @@ export default function HomePage() {
       <JsonLd data={legalServiceSchema} />
       <JsonLd data={personSchema} />
       <JsonLd data={faqSchema} />
+      <JsonLd data={eventSchema} />
       <JsonLd data={websiteSchema} />
 
       <Nav />
@@ -203,13 +234,25 @@ export default function HomePage() {
               <li>Miembro de la Asociación Argentina de Derecho Internacional</li>
               <li>Colaboradora del Instituto de Familia Internacional Multidisciplinar de España (IFIM)</li>
               <li>Docente del curso &ldquo;Responsabilidad Parental Transfronteriza&rdquo; — Colegio de Abogados de la Prov. de Buenos Aires y Fundación CIJUSO (2026)</li>
+              <li>Disertante &mdash; &ldquo;Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996&rdquo;, Colegio de Abogados de La Matanza (15 de mayo de 2026, modalidad híbrida)</li>
               <li>Especialización en Derecho Islámico aplicado a Disputas Familiares y DIP — Elevify (2026)</li>
               <li>Publicada en Revista Internacional Personalidades Jurídicas, Vol. 1 (2024): &ldquo;Agencias Especializadas en Ley Islámica&rdquo;</li>
             </ul>
           </div>
-          <div className="accomplishments">
-            <h3>Formación Continua</h3>
+          <div id="formacion" className="accomplishments">
+            <h3>Formación Continua y Disertaciones</h3>
             <div className="cards-grid">
+              <div className="specialty-card">
+                <div className="card-icon">📅</div>
+                <h3>Próxima disertación &mdash; 15 de mayo de 2026</h3>
+                <h4>Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996</h4>
+                <p>Colegio de Abogados de La Matanza (CALM). Organizan: Instituto de Derecho Internacional Privado, de la Integración y Mercosur e Instituto de Derecho de Familia, Niñez y Adolescencia. Modalidad híbrida (presencial en Entre Ríos 2942 PB, San Justo &middot; vía Zoom). Viernes 14:30 hs.</p>
+                <p>
+                  <a href="/disertaciones/2026-05-15-responsabilidad-parental-transfronteriza-convencion-haya-1996.pdf" target="_blank" rel="noopener" className="service-card-link">Ver flyer (PDF)</a>
+                  {' · '}
+                  <a href="mailto:departamentoacademico@colegiodelamatanza.com" className="service-card-link">Inscripción</a>
+                </p>
+              </div>
               <div className="specialty-card">
                 <div className="card-icon">🎓</div>
                 <h3>Docente</h3>
