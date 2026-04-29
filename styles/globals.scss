@@ -597,7 +597,7 @@ body.modal-open {
   position: fixed;
   inset: 0;
   z-index: 2000;
-  padding: clamp(1rem, 3vw, 2rem);
+  padding: clamp(0.75rem, 2vw, 1.25rem);
   background: rgba(15, 23, 42, 0.82);
   display: flex;
   align-items: center;
@@ -605,30 +605,13 @@ body.modal-open {
 }
 
 .image-modal {
-  width: min(96vw, 1100px);
-  max-height: 92vh;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-}
-
-.image-modal-header {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 0.85rem 1rem;
-  border-bottom: 1px solid #e2e8f0;
-}
-
-.image-modal-header h2 {
-  font-size: 1rem;
-  line-height: 1.2;
-  margin: 0;
-  color: var(--primary);
+  justify-content: center;
+  gap: 0.75rem;
 }
 
 .image-modal-close {
@@ -639,7 +622,7 @@ body.modal-open {
   color: #fff;
   cursor: pointer;
   font-weight: 700;
-  padding: 0.55rem 0.8rem;
+  padding: 0.7rem 1.25rem;
 }
 
 .image-modal-close:hover,
@@ -648,19 +631,24 @@ body.modal-open {
 }
 
 .image-modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
   overflow: auto;
-  padding: 1rem;
-  background: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-modal-body img {
   width: auto;
   max-width: 100%;
   height: auto;
-  max-height: calc(92vh - 6rem);
+  max-height: calc(100vh - 5.5rem);
   display: block;
   margin: 0 auto;
   border-radius: 6px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
 }
 
 /* Testimonials Section */
