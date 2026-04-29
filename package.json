@@ -2,7 +2,7 @@
   "name": "draandreaesparza-com",
   "homepage": "https://draandreaesparza.com",
   "private": true,
-  "version": "1.7.2",
+  "version": "1.7.3",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

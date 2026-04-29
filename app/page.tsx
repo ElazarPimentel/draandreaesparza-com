@@ -195,9 +195,18 @@ export default function HomePage() {
       {/* Recursos visuales — flyers → articles */}
       <section id="recursos" className="recursos-section">
         <div className="container">
-          <h2>Temas frecuentes en derecho de familia</h2>
-          <p className="section-subtitle">Material divulgativo sobre situaciones que enfrentan muchas familias.</p>
           <div className="cards-grid flyers-grid">
+            <div className="specialty-card flyer-card">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/assets/images/flyers/responsabilidad-parental-transfronteriza-haya-1996.jpg" alt="Flyer de la disertación Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996." width={2469} height={2743} loading="lazy" />
+              <h3>Disertación: Responsabilidad Parental Transfronteriza</h3>
+              <p>Flyer de la actividad del 15 de mayo de 2026 sobre la Convención de La Haya de 1996, organizada por el Colegio de Abogados de La Matanza.</p>
+              <p>
+                <TrackedLink href="/disertaciones/2026-05-15-responsabilidad-parental-transfronteriza-convencion-haya-1996.pdf" trackEvent="cta_click" trackSource="flyer_disertacion_haya_1996_pdf" className="service-card-link" target="_blank" rel="noopener">
+                  Ver flyer (PDF) →
+                </TrackedLink>
+              </p>
+            </div>
             <div className="specialty-card flyer-card">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/assets/images/flyers/cambio-residencia-ninos.jpeg" alt="Cambio de residencia de niños: autorización judicial de traslado y casos internacionales." width={400} height={400} loading="lazy" />
