@@ -541,6 +541,38 @@ body {
   line-height: 1.7;
 }
 
+/* Recursos / Flyers Section */
+.recursos-section {
+  padding: 4rem 0 2rem;
+  background: var(--bg-light);
+}
+.recursos-section .section-subtitle {
+  text-align: center;
+  color: var(--text-light);
+  margin-bottom: 2.5rem;
+}
+.flyer-card {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.flyer-card img {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1.25rem;
+}
+.flyer-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+.flyer-card p {
+  font-size: 0.95rem;
+  flex-grow: 1;
+}
+
 /* Testimonials Section */
 .testimonials-section {
   padding: 100px 0;

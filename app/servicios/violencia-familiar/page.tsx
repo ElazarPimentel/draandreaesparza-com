@@ -126,10 +126,10 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: '¿Cuánto dura una orden de protección?',
+      name: '¿Cuánto dura una medida perimetral u orden de protección?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Las medidas de protección no tienen un plazo fijo predeterminado. El juez las mantiene mientras persista la situación de riesgo. Pueden ser renovadas, ampliadas o levantadas según la evolución del caso. En la práctica, una medida perimetral puede durar desde algunos meses hasta varios años si la situación lo justifica. La parte afectada puede solicitar su modificación o cese.',
+        text: 'Una medida perimetral u orden de protección no tiene un plazo fijo predeterminado en la Ley 26.485: el juez la mantiene mientras persista la situación de riesgo. En la práctica, una perimetral suele dictarse inicialmente por 3 a 6 meses y puede ser renovada, ampliada o levantada según la evolución del caso. Puede durar desde algunos meses hasta varios años si la situación lo justifica. La parte afectada puede solicitar su modificación o cese ante el juzgado interviniente.',
       },
     },
     {
@@ -819,12 +819,14 @@ export default function ViolenciaFamiliarPage() {
           </div>
 
           <div className="faq-item">
-            <h3>¿Cuánto dura una orden de protección?</h3>
+            <h3>¿Cuánto dura una medida perimetral u orden de protección?</h3>
             <p>
-              Las medidas de protección no tienen un plazo fijo predeterminado. El juez las
-              mantiene mientras persista el riesgo. Pueden ser renovadas, ampliadas o levantadas
-              según la evolución del caso. En la práctica, una medida perimetral puede durar desde
-              meses hasta años. La parte afectada puede solicitar su modificación o cese.
+              Una medida perimetral u orden de protección no tiene un plazo fijo predeterminado
+              en la Ley 26.485: el juez la mantiene mientras persista el riesgo. En la práctica,
+              una perimetral suele dictarse inicialmente por 3 a 6 meses y puede ser renovada,
+              ampliada o levantada según la evolución del caso. Puede durar desde algunos meses
+              hasta varios años si la situación lo justifica. La parte afectada puede solicitar su
+              modificación o cese ante el juzgado interviniente.
             </p>
           </div>
 

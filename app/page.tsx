@@ -192,6 +192,49 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Recursos visuales — flyers → articles */}
+      <section id="recursos" className="recursos-section">
+        <div className="container">
+          <h2>Temas frecuentes en derecho de familia</h2>
+          <p className="section-subtitle">Material divulgativo sobre situaciones que enfrentan muchas familias.</p>
+          <div className="cards-grid flyers-grid">
+            <div className="specialty-card flyer-card">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/assets/images/flyers/cambio-residencia-ninos.jpeg" alt="Cambio de residencia de niños: autorización judicial de traslado y casos internacionales." width={400} height={400} loading="lazy" />
+              <h3>Cambio de residencia de niños</h3>
+              <p>Mudarse con el hijo/a a otra ciudad o al exterior cuando el otro progenitor no está de acuerdo: autorización judicial, oposición y casos internacionales urgentes.</p>
+              <p>
+                <TrackedLink href="/articulos/cambio-residencia-hijos-autorizacion-judicial" trackEvent="cta_click" trackSource="flyer_cambio_residencia" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/assets/images/flyers/hijos-otro-pais.jpeg" alt="Hijos viven en otro país: cómo mantener el vínculo con visitas y videollamadas." width={400} height={400} loading="lazy" />
+              <h3>Hijos que viven en otro país</h3>
+              <p>Coordinación de viajes y visitas, videollamadas frecuentes y acuerdos legales válidos en ambos países para no perder el vínculo.</p>
+              <p>
+                <TrackedLink href="/articulos/hijos-viven-en-otro-pais-mantener-vinculo" trackEvent="cta_click" trackSource="flyer_hijos_otro_pais" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/assets/images/flyers/violencia-vicaria.jpeg" alt="Violencia vicaria: lastimar a través de los hijos no es amor, es violencia." width={400} height={400} loading="lazy" />
+              <h3>Violencia vicaria</h3>
+              <p>Lastimar a la otra persona a través de los hijos no es amor, es violencia. Cómo identificarla y qué hacer en consultas de derecho de familia nacional e internacional.</p>
+              <p>
+                <TrackedLink href="/articulos/violencia-vicaria-que-es" trackEvent="cta_click" trackSource="flyer_violencia_vicaria" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About */}
       <section id="about" className="about-section">
         <div className="container">
