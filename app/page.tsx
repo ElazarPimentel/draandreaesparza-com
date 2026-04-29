@@ -139,11 +139,11 @@ const eventSchema = {
   ],
   performer: { '@type': 'Person', name: 'Dra. María Andrea Esparza', sameAs: 'https://draandreaesparza.com/#person' },
   organizer: [
-    { '@type': 'Organization', name: 'Colegio de Abogados de La Matanza', url: 'https://www.colegiodelamatanza.com/' },
-    { '@type': 'Organization', name: 'Instituto de Derecho Internacional Privado, de la Integración y Mercosur (CALM)' },
-    { '@type': 'Organization', name: 'Instituto de Derecho de Familia, Niñez y Adolescencia (CALM)' },
+    { '@type': 'Organization', name: 'Colegio de Abogados de La Matanza', url: 'https://colegiodelamatanza.com.ar/' },
+    { '@type': 'Organization', name: 'Instituto de Derecho Internacional Privado, de la Integración y Mercosur (CALM)', url: 'https://colegiodelamatanza.com.ar/secretaria-academica/' },
+    { '@type': 'Organization', name: 'Instituto de Derecho de Familia, Niñez y Adolescencia (CALM)', url: 'https://colegiodelamatanza.com.ar/secretaria-academica/' },
   ],
-  offers: { '@type': 'Offer', url: 'mailto:departamentoacademico@colegiodelamatanza.com', availability: 'https://schema.org/InStock', validFrom: '2026-04-28T00:00:00-03:00' },
+  offers: { '@type': 'Offer', url: 'mailto:departamentoacademico@colegiodelamatanza.com', availability: 'https://schema.org/InStock', validFrom: '2026-04-28T00:00:00-03:00', price: '0', priceCurrency: 'ARS' },
   about: ['Convención de La Haya de 1996', 'Responsabilidad Parental Transfronteriza', 'Derecho Internacional Privado', 'Derecho de Familia Internacional'],
 }
 
