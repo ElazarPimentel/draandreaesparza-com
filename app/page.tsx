@@ -3,6 +3,7 @@ import Nav from '@/components/Nav'
 import ExpandableCard from '@/components/ExpandableCard'
 import TrackedLink from '@/components/TrackedLink'
 import JsonLd from '@/components/JsonLd'
+import FlyerImage from '@/components/FlyerImage'
 
 export const metadata: Metadata = {
   title:
@@ -197,8 +198,7 @@ export default function HomePage() {
         <div className="container">
           <div className="cards-grid flyers-grid">
             <div className="specialty-card flyer-card">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/assets/images/flyers/responsabilidad-parental-transfronteriza-haya-1996.jpg" alt="Flyer de la disertación Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996." width={2469} height={2743} loading="lazy" />
+              <FlyerImage src="/assets/images/flyers/responsabilidad-parental-transfronteriza-haya-1996.jpg" alt="Flyer de la disertación Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996." width={2469} height={2743} />
               <h3>Disertación: Responsabilidad Parental Transfronteriza</h3>
               <p>Flyer de la actividad del 15 de mayo de 2026 sobre la Convención de La Haya de 1996, organizada por el Colegio de Abogados de La Matanza.</p>
               <p>
@@ -208,8 +208,7 @@ export default function HomePage() {
               </p>
             </div>
             <div className="specialty-card flyer-card">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/assets/images/flyers/cambio-residencia-ninos.jpeg" alt="Cambio de residencia de niños: autorización judicial de traslado y casos internacionales." width={400} height={400} loading="lazy" />
+              <FlyerImage src="/assets/images/flyers/cambio-residencia-ninos.jpeg" alt="Cambio de residencia de niños: autorización judicial de traslado y casos internacionales." width={400} height={400} />
               <h3>Cambio de residencia de niños</h3>
               <p>Mudarse con el hijo/a a otra ciudad o al exterior cuando el otro progenitor no está de acuerdo: autorización judicial, oposición y casos internacionales urgentes.</p>
               <p>
@@ -219,8 +218,7 @@ export default function HomePage() {
               </p>
             </div>
             <div className="specialty-card flyer-card">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/assets/images/flyers/hijos-otro-pais.jpeg" alt="Hijos viven en otro país: cómo mantener el vínculo con visitas y videollamadas." width={400} height={400} loading="lazy" />
+              <FlyerImage src="/assets/images/flyers/hijos-otro-pais.jpeg" alt="Hijos viven en otro país: cómo mantener el vínculo con visitas y videollamadas." width={400} height={400} />
               <h3>Hijos que viven en otro país</h3>
               <p>Coordinación de viajes y visitas, videollamadas frecuentes y acuerdos legales válidos en ambos países para no perder el vínculo.</p>
               <p>
@@ -230,8 +228,7 @@ export default function HomePage() {
               </p>
             </div>
             <div className="specialty-card flyer-card">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/assets/images/flyers/violencia-vicaria.jpeg" alt="Violencia vicaria: lastimar a través de los hijos no es amor, es violencia." width={400} height={400} loading="lazy" />
+              <FlyerImage src="/assets/images/flyers/violencia-vicaria.jpeg" alt="Violencia vicaria: lastimar a través de los hijos no es amor, es violencia." width={400} height={400} />
               <h3>Violencia vicaria</h3>
               <p>Lastimar a la otra persona a través de los hijos no es amor, es violencia. Cómo identificarla y qué hacer en consultas de derecho de familia nacional e internacional.</p>
               <p>

@@ -556,13 +556,29 @@ body {
   display: flex;
   flex-direction: column;
 }
+.flyer-image-button {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+.flyer-image-button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
 .flyer-card img {
   width: 100%;
   height: auto;
   max-height: 320px;
   object-fit: cover;
   border-radius: 12px;
-  margin-bottom: 1.25rem;
+  display: block;
 }
 .flyer-card h3 {
   font-size: 1.25rem;
@@ -571,6 +587,80 @@ body {
 .flyer-card p {
   font-size: 0.95rem;
   flex-grow: 1;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.image-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  padding: clamp(1rem, 3vw, 2rem);
+  background: rgba(15, 23, 42, 0.82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-modal {
+  width: min(96vw, 1100px);
+  max-height: 92vh;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.image-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.image-modal-header h2 {
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 0;
+  color: var(--primary);
+}
+
+.image-modal-close {
+  flex: 0 0 auto;
+  border: 0;
+  border-radius: 6px;
+  background: var(--primary);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.55rem 0.8rem;
+}
+
+.image-modal-close:hover,
+.image-modal-close:focus-visible {
+  background: var(--primary-light);
+}
+
+.image-modal-body {
+  overflow: auto;
+  padding: 1rem;
+  background: #f8fafc;
+}
+
+.image-modal-body img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: calc(92vh - 6rem);
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
 }
 
 /* Testimonials Section */
