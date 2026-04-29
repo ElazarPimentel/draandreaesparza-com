@@ -39,3 +39,5 @@ AGENTS.md
 scripts/
 .vercel
 .env*.local
+.agent-name-ca
+.agent-name-cc
