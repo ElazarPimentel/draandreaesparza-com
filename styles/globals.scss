@@ -614,7 +614,15 @@ body.modal-open {
   gap: 0.75rem;
 }
 
-.image-modal-close {
+.image-modal-controls {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.image-modal-controls button {
   flex: 0 0 auto;
   border: 0;
   border-radius: 6px;
@@ -625,8 +633,8 @@ body.modal-open {
   padding: 0.7rem 1.25rem;
 }
 
-.image-modal-close:hover,
-.image-modal-close:focus-visible {
+.image-modal-controls button:hover,
+.image-modal-controls button:focus-visible {
   background: var(--primary-light);
 }
 
@@ -634,21 +642,29 @@ body.modal-open {
   flex: 1 1 auto;
   min-height: 0;
   width: 100%;
-  overflow: auto;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.image-modal-body:active {
+  cursor: grabbing;
 }
 
 .image-modal-body img {
-  width: auto;
-  max-width: 100%;
+  max-width: none;
   height: auto;
-  max-height: calc(100vh - 5.5rem);
+  max-height: none;
   display: block;
   margin: 0 auto;
   border-radius: 6px;
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  transform-origin: center center;
+  will-change: transform;
 }
 
 /* Testimonials Section */
