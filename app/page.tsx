@@ -193,10 +193,40 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Recursos visuales — flyers → articles */}
-      <section id="recursos" className="recursos-section">
+      {/* Comunicaciones — flyers (imágenes + PDF) */}
+      <section id="comunicaciones" className="comunicaciones-section">
         <div className="container">
           <div className="cards-grid flyers-grid">
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/exequatur.jpeg" alt="Exequátur: reconocimiento en Argentina de sentencias dictadas en el exterior." width={1254} height={1254} />
+              <h3>Exequátur de sentencias extranjeras</h3>
+              <p>Reconocimiento judicial en Argentina de sentencias de divorcio, alimentos, régimen de comunicación y otras dictadas en el exterior.</p>
+              <p>
+                <TrackedLink href="/comunicaciones/exequatur.pdf" trackEvent="cta_click" trackSource="flyer_exequatur_pdf" className="service-card-link" target="_blank" rel="noopener">
+                  Ver flyer (PDF) →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/divorcios-internacionales.jpeg" alt="Divorcios internacionales: matrimonios celebrados en el exterior, competencia, ley aplicable y bienes en distintos países." width={1254} height={1254} />
+              <h3>Divorcios internacionales</h3>
+              <p>Validez del matrimonio extranjero, competencia judicial, ley aplicable y bienes en distintos países.</p>
+              <p>
+                <TrackedLink href="/comunicaciones/divorcios-internacionales.pdf" trackEvent="cta_click" trackSource="flyer_divorcios_internacionales_pdf" className="service-card-link" target="_blank" rel="noopener">
+                  Ver flyer (PDF) →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/kafala-adopcion.jpeg" alt="Kafala y adopción: institución del derecho islámico que protege al niño sin crear vínculo de filiación." width={1254} height={1254} />
+              <h3>Kafala y adopción</h3>
+              <p>Institución del derecho islámico que permite cuidar y proteger a un menor sin crear vínculo filiatorio. Figuras análogas en Argentina.</p>
+              <p>
+                <TrackedLink href="/comunicaciones/kafala-adopcion.pdf" trackEvent="cta_click" trackSource="flyer_kafala_adopcion_pdf" className="service-card-link" target="_blank" rel="noopener">
+                  Ver flyer (PDF) →
+                </TrackedLink>
+              </p>
+            </div>
             <div className="specialty-card flyer-card">
               <FlyerImage src="/assets/images/flyers/responsabilidad-parental-transfronteriza-haya-1996.jpg" alt="Flyer de la disertación Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996." width={2469} height={2743} />
               <h3>Disertación: Responsabilidad Parental Transfronteriza</h3>
