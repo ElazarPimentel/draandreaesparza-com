@@ -509,6 +509,10 @@ export default function HomePage() {
               <p>&ldquo;Logró que mi caso se resolviera en tiempo récord. Su estrategia legal fue impecable y efectiva.&rdquo;</p>
               <cite>— Cliente de Cuidado Personal</cite>
             </blockquote>
+            <blockquote className="testimonial">
+              <p>&ldquo;Hola Andrea, ¿cómo estás? La verdad, no tengo palabras para agradecerte todo lo que hiciste por mi bebé y por mí. Voy a estar agradecido siempre con tu trabajo y, sobre todo, con la paciencia que me tenés. Sé que esto aún no terminó, pero el poder abrazarla ya me devolvió el alma al cuerpo. Sos una excelente profesional. Gracias, gracias, gracias ❤️❤️❤️&rdquo;</p>
+              <cite>— L.M.</cite>
+            </blockquote>
           </div>
         </div>
       </section>
