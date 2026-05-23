@@ -35,6 +35,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'cambio-residencia-hijos-autorizacion-judicial',
     'hijos-viven-en-otro-pais-mantener-vinculo',
     'responsabilidad-parental-patria-potestad-tenencia',
+    'cuidado-personal-unilateral-consecuencias',
+    'cuanto-dura-una-medida-perimetral-argentina',
+    'incidente-modificacion-cuota-alimentaria-caba-plazos',
   ]
 
   return [
