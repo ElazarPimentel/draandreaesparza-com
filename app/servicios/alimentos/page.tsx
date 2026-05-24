@@ -6,9 +6,9 @@ import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
-  title: 'Abogada de Cuota Alimentaria en Buenos Aires | Juicio de Alimentos',
+  title: 'Juicio de Alimentos en CABA: Demanda, Cuota Provisoria y Aumento | Dra. Esparza',
   description:
-    'Abogada para demanda de alimentos en Buenos Aires. Cuota alimentaria para hijos, alimentos provisorios, ejecución por incumplimiento, aumento, reducción y cese.',
+    'Abogada de alimentos en CABA y Buenos Aires. Demanda, cuota provisoria en días, aumento por incumplimiento, ejecución y cese. Consulta por WhatsApp.',
   keywords:
     'juicio de alimentos, cuota alimentaria, demanda de alimentos, aumento de cuota, alimentos hijos menores, alimentos hijos mayores, pensión alimenticia, Buenos Aires, Argentina',
   robots: 'index, follow',
@@ -19,18 +19,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://draandreaesparza.com/servicios/alimentos',
-    title: 'Abogada de Cuota Alimentaria en Buenos Aires | Juicio de Alimentos',
+    title: 'Juicio de Alimentos en CABA: Demanda, Cuota Provisoria y Aumento | Dra. Esparza',
     description:
-      'Abogada para demanda de alimentos en Buenos Aires. Cuota alimentaria para hijos, alimentos provisorios, ejecución por incumplimiento, aumento, reducción y cese.',
+      'Abogada de alimentos en CABA y Buenos Aires. Demanda, cuota provisoria en días, aumento por incumplimiento, ejecución y cese. Consulta por WhatsApp.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Abogada de Cuota Alimentaria en Buenos Aires | Juicio de Alimentos',
+    title: 'Juicio de Alimentos en CABA: Demanda, Cuota Provisoria y Aumento | Dra. Esparza',
     description:
-      'Abogada para demanda de alimentos en Buenos Aires. Cuota alimentaria para hijos, alimentos provisorios, ejecución por incumplimiento, aumento, reducción y cese.',
+      'Abogada de alimentos en CABA y Buenos Aires. Demanda, cuota provisoria en días, aumento por incumplimiento, ejecución y cese. Consulta por WhatsApp.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }

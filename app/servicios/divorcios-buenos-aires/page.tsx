@@ -6,9 +6,9 @@ import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
-  title: 'Abogada de Divorcio Express en CABA y Buenos Aires | Dra. Andrea Esparza',
+  title: 'Abogada de Divorcio en CABA: Express, Mutuo Acuerdo y Contencioso | Dra. Esparza',
   description:
-    'Si necesita abogado para divorciarse en CABA o Buenos Aires, asesoro en divorcio express, de mutuo acuerdo o contencioso. Bienes, compensación económica, hijos y régimen de comunicación.',
+    'Abogada de divorcios en CABA y Buenos Aires. Divorcio express (60 días), mutuo acuerdo o contencioso. Liquidación de bienes, compensación económica, hijos. Consulta por WhatsApp.',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://draandreaesparza.com/servicios/divorcios-buenos-aires',
@@ -19,18 +19,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://draandreaesparza.com/servicios/divorcios-buenos-aires',
-    title: 'Abogada de Divorcio Express en CABA y Buenos Aires | Dra. Andrea Esparza',
+    title: 'Abogada de Divorcio en CABA: Express, Mutuo Acuerdo y Contencioso | Dra. Esparza',
     description:
-      'Si necesita abogado para divorciarse en CABA o Buenos Aires, asesoro en divorcio express, de mutuo acuerdo o contencioso.',
+      'Abogada de divorcios en CABA y Buenos Aires. Divorcio express (60 días), mutuo acuerdo o contencioso. Liquidación de bienes y compensación económica.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Abogada de Divorcio Express en CABA y Buenos Aires | Dra. Andrea Esparza',
+    title: 'Abogada de Divorcio en CABA: Express, Mutuo Acuerdo y Contencioso | Dra. Esparza',
     description:
-      'Si necesita abogado para divorciarse en CABA o Buenos Aires, asesoro en divorcio express, de mutuo acuerdo o contencioso.',
+      'Abogada de divorcios en CABA y Buenos Aires. Divorcio express (60 días), mutuo acuerdo o contencioso. Liquidación de bienes y compensación económica.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }

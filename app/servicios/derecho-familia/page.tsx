@@ -7,9 +7,9 @@ import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
   title:
-    'Abogada Especialista en Derecho de Familia en Buenos Aires | Cuidado Personal y Régimen de Comunicación',
+    'Abogada de Familia en CABA: Divorcio, Cuidado Personal y Alimentos | Dra. Esparza',
   description:
-    'Abogada especialista en derecho de familia en Buenos Aires. Divorcios, cuidado personal, régimen de comunicación, alimentos, violencia familiar y adopción.',
+    'Abogada de familia en CABA con 15+ años de experiencia. Divorcios, cuidado personal y régimen de comunicación, alimentos, violencia familiar y adopción. Consulta por WhatsApp.',
   keywords:
     'derecho de familia, abogada familia, cuidado personal, patria potestad, régimen de comunicación, violencia familiar, violencia doméstica, orden de protección, adopción, Buenos Aires, Argentina',
   robots: 'index, follow',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://draandreaesparza.com/servicios/derecho-familia',
     title:
-      'Abogada Especialista en Derecho de Familia en Buenos Aires | Cuidado Personal y Régimen de Comunicación',
+      'Abogada de Familia en CABA: Divorcio, Cuidado Personal y Alimentos | Dra. Esparza',
     description:
-      'Abogada especialista en derecho de familia en Buenos Aires. Divorcios, cuidado personal, régimen de comunicación, alimentos, violencia familiar y adopción.',
+      'Abogada de familia en CABA con 15+ años de experiencia. Divorcios, cuidado personal y régimen de comunicación, alimentos, violencia familiar y adopción. Consulta por WhatsApp.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title:
-      'Abogada Especialista en Derecho de Familia en Buenos Aires | Cuidado Personal y Régimen de Comunicación',
+      'Abogada de Familia en CABA: Divorcio, Cuidado Personal y Alimentos | Dra. Esparza',
     description:
-      'Abogada especialista en derecho de familia en Buenos Aires. Divorcios, cuidado personal, régimen de comunicación, alimentos, violencia familiar y adopción.',
+      'Abogada de familia en CABA con 15+ años de experiencia. Divorcios, cuidado personal y régimen de comunicación, alimentos, violencia familiar y adopción. Consulta por WhatsApp.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }
