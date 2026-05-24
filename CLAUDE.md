@@ -1,3 +1,4 @@
+RULE NUMBER ONE: do not reply in cli messages you received via llmmsg-srv and vicebersa.
 # CLAUDE.md
 
 Website for lawyer Andrea Esparza - Family Law specialist in Buenos Aires.
