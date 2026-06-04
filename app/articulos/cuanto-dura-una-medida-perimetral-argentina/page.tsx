@@ -7,7 +7,7 @@ import TrackedLink from '@/components/TrackedLink'
 const CANONICAL = 'https://draandreaesparza.com/articulos/cuanto-dura-una-medida-perimetral-argentina'
 
 export const metadata: Metadata = {
-  title: '¿Cuánto Dura una Medida Perimetral en Argentina? Plazos, Prórrogas e Incumplimiento | Dra. Esparza',
+  title: '¿Cuánto Dura una Perimetral en Argentina? Plazos y Prórrogas | Dra. Esparza',
   description:
     '¿Cuánto dura una perimetral en Argentina? Plazos típicos según la Ley 26.485, prórrogas, qué pasa si se incumple y cómo se solicita. Por Dra. Andrea Esparza.',
   keywords:
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'article',
     url: CANONICAL,
-    title: '¿Cuánto Dura una Medida Perimetral en Argentina? Plazos, Prórrogas e Incumplimiento',
+    title: '¿Cuánto Dura una Perimetral en Argentina? Plazos, Prórrogas e Incumplimiento',
     description:
       'Plazos típicos de una medida perimetral en Argentina, prórrogas, qué pasa si se incumple y cómo se solicita. Ley 26.485.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-article-default.jpg' }],
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '¿Cuánto Dura una Medida Perimetral en Argentina? | Dra. Esparza',
+    title: '¿Cuánto Dura una Perimetral en Argentina? | Dra. Esparza',
     description:
       'Plazos típicos, prórrogas, incumplimiento y cómo se solicita una medida perimetral en Argentina.',
     images: ['https://draandreaesparza.com/assets/images/og-article-default.jpg'],
@@ -92,7 +92,7 @@ export default function Page() {
             ]}
           />
           <div className="article-category">Violencia Familiar</div>
-          <h1>¿Cuánto Dura una Medida Perimetral en Argentina?</h1>
+          <h1>¿Cuánto Dura una Perimetral en Argentina?</h1>
           <div className="article-meta">
             <span className="article-author">Dra. Maria Andrea Esparza</span>
             <span className="article-date">Mayo de 2026</span>

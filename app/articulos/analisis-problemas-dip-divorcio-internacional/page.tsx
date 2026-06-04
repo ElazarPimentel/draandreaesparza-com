@@ -8,15 +8,15 @@ const CANONICAL = 'https://draandreaesparza.com/articulos/analisis-problemas-dip
 const PDF_URL = '/articulos/analisis-de-los-problemas-generales-del-derecho-internacional-privado-vinculados-a-un-divorcio-de.pdf'
 
 export const metadata: Metadata = {
-  title: 'Divorcio Internacional: Validez en Argentina, Jurisdicción y Ley Aplicable | Dra. Esparza',
+  title: '¿Un Divorcio en el Extranjero es Válido en Argentina? Reconocimiento | Dra. Esparza',
   description:
-    '¿Divorciado en el extranjero? Qué ocurre con el reconocimiento de la sentencia, la jurisdicción internacional y la ley aplicable para bienes y alimentos en Argentina. Por Dra. Andrea Esparza.',
+    '¿Te divorciaste en el extranjero? Cuándo vale la sentencia en Argentina, si necesitás exequátur, qué juez tiene jurisdicción y la ley aplicable a bienes y alimentos. Por Dra. Esparza.',
   openGraph: {
     type: 'article',
     url: CANONICAL,
-    title: 'Análisis de los Problemas del DIP Vinculados a un Divorcio Internacional - Dra. Andrea Esparza',
+    title: '¿Un Divorcio en el Extranjero es Válido en Argentina? - Dra. Andrea Esparza',
     description:
-      'Análisis exhaustivo de los problemas de derecho internacional privado que surgen en casos de divorcio decretado en el extranjero, incluyendo reconocimiento de sentencias, jurisdicción internacional y ley aplicable.',
+      '¿Te divorciaste en el extranjero? Cuándo se reconoce la sentencia en Argentina, exequátur, jurisdicción internacional y ley aplicable a bienes, alimentos e hijos.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-article-default.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -87,10 +87,11 @@ export default function Page() {
             ]}
           />
           <div className="article-category">Derecho Internacional Privado</div>
-          <h1>
-            Análisis de los Problemas Generales del Derecho Internacional Privado Vinculados a un Divorcio Decretado en
-            el Extranjero
-          </h1>
+          <h1>¿Un Divorcio Decretado en el Extranjero es Válido en Argentina?</h1>
+          <p>
+            Análisis de los problemas generales del Derecho Internacional Privado vinculados a un divorcio decretado en
+            el extranjero: reconocimiento de la sentencia, jurisdicción internacional y ley aplicable.
+          </p>
           <div className="article-meta">
             <span className="article-author">Dra. Maria Andrea Esparza</span>
             <span className="article-date">7 de Noviembre de 2007</span>
