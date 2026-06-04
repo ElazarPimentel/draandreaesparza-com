@@ -1,6 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "regions": ["gru1"],
+  "regions": [
+    "gru1"
+  ],
   "redirects": [
     {
       "source": "/problematicas-en-torno-a-la-restitucion-internacional-de-ninos-ninas-y-adolescentes7911.pdf",
@@ -11,6 +13,17 @@
       "source": "/articulos/analisis-de-los-problemas-generales-del-derecho-internacional-privado-vinculados-a-un-divorcio-de.pdf",
       "destination": "/articulos/analisis-problemas-dip-divorcio-internacional",
       "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.draandreaesparza.com"
+        }
+      ],
+      "destination": "https://draandreaesparza.com/:path*",
+      "statusCode": 301
     }
   ]
 }

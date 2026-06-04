@@ -100,6 +100,7 @@ const personSchema = {
   hasCredential: [
     { '@type': 'EducationalOccupationalCredential', name: 'Fundamentos del Derecho Islámico Relevantes para Disputas Familiares', credentialCategory: 'Certificate', recognizedBy: { '@type': 'EducationalOrganization', name: 'Elevify' } },
     { '@type': 'EducationalOccupationalCredential', name: 'DIP: Reconocimiento y Ejecución de Matrimonios Religiosos Extranjeros', credentialCategory: 'Certificate', recognizedBy: { '@type': 'EducationalOrganization', name: 'Elevify' } },
+    { '@type': 'EducationalOccupationalCredential', name: 'Sustracción Internacional de Menores. Novedades del Derecho Nacional e Internacional (5ª Edición, 20 h)', credentialCategory: 'Certificate', recognizedBy: { '@type': 'Organization', name: 'Asociación de Profesionales contra la Sustracción Internacional de Menores de España (ASIME)' } },
   ],
 }
 
@@ -307,7 +308,7 @@ export default function HomePage() {
             <ul className="accomplishments-list">
               <li>Autora de artículos y capítulos de libros especializados en Derecho Internacional Privado</li>
               <li>Disertante en eventos académicos y conferencias sobre temas de derecho de familia internacional</li>
-              <li>Miembro de la Asociación de Profesionales contra la Sustracción Internacional de Menores de España (ASIME)</li>
+              <li>Miembro de la Asociación de Profesionales contra la Sustracción Internacional de Menores de España (ASIME) &mdash; certificación 5ª Edición &ldquo;Sustracción Internacional de Menores. Novedades del Derecho Nacional e Internacional&rdquo; (Madrid, mayo 2026, 20 h lectivas)</li>
               <li>Organiza capacitaciones virtuales para abogados especializados en derecho del niño, niña y adolescente</li>
               <li>Publicaciones en el Repositorio de la Universidad de Buenos Aires</li>
               <li>Miembro de la Asociación Argentina de Derecho Internacional</li>
@@ -337,6 +338,15 @@ export default function HomePage() {
                 <h3>Docente</h3>
                 <h4>Responsabilidad Parental Transfronteriza</h4>
                 <p>Colegio de Abogados de la Prov. de Buenos Aires y Fundación CIJUSO. Capacitación dictada en marzo 2026.</p>
+              </div>
+              <div className="specialty-card">
+                <div className="card-icon">📜</div>
+                <h3>Certificación — ASIME (España)</h3>
+                <h4>Sustracción Internacional de Menores. Novedades del Derecho Nacional e Internacional (5ª Edición)</h4>
+                <p>Curso telemático de 20 horas lectivas de la Asociación de Profesionales contra la Sustracción Internacional de Menores de España. Madrid, 28 de mayo de 2026.</p>
+                <p>
+                  <TrackedLink href="/certificados/cert-asime-sustraccion-internacional-menores-5a-ed-2026-05-28.pdf" trackEvent="cta_click" trackSource="cert_asime_sustraccion_pdf" className="service-card-link" target="_blank" rel="noopener">Ver certificado (PDF)</TrackedLink>
+                </p>
               </div>
               <div className="specialty-card">
                 <div className="card-icon">📜</div>
