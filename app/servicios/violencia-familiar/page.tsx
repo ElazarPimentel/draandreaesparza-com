@@ -6,11 +6,11 @@ import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
-  title: 'Medida Perimetral y Orden de Protección en CABA: Cómo Pedirla, Cuánto Dura | Dra. Esparza',
+  title: 'Abogada de Violencia Familiar en CABA: Denuncia y Orden de Protección | Dra. Esparza',
   description:
-    'Cómo pedir una medida perimetral u orden de protección en CABA, cuánto dura (3 a 6 meses prorrogables), exclusión del hogar, denuncia en OVD. Ley 26.485. Consulta por WhatsApp.',
+    'Abogada de violencia familiar en CABA: cómo denunciar en la OVD, orden de protección, exclusión del hogar y defensa del denunciado. Ley 26.485. Consulta por WhatsApp.',
   keywords:
-    'violencia familiar, orden de protección, medida perimetral, exclusión del hogar, denuncia violencia doméstica, OVD Buenos Aires, Ley 26.485, medida de protección, abogada violencia familiar, prohibición de acercamiento',
+    'abogada violencia familiar, denuncia violencia familiar, orden de protección, exclusión del hogar, OVD Buenos Aires, denuncia violencia doméstica, Ley 26.485, defensa denunciado violencia, medida perimetral, prohibición de acercamiento',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://draandreaesparza.com/servicios/violencia-familiar',
@@ -19,18 +19,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://draandreaesparza.com/servicios/violencia-familiar',
-    title: 'Medida Perimetral y Orden de Protección en CABA: Cómo Pedirla, Cuánto Dura',
+    title: 'Abogada de Violencia Familiar en CABA: Denuncia, Orden de Protección y Defensa',
     description:
-      'Cómo pedir una medida perimetral en CABA, cuánto dura, exclusión del hogar, denuncia en OVD. Ley 26.485.',
+      'Cómo denunciar en la OVD, pedir una orden de protección, exclusión del hogar y ejercer defensa. Ley 26.485, Buenos Aires.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Medida Perimetral y Orden de Protección en CABA: Cómo Pedirla, Cuánto Dura',
+    title: 'Abogada de Violencia Familiar en CABA: Denuncia, Orden de Protección y Defensa',
     description:
-      'Cómo pedir una medida perimetral en CABA, cuánto dura, exclusión del hogar, denuncia en OVD. Ley 26.485.',
+      'Cómo denunciar en la OVD, pedir una orden de protección, exclusión del hogar y ejercer defensa. Ley 26.485, Buenos Aires.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }
@@ -194,7 +194,7 @@ export default function ViolenciaFamiliarPage() {
         />
 
         <header className="service-header">
-          <h1>Violencia Familiar: Órdenes de Protección y Medidas Perimetrales</h1>
+          <h1>Violencia Familiar en CABA: Denuncia, Órdenes de Protección y Defensa</h1>
           <p className="service-intro">
             Asesoramiento legal urgente y especializado en situaciones de violencia familiar.
             Protección de víctimas, órdenes de protección, y defensa de derechos parentales en
@@ -314,6 +314,17 @@ export default function ViolenciaFamiliarPage() {
               sociales, terceros)
             </li>
           </ul>
+          <p>
+            ¿Se pregunta cuánto tiempo se mantiene la perimetral, cómo se prorroga o qué pasa al
+            vencer?{' '}
+            <TrackedLink
+              href="/articulos/cuanto-dura-una-medida-perimetral-argentina"
+              trackEvent="publication_click"
+              trackSource="violencia_to_perimetral_article"
+            >
+              Lea la guía: ¿Cuánto dura una perimetral en Argentina? &rarr;
+            </TrackedLink>
+          </p>
 
           <h3>Si Se Viola la Medida Perimetral</h3>
 

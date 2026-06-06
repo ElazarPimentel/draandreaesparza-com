@@ -118,6 +118,30 @@ const faqSchema = {
         text: 'No. El divorcio extingue el matrimonio, pero la responsabilidad parental se mantiene compartida entre ambos padres. Solo cambia la organización del cuidado personal y se establece un régimen de comunicación con el progenitor no conviviente.',
       },
     },
+    {
+      '@type': 'Question',
+      name: '¿Qué es la tenencia unilateral hoy?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'La "tenencia unilateral" (o "cuidado unilateral" o "tenencia completa") corresponde hoy al cuidado personal unilateral, regulado en el Art. 653 del Código Civil y Comercial: el hijo convive de forma principal con uno solo de los progenitores. Es la excepción; la regla general es el cuidado compartido indistinto (Art. 651). El juez solo otorga el unilateral cuando el compartido resulta imposible o perjudicial para el niño.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿La tenencia a favor de la madre o del padre le quita derechos al otro progenitor?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. Que el cuidado personal sea unilateral (a favor de la madre o del padre) significa que ese progenitor ejerce la convivencia cotidiana, pero el otro conserva la responsabilidad parental: salvo privación o suspensión judicial, ambos siguen decidiendo sobre educación, salud, viajes al exterior y administración de los bienes del hijo, y el no conviviente mantiene el régimen de comunicación.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿Qué es la responsabilidad parental unilateral?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Es el ejercicio exclusivo de la responsabilidad parental por un solo progenitor. Es excepcional y procede en supuestos como fallecimiento, privación, suspensión o ausencia del otro progenitor. No debe confundirse con el cuidado personal unilateral (que solo refiere a la convivencia diaria) ni se concede por un simple desacuerdo entre los padres.',
+      },
+    },
   ],
 }
 
@@ -259,6 +283,51 @@ export default function Page() {
             comunicación</strong> regular (Art. 652 CCyCN). Antes se hablaba de
             &ldquo;visitas&rdquo;; el cambio de nombre subraya que el contacto es un derecho del
             niño, no un permiso del padre conviviente.
+          </p>
+
+          <h2>&laquo;Tenencia unilateral&raquo;, &laquo;cuidado unilateral&raquo; y &laquo;a favor del padre o de la madre&raquo;</h2>
+          <p>
+            Muchas consultas usan frases como <strong>&laquo;tenencia unilateral&raquo;</strong>,{' '}
+            <strong>&laquo;cuidado unilateral&raquo;</strong>,{' '}
+            <strong>&laquo;responsabilidad parental unilateral&raquo;</strong> o{' '}
+            <strong>&laquo;tenencia a favor de la madre / del padre&raquo;</strong>. Conviene
+            precisar a qué corresponde cada una en la ley vigente:
+          </p>
+          <ul>
+            <li>
+              <strong>&laquo;Tenencia unilateral&raquo; / &laquo;cuidado unilateral&raquo; / &laquo;tenencia completa&raquo;</strong>{' '}
+              &rarr; hoy es el <strong>cuidado personal unilateral</strong> (Art. 653 CCyCN): el
+              hijo convive de forma principal con uno solo de los progenitores. Es la excepción; la
+              regla es el cuidado compartido indistinto (Art. 651).
+            </li>
+            <li>
+              <strong>&laquo;Tenencia a favor de la madre&raquo; o &laquo;a favor del padre&raquo;</strong>{' '}
+              &rarr; significa que ese progenitor ejerce el cuidado personal cotidiano. No implica
+              que el otro pierda la responsabilidad parental: salvo privación o suspensión, ambos
+              siguen decidiendo sobre educación, salud, viajes y bienes del hijo.
+            </li>
+            <li>
+              <strong>&laquo;Responsabilidad parental unilateral&raquo;</strong> &rarr; es algo más
+              excepcional: el <strong>ejercicio exclusivo</strong> de la responsabilidad parental
+              por un solo progenitor (por ejemplo, por fallecimiento, privación o ausencia del
+              otro). No se otorga por un simple desacuerdo entre los padres.
+            </li>
+          </ul>
+          <p>
+            El cuidado unilateral no se concede &laquo;a pedido&raquo;: el juez lo otorga solo
+            cuando el cuidado compartido resulta imposible o perjudicial para el niño, ponderando su
+            interés superior. Las consecuencias concretas &mdash; cuota alimentaria, régimen de
+            comunicación, autorización para mudarse &mdash; se desarrollan acá:
+          </p>
+          <p>
+            &#10148;{' '}
+            <TrackedLink
+              href="/articulos/cuidado-personal-unilateral-consecuencias"
+              trackEvent="publication_click"
+              trackSource="hub_terminologia_to_unilateral_consecuencias"
+            >
+              <strong>Consecuencias del cuidado personal unilateral: cuota, comunicación y mudanza</strong>
+            </TrackedLink>
           </p>
 
           <h2>¿Hasta cuándo dura la responsabilidad parental?</h2>

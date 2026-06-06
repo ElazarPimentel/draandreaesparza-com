@@ -74,11 +74,75 @@ const breadcrumbSchema = {
   ],
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: '¿Cuánto dura una perimetral en Argentina?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No hay un plazo fijo en la Ley 26.485: el juez la mantiene mientras persista el riesgo. En la práctica una medida perimetral suele dictarse inicialmente por 3 a 6 meses y es prorrogable las veces que sean necesarias. Lo crucial es pedir la prórroga antes del vencimiento, porque la medida no se renueva automáticamente.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿La perimetral se extiende automáticamente?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. Si no se solicita la prórroga antes del vencimiento, la medida caduca. Hay que renovarla expresamente ante el juzgado mientras subsista la situación de riesgo.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿Una perimetral es un antecedente penal?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. La medida perimetral es una medida cautelar civil dictada en el fuero de familia: no es una condena y no figura como antecedente penal. Distinto es el incumplimiento: violar la perimetral puede abrir una causa penal por desobediencia a una orden judicial (art. 239 del Código Penal), y esa sí puede generar antecedentes.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿A cuántos metros obliga una perimetral?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'La distancia la fija el juez según el caso; no hay un número único establecido por ley. En la práctica suele ir de 200 a 500 metros del domicilio, el lugar de trabajo, la escuela de los hijos y demás lugares que frecuente la persona protegida. La prohibición de acercamiento también alcanza el contacto por teléfono, redes sociales o a través de terceros.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿Se puede levantar una perimetral antes de tiempo?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Sí. Cualquiera de las partes puede pedir el cese o la modificación de la medida antes de su vencimiento si cambiaron las circunstancias (informe favorable, mudanza, tiempo prolongado sin incidentes). El juez evalúa si subsiste el riesgo y resuelve. Mientras el juez no ordene el levantamiento, la medida sigue vigente y debe cumplirse, aunque ambas partes estén de acuerdo.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿Qué pasa si se viola una perimetral?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'El incumplimiento configura el delito de desobediencia a una orden judicial (art. 239 del Código Penal), con pena de 15 días a 1 año de prisión. Con una orden vigente la policía puede detener al agresor en el acto. La persona protegida debe llamar al 911, documentar el incumplimiento y notificar al juzgado para endurecer las medidas.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿Cuánto tarda una perimetral en dictarse?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'En situaciones de urgencia el juez la dicta en horas o pocos días. Las medidas previstas en la Ley 26.485 se resuelven con carácter inmediato, sin necesidad de escuchar previamente a la otra parte.',
+      },
+    },
+  ],
+}
+
 export default function Page() {
   return (
     <div className="article-page">
       <JsonLd data={articleSchema} />
       <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={faqSchema} />
 
       <ArticleNav />
 
@@ -244,6 +308,33 @@ export default function Page() {
             En situaciones de urgencia, el juez la dicta en{' '}
             <strong>horas o pocos días</strong>. Las medidas previstas en la Ley 26.485 se
             resuelven con carácter inmediato.
+          </p>
+
+          <h3>¿Una perimetral es un antecedente penal?</h3>
+          <p>
+            <strong>No.</strong> La medida perimetral es una <strong>medida cautelar civil</strong>{' '}
+            dictada en el fuero de familia: no es una condena y no figura como antecedente penal.
+            Distinto es el caso del <strong>incumplimiento</strong>: violar la perimetral puede
+            abrir una causa penal por desobediencia a una orden judicial (art. 239 del Código
+            Penal), y esa sí puede generar antecedentes.
+          </p>
+
+          <h3>¿A cuántos metros obliga una perimetral?</h3>
+          <p>
+            La distancia la <strong>fija el juez</strong> según el caso; no hay un número único
+            establecido por ley. En la práctica suele ir de <strong>200 a 500 metros</strong> del
+            domicilio, el lugar de trabajo, la escuela de los hijos y demás lugares que frecuente la
+            persona protegida. La prohibición de acercamiento también alcanza el contacto por
+            teléfono, redes sociales o a través de terceros.
+          </p>
+
+          <h3>¿Se puede levantar una perimetral antes de tiempo?</h3>
+          <p>
+            Sí. Cualquiera de las partes puede pedir el <strong>cese o la modificación</strong> de
+            la medida antes de su vencimiento si cambiaron las circunstancias (informe favorable,
+            mudanza, tiempo prolongado sin incidentes). El juez evalúa si subsiste el riesgo y
+            resuelve. Importante: <strong>mientras el juez no ordene el levantamiento, la medida
+            sigue vigente</strong> y debe cumplirse, aunque ambas partes estén de acuerdo.
           </p>
 
           <h2>Conclusión</h2>
