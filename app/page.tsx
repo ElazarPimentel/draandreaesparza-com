@@ -268,6 +268,55 @@ export default function HomePage() {
                 </TrackedLink>
               </p>
             </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/traslado-internacional-menores.jpeg" alt="¿Sos extranjero y formaste una familia en Argentina? Traslado internacional de menores y restitución si volvés a tu país sin autorización." width={1024} height={1536} />
+              <h3>Volver a tu país con tus hijos</h3>
+              <p>Si sos extranjero y querés volver a tu país con tus hijos, un traslado sin autorización puede derivar en restitución internacional de menores.</p>
+              <p>
+                <TrackedLink href="/articulos/volver-al-pais-de-origen-con-hijos-traslado-internacional" trackEvent="cta_click" trackSource="flyer_volver_pais_origen" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/cese-cuota-alimentaria.jpeg" alt="¿Cuándo puede cesar la cuota alimentaria? Mayoría de edad, independencia económica y otras causales." width={1024} height={1536} />
+              <h3>Cese de la cuota alimentaria</h3>
+              <p>La cuota alimentaria no es para toda la vida: causales para pedir su cese y por qué nunca es automático.</p>
+              <p>
+                <TrackedLink href="/articulos/cuando-puede-cesar-la-cuota-alimentaria" trackEvent="cta_click" trackSource="flyer_cese_cuota_alimentaria" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/rectificacion-de-partidas.jpeg" alt="Rectificación de partidas: corregí errores en las actas del Registro Civil y protegé tu identidad." width={1024} height={1536} />
+              <h3>Rectificación de partidas</h3>
+              <p>Errores en tu partida de nacimiento, matrimonio o defunción: cuáles se corrigen ante el Registro Civil y cuáles requieren un juicio.</p>
+              <p>
+                <TrackedLink href="/articulos/rectificacion-de-partidas-registro-civil" trackEvent="cta_click" trackSource="flyer_rectificacion_partidas" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/divorcio-matrimonio-extranjero.jpeg" alt="¿Te casaste en el extranjero y tu cónyuge se trasladó a Argentina? Podrías divorciarte acá." width={853} height={1280} />
+              <h3>Divorcio si te casaste en el extranjero</h3>
+              <p>Si tu cónyuge se trasladó a Argentina, en muchos casos podés iniciar el divorcio en tribunales argentinos aunque te hayas casado en el exterior.</p>
+              <p>
+                <TrackedLink href="/articulos/divorcio-en-argentina-si-te-casaste-en-el-extranjero" trackEvent="cta_click" trackSource="flyer_divorcio_matrimonio_extranjero" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <h3>Ley 27.806: cobro internacional de alimentos</h3>
+              <p>Argentina ratificó el Convenio de La Haya de 2007 sobre Cobro Internacional de Alimentos. ¿Necesitás reclamar alimentos en otro país? Contactame 🌎⚖️</p>
+              <p>
+                <TrackedLink href="/articulos/ley-27806-convenio-haya-cobro-internacional-de-alimentos" trackEvent="cta_click" trackSource="flyer_ley_27806_alimentos" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
           </div>
         </div>
       </section>

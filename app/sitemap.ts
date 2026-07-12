@@ -38,6 +38,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'cuidado-personal-unilateral-consecuencias',
     'cuanto-dura-una-medida-perimetral-argentina',
     'incidente-modificacion-cuota-alimentaria-caba-plazos',
+    'volver-al-pais-de-origen-con-hijos-traslado-internacional',
+    'cuando-puede-cesar-la-cuota-alimentaria',
+    'rectificacion-de-partidas-registro-civil',
+    'divorcio-en-argentina-si-te-casaste-en-el-extranjero',
+    'ley-27806-convenio-haya-cobro-internacional-de-alimentos',
   ]
 
   return [

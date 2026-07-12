@@ -2,5 +2,8 @@
   "claudeMdExcludes": [
     "/home/rob/Documents/work/pensanta/websites/CLAUDE.md",
     "/home/rob/Documents/work/pensanta/websites/claude-inventory.md"
-  ]
+  ],
+  "claudeApiSettings": {
+    "maxTokens": 200000
+  }
 }
