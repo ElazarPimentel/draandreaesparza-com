@@ -461,6 +461,9 @@ export default function Page() {
             <h3>Servicios legales relacionados</h3>
             <ul>
               <li><a href="/servicios/cuidado-personal">Cuidado personal de hijos (antes tenencia)</a></li>
+              <li><a href="/articulos/articulo-638-codigo-civil-responsabilidad-parental">Art. 638 CCyC: responsabilidad parental y cómo se pierde</a></li>
+              <li><a href="/articulos/articulo-651-codigo-civil-cuidado-compartido">Art. 651 CCyC: cuidado compartido</a></li>
+              <li><a href="/articulos/articulo-653-codigo-civil-cuidado-personal-unilateral">Art. 653 CCyC: cuidado personal unilateral</a></li>
               <li><a href="/servicios/derecho-familia">Derecho de familia</a></li>
               <li><a href="/servicios/divorcios-buenos-aires">Divorcios en Buenos Aires</a></li>
               <li><a href="/servicios/alimentos">Cuota alimentaria</a></li>

@@ -697,6 +697,30 @@ export default function CuidadoPersonalPage() {
           <ul>
             <li>
               <a
+                href="/articulos/articulo-651-codigo-civil-cuidado-compartido"
+                data-track-publication="service_related_publication"
+              >
+                Art. 651 CCyC explicado: el cuidado compartido como regla
+              </a>
+            </li>
+            <li>
+              <a
+                href="/articulos/articulo-653-codigo-civil-cuidado-personal-unilateral"
+                data-track-publication="service_related_publication"
+              >
+                Art. 653 CCyC explicado: cuidado personal unilateral
+              </a>
+            </li>
+            <li>
+              <a
+                href="/articulos/articulo-638-codigo-civil-responsabilidad-parental"
+                data-track-publication="service_related_publication"
+              >
+                Art. 638 CCyC: responsabilidad parental y cómo se pierde
+              </a>
+            </li>
+            <li>
+              <a
                 href="/articulos/conceptos-ninez-adolescencia-dip"
                 data-track-publication="service_related_publication"
               >

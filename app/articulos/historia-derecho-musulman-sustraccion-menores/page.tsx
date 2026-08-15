@@ -6,9 +6,9 @@ import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
   title:
-    'Sustracción de Menores y Derecho Musulmán: Convenio de La Haya | Dra. Esparza',
+    'Caso Arias Uriburu: Sustracción de Menores y Derecho Musulmán | Dra. Esparza',
   description:
-    'Caso real de sustracción internacional de menores con elementos de derecho islámico: fuentes jurídicas del Islam, Convenio de La Haya y resolución judicial en Argentina. Por Dra. Andrea Esparza.',
+    'El caso Shaban-Arias Uriburu: la sustracción internacional de menores más resonante de Argentina, analizada desde el derecho musulmán y el Convenio de La Haya. Por Dra. Andrea Esparza.',
   keywords:
     'derecho musulmán, sustracción internacional de menores, Convenio de La Haya, historia del Islam, derecho islámico, caso Shaban-Arias Uriburu, derecho internacional privado',
   robots: { index: true, follow: true },
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     type: 'article',
     url: 'https://draandreaesparza.com/articulos/historia-derecho-musulman-sustraccion-menores',
     title:
-      'Sustracción de Menores y Derecho Musulmán: Convenio de La Haya | Dra. Esparza',
+      'Caso Arias Uriburu: Sustracción de Menores y Derecho Musulmán | Dra. Esparza',
     description:
-      'Caso real de sustracción internacional de menores con elementos de derecho islámico: fuentes jurídicas del Islam, Convenio de La Haya y resolución judicial en Argentina. Por Dra. Andrea Esparza.',
+      'El caso Shaban-Arias Uriburu: la sustracción internacional de menores más resonante de Argentina, analizada desde el derecho musulmán y el Convenio de La Haya. Por Dra. Andrea Esparza.',
     images: [
       {
         url: 'https://draandreaesparza.com/assets/images/og-article-default.jpg',
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title:
-      'Sustracción de Menores y Derecho Musulmán: Convenio de La Haya | Dra. Esparza',
+      'Caso Arias Uriburu: Sustracción de Menores y Derecho Musulmán | Dra. Esparza',
     description:
-      'Caso real de sustracción internacional de menores con elementos de derecho islámico: fuentes jurídicas del Islam, Convenio de La Haya y resolución judicial en Argentina. Por Dra. Andrea Esparza.',
+      'El caso Shaban-Arias Uriburu: la sustracción internacional de menores más resonante de Argentina, analizada desde el derecho musulmán y el Convenio de La Haya. Por Dra. Andrea Esparza.',
     images: ['https://draandreaesparza.com/assets/images/og-article-default.jpg'],
   },
 }

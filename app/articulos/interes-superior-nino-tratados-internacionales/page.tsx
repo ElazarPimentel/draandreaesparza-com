@@ -8,8 +8,8 @@ const CANONICAL = 'https://draandreaesparza.com/articulos/interes-superior-nino-
 const PDF_URL = '/articulos/interes-superior-del-ni%C3%B1o-vs-cumplimiento-de-tratados-internacionales-revista-panama.pdf'
 
 export const metadata: Metadata = {
-  title: 'Interés Superior del Niño vs. Cumplimiento de Tratados Internacionales - Dra. Andrea Esparza',
-  description: 'Análisis del conflicto entre el principio del interés superior del niño y las obligaciones derivadas de tratados internacionales, especialmente en casos de sustracción internacional de menores. Publicado en Revista Panamá.',
+  title: '¿Interés Superior del Niño o Cumplir el Tratado? Sustracción de Menores | Dra. Esparza',
+  description: '¿Qué prevalece: el interés superior del niño o la restitución que ordena el Convenio de La Haya? Análisis del dilema en sustracción internacional de menores, con jurisprudencia. Publicado en Revista Panamá.',
   keywords: 'interés superior del niño, tratados internacionales, Convenio de La Haya, sustracción de menores, derecho internacional privado, Convención sobre los Derechos del Niño, Panamá',
   robots: 'index, follow',
   alternates: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'article',
     url: CANONICAL,
-    title: 'Interés Superior del Niño vs. Cumplimiento de Tratados Internacionales - Dra. Andrea Esparza',
+    title: '¿Interés Superior del Niño o Cumplir el Tratado? Sustracción de Menores | Dra. Esparza',
     description: 'Análisis del conflicto entre el principio del interés superior del niño y las obligaciones derivadas de tratados internacionales, especialmente en casos de sustracción internacional de menores.',
     images: [
       {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Interés Superior del Niño vs. Cumplimiento de Tratados Internacionales - Dra. Andrea Esparza',
+    title: '¿Interés Superior del Niño o Cumplir el Tratado? Sustracción de Menores | Dra. Esparza',
     description: 'Análisis del conflicto entre el principio del interés superior del niño y las obligaciones derivadas de tratados internacionales, especialmente en casos de sustracción internacional de menores.',
     images: ['https://draandreaesparza.com/assets/images/og-article-default.jpg'],
   },
@@ -45,7 +45,7 @@ const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: 'Interés Superior del Niño vs. Cumplimiento de Tratados Internacionales',
-  description: 'Análisis del conflicto entre el principio del interés superior del niño y las obligaciones derivadas de tratados internacionales, especialmente en casos de sustracción internacional de menores. Publicado en Revista Panamá.',
+  description: '¿Qué prevalece: el interés superior del niño o la restitución que ordena el Convenio de La Haya? Análisis del dilema en sustracción internacional de menores, con jurisprudencia. Publicado en Revista Panamá.',
   image: 'https://draandreaesparza.com/assets/images/og-article-default.jpg',
   datePublished: '2015-03-01',
   dateModified: '2015-03-01',
@@ -99,7 +99,7 @@ export default function Page() {
 
           <div className="article-category">Derecho Internacional Privado</div>
 
-          <h1>Interés Superior del Niño vs. Cumplimiento de Tratados Internacionales</h1>
+          <h1>¿Interés Superior del Niño o Cumplimiento del Tratado? El Dilema en la Sustracción Internacional de Menores</h1>
 
           <div className="article-meta">
             <span className="article-author">Dra. Maria Andrea Esparza</span>

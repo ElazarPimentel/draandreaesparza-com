@@ -371,6 +371,8 @@ export default function Page() {
             <p>Si esta situación se relaciona con su caso, puede solicitar asesoramiento en:</p>
             <ul>
               <li><a href="/servicios/violencia-familiar">Violencia familiar</a></li>
+              <li><a href="/articulos/como-pedir-una-perimetral">¿Cómo pedir una perimetral? Guía paso a paso</a></li>
+              <li><a href="/articulos/como-levantar-una-perimetral">¿Se puede levantar una perimetral?</a></li>
               <li><a href="/servicios/cuidado-personal">Cuidado personal de hijos</a></li>
               <li><a href="/servicios/derecho-familia">Derecho de familia</a></li>
             </ul>

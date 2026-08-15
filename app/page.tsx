@@ -223,6 +223,10 @@ export default function HomePage() {
               <h3>Kafala y adopción</h3>
               <p>Institución del derecho islámico que permite cuidar y proteger a un menor sin crear vínculo filiatorio. Figuras análogas en Argentina.</p>
               <p>
+                <TrackedLink href="/articulos/kafala-derecho-islamico-adopcion" trackEvent="cta_click" trackSource="flyer_kafala_adopcion_articulo" className="service-card-link">
+                  Leer artículo completo →
+                </TrackedLink>
+                {' '}
                 <TrackedLink href="/comunicaciones/kafala-adopcion.pdf" trackEvent="cta_click" trackSource="flyer_kafala_adopcion_pdf" className="service-card-link" target="_blank" rel="noopener">
                   Ver flyer (PDF) →
                 </TrackedLink>

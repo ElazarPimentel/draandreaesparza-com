@@ -4,9 +4,9 @@ import Breadcrumb from '@/components/Breadcrumb'
 import JsonLd from '@/components/JsonLd'
 
 export const metadata: Metadata = {
-  title: 'Agencias Especializadas en Ley Islámica - Dra. Andrea Esparza',
+  title: '¿Qué es un Sharia Board? Agencias de Ley Islámica y Fatwas | Dra. Esparza',
   description:
-    'Análisis de las agencias y comités de expertos (Sharia boards) en el tráfico financiero islámico, las fatawa, el opinion shopping y la estandarización de prácticas islámicas.',
+    '¿Qué es un Sharia board y cómo funcionan las agencias de ley islámica? Fatwas, opinion shopping y estandarización del derecho musulmán en las finanzas, explicados por una especialista.',
   keywords:
     'ley islámica, Sharia boards, fatawa, opinion shopping, finanzas islámicas, agencias especializadas, derecho musulmán, derecho comparado',
   robots: { index: true, follow: true },
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'article',
     url: 'https://draandreaesparza.com/articulos/agencias-especializadas-ley-islamica',
-    title: 'Agencias Especializadas en Ley Islámica - Dra. Andrea Esparza',
+    title: '¿Qué es un Sharia Board? Agencias de Ley Islámica y Fatwas | Dra. Esparza',
     description:
-      'Análisis de las agencias y comités de expertos (Sharia boards) en el tráfico financiero islámico, las fatawa, el opinion shopping y la estandarización de prácticas islámicas.',
+      '¿Qué es un Sharia board y cómo funcionan las agencias de ley islámica? Fatwas, opinion shopping y estandarización del derecho musulmán en las finanzas, explicados por una especialista.',
     images: [
       {
         url: 'https://draandreaesparza.com/assets/images/og-article-default.jpg',
         width: 1200,
         height: 630,
-        alt: 'Agencias Especializadas en Ley Islámica - Dra. Andrea Esparza',
+        alt: '¿Qué es un Sharia Board? Agencias de Ley Islámica y Fatwas | Dra. Esparza',
       },
     ],
     publishedTime: '2024-09-27',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Agencias Especializadas en Ley Islámica - Dra. Andrea Esparza',
+    title: '¿Qué es un Sharia Board? Agencias de Ley Islámica y Fatwas | Dra. Esparza',
     description:
       'Análisis de las agencias y comités de expertos (Sharia boards) en el tráfico financiero islámico.',
     images: ['https://draandreaesparza.com/assets/images/og-article-default.jpg'],
@@ -47,7 +47,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Agencias Especializadas en Ley Islámica',
   description:
-    'Análisis de las agencias y comités de expertos (Sharia boards) en el tráfico financiero islámico, las fatawa, el opinion shopping y la estandarización de prácticas islámicas.',
+    '¿Qué es un Sharia board y cómo funcionan las agencias de ley islámica? Fatwas, opinion shopping y estandarización del derecho musulmán en las finanzas, explicados por una especialista.',
   image: {
     '@type': 'ImageObject',
     url: 'https://draandreaesparza.com/assets/images/og-article-default.jpg',
@@ -126,7 +126,7 @@ export default function Page() {
           />
 
           <div className="article-category">Derecho Internacional y Comparado</div>
-          <h1>Agencias Especializadas en Ley Islámica</h1>
+          <h1>¿Qué es un Sharia Board? Las Agencias Especializadas en Ley Islámica</h1>
 
           <div className="article-meta">
             <span className="article-author">Por Dra. Andrea Esparza</span>

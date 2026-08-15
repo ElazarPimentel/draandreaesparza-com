@@ -6,9 +6,9 @@ import JsonLd from '@/components/JsonLd'
 import TrackedLink from '@/components/TrackedLink'
 
 export const metadata: Metadata = {
-  title: 'Juicio de Alimentos en CABA: Demanda, Cuota Provisoria y Aumento | Dra. Esparza',
+  title: 'Cuota Alimentaria: Cómo Reclamarla, Aumentarla y Ejecutarla | Dra. Esparza',
   description:
-    'Abogada de alimentos en CABA y Buenos Aires. Demanda, cuota provisoria en días, aumento por incumplimiento, ejecución y cese. Consulta por WhatsApp.',
+    '¿Cómo reclamar la cuota alimentaria? Abogada de alimentos en CABA: demanda, cuota provisoria en días, aumento por inflación, ejecución al deudor y cese. Consulta por WhatsApp.',
   keywords:
     'juicio de alimentos, cuota alimentaria, demanda de alimentos, aumento de cuota, alimentos hijos menores, alimentos hijos mayores, pensión alimenticia, Buenos Aires, Argentina',
   robots: 'index, follow',
@@ -19,18 +19,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://draandreaesparza.com/servicios/alimentos',
-    title: 'Juicio de Alimentos en CABA: Demanda, Cuota Provisoria y Aumento | Dra. Esparza',
+    title: 'Cuota Alimentaria: Cómo Reclamarla, Aumentarla y Ejecutarla | Dra. Esparza',
     description:
-      'Abogada de alimentos en CABA y Buenos Aires. Demanda, cuota provisoria en días, aumento por incumplimiento, ejecución y cese. Consulta por WhatsApp.',
+      '¿Cómo reclamar la cuota alimentaria? Abogada de alimentos en CABA: demanda, cuota provisoria en días, aumento por inflación, ejecución al deudor y cese. Consulta por WhatsApp.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Juicio de Alimentos en CABA: Demanda, Cuota Provisoria y Aumento | Dra. Esparza',
+    title: 'Cuota Alimentaria: Cómo Reclamarla, Aumentarla y Ejecutarla | Dra. Esparza',
     description:
-      'Abogada de alimentos en CABA y Buenos Aires. Demanda, cuota provisoria en días, aumento por incumplimiento, ejecución y cese. Consulta por WhatsApp.',
+      '¿Cómo reclamar la cuota alimentaria? Abogada de alimentos en CABA: demanda, cuota provisoria en días, aumento por inflación, ejecución al deudor y cese. Consulta por WhatsApp.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }
@@ -180,7 +180,7 @@ export default function AlimentosPage() {
         />
 
         <header className="service-header">
-          <h1>Abogada Especialista en Juicios de Alimentos</h1>
+          <h1>Cuota Alimentaria: Abogada Especialista en Juicios de Alimentos</h1>
           <p className="service-intro">
             Defensa efectiva de los derechos alimentarios de niños, niñas y adolescentes. Más de 25
             años de experiencia en juicios de alimentos.

@@ -43,6 +43,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'rectificacion-de-partidas-registro-civil',
     'divorcio-en-argentina-si-te-casaste-en-el-extranjero',
     'ley-27806-convenio-haya-cobro-internacional-de-alimentos',
+    'como-levantar-una-perimetral',
+    'como-pedir-una-perimetral',
+    'articulo-638-codigo-civil-responsabilidad-parental',
+    'articulo-651-codigo-civil-cuidado-compartido',
+    'articulo-653-codigo-civil-cuidado-personal-unilateral',
+    'articulo-658-codigo-civil-obligacion-alimentaria',
+    'kafala-derecho-islamico-adopcion',
   ]
 
   return [

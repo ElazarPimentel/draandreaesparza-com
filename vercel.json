@@ -3,6 +3,20 @@
   "regions": [
     "gru1"
   ],
+  "headers": [
+    {
+      "source": "/articulos/interes-superior-del-:slug*-revista-panama.pdf",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+    },
+    {
+      "source": "/articulos/trabajo-bioetica.pdf",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+    },
+    {
+      "source": "/comunicaciones/kafala-adopcion.pdf",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+    }
+  ],
   "redirects": [
     {
       "source": "/problematicas-en-torno-a-la-restitucion-internacional-de-ninos-ninas-y-adolescentes7911.pdf",
