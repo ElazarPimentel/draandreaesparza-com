@@ -188,7 +188,8 @@ export default function HomePage() {
               width={1024}
               height={1024}
               className="profile-image"
-              loading="lazy"
+              loading="eager"
+              fetchPriority="high"
             />
           </div>
         </div>
@@ -197,6 +198,7 @@ export default function HomePage() {
       {/* Comunicaciones — flyers (imágenes + PDF) */}
       <section id="comunicaciones" className="comunicaciones-section">
         <div className="container">
+          <h2>Recursos y Novedades</h2>
           <div className="cards-grid flyers-grid">
             <div className="specialty-card flyer-card">
               <FlyerImage src="/assets/images/flyers/exequatur.jpeg" alt="Exequátur: reconocimiento en Argentina de sentencias dictadas en el exterior." width={1254} height={1254} />

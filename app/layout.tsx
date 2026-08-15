@@ -32,8 +32,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta name="theme-color" content="#1a365d" />
         <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
+        {/* dataLayer must exist before GTM/GA4 load so early clicks are queued, not dropped */}
+        <Script id="datalayer-init" strategy="beforeInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+        `}</Script>
         {/* Google Tag Manager */}
-        <Script id="gtm" strategy="afterInteractive">{`
+        <Script id="gtm" strategy="lazyOnload">{`
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -43,9 +47,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* GA4 */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-96WW8CDVWG"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="ga4" strategy="afterInteractive">{`
+        <Script id="ga4" strategy="lazyOnload">{`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
