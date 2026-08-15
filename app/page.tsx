@@ -183,10 +183,12 @@ export default function HomePage() {
           <div className="hero-image">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/assets/images/andrea-esparza-portrait-web.webp"
+              src="/assets/images/andrea-esparza-portrait-700.webp"
+              srcSet="/assets/images/andrea-esparza-portrait-400.webp 400w, /assets/images/andrea-esparza-portrait-700.webp 700w"
+              sizes="(min-width: 1024px) 350px, (min-width: 768px) 250px, 200px"
               alt="Dra. Andrea Esparza - Abogada Especialista en Derecho de Familia"
-              width={1024}
-              height={1024}
+              width={700}
+              height={700}
               className="profile-image"
               loading="eager"
               fetchPriority="high"
