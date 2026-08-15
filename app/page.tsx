@@ -237,7 +237,7 @@ export default function HomePage() {
               </p>
             </div>
             <div className="specialty-card flyer-card">
-              <FlyerImage src="/assets/images/flyers/responsabilidad-parental-transfronteriza-haya-1996.jpg" alt="Flyer de la disertación Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996." width={2469} height={2743} />
+              <FlyerImage src="/assets/images/flyers/responsabilidad-parental-transfronteriza-haya-1996.webp" alt="Flyer de la disertación Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996." width={1440} height={1600} />
               <h3>Disertación: Responsabilidad Parental Transfronteriza</h3>
               <p>Flyer de la actividad del 15 de mayo de 2026 sobre la Convención de La Haya de 1996, organizada por el Colegio de Abogados de La Matanza.</p>
               <p>
