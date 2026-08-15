@@ -93,7 +93,7 @@ const personSchema = {
   url: 'https://draandreaesparza.com',
   email: 'mailto:estudiomaesparza@gmail.com',
   telephone: '+54-9-11-5561-7919',
-  worksFor: { '@type': 'LegalService', name: 'Estudio Jurídico Dra. Andrea Esparza', url: 'https://draandreaesparza.com' },
+  worksFor: { '@type': 'LegalService', name: 'Estudio Jurídico Dra. Andrea Esparza', url: 'https://draandreaesparza.com', address: { '@type': 'PostalAddress', streetAddress: 'Uruguay 651, Piso 14, Of. I', addressLocality: 'Ciudad Autónoma de Buenos Aires', addressRegion: 'Buenos Aires', postalCode: 'C1015ABM', addressCountry: 'AR' }, telephone: '+54-9-11-5561-7919' },
   alumniOf: { '@type': 'CollegeOrUniversity', name: 'Universidad de Buenos Aires' },
   knowsAbout: ['Derecho de Familia', 'Divorcios', 'Alimentos', 'Sucesiones', 'Restitución Internacional de Menores', 'Derecho Internacional Privado', 'Derecho Islámico', 'Finanzas Islámicas', 'Responsabilidad Parental Transfronteriza'],
   sameAs: ['https://www.linkedin.com/in/maría-andrea-esparza-b478608b', 'https://www.asime.org/andrea-esparza/'],

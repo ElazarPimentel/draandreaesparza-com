@@ -48,6 +48,8 @@ const serviceSchema = {
     '@type': 'LegalService',
     name: 'Estudio Jurídico Dra. Andrea Esparza',
     url: 'https://draandreaesparza.com',
+    address: { '@type': 'PostalAddress', streetAddress: 'Uruguay 651, Piso 14, Of. I', addressLocality: 'Ciudad Autónoma de Buenos Aires', addressRegion: 'Buenos Aires', postalCode: 'C1015ABM', addressCountry: 'AR' },
+    telephone: '+54-9-11-5561-7919',
   },
   areaServed: {
     '@type': 'City',
