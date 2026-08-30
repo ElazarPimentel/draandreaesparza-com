@@ -253,6 +253,7 @@ export default function Page() {
             <ul>
               <li><a href="/servicios/divorcios-buenos-aires">Divorcios en Buenos Aires</a></li>
               <li><a href="/servicios/derecho-familia-internacional">Derecho de familia internacional</a></li>
+              <li><a href="/articulos/casarse-en-argentina-si-ya-te-casaste-en-el-extranjero">¿Te casaste afuera y querés casarte de nuevo en Argentina?</a></li>
             </ul>
           </div>
         </footer>

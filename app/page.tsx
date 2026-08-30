@@ -317,6 +317,16 @@ export default function HomePage() {
               </p>
             </div>
             <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/casarse-dos-veces-matrimonio-extranjero.webp" alt="¿Te casaste en otro país y querés casarte nuevamente en Argentina con la misma persona? Podría tener consecuencias penales." width={1254} height={1254} />
+              <h3>¿Te casaste en otro país?</h3>
+              <p>Volver a casarte en Argentina con la misma persona no suma derechos: tu matrimonio extranjero ya produce efectos acá y repetirlo puede ser delito. Lo que corresponde es inscribirlo.</p>
+              <p>
+                <TrackedLink href="/articulos/casarse-en-argentina-si-ya-te-casaste-en-el-extranjero" trackEvent="cta_click" trackSource="flyer_casarse_dos_veces_extranjero" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
               <h3>Ley 27.806: cobro internacional de alimentos</h3>
               <p>Argentina ratificó el Convenio de La Haya de 2007 sobre Cobro Internacional de Alimentos. ¿Necesitás reclamar alimentos en otro país? Contactame 🌎⚖️</p>
               <p>
