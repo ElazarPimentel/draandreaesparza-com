@@ -10,6 +10,7 @@ interface TrackedLinkProps {
   target?: string
   rel?: string
   download?: boolean
+  ariaLabel?: string
   children: React.ReactNode
 }
 
@@ -21,6 +22,7 @@ export default function TrackedLink({
   target,
   rel,
   download,
+  ariaLabel,
   children,
 }: TrackedLinkProps) {
   return (
@@ -30,6 +32,7 @@ export default function TrackedLink({
       target={target}
       rel={rel}
       download={download}
+      aria-label={ariaLabel}
       onClick={() => track(trackEvent, { source: trackSource })}
     >
       {children}
