@@ -1,4 +1,5 @@
 import pkg from '@/package.json'
+import TrackedLink from '@/components/TrackedLink'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -27,13 +28,15 @@ export default function Footer() {
             <p className="footer-col-title">Contacto</p>
             <ul className="footer-links">
               <li>
-                <a
+                <TrackedLink
                   href="https://wa.me/5491155617919?text=Hola%20Dra.%20Esparza%2C%20vengo%20de%20su%20sitio%20web%20y%20quiero%20consultar."
+                  trackEvent="whatsapp_click"
+                  trackSource="footer"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   WhatsApp: +54 9 11 5561-7919
-                </a>
+                </TrackedLink>
               </li>
               <li><a href="mailto:estudiomaesparza@gmail.com">estudiomaesparza@gmail.com</a></li>
               <li>
