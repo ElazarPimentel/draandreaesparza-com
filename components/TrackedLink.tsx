@@ -4,7 +4,7 @@ import { track } from '@/lib/track'
 
 interface TrackedLinkProps {
   href: string
-  trackEvent: 'whatsapp_click' | 'publication_click' | 'cta_click'
+  trackEvent: 'whatsapp_click' | 'publication_click' | 'cta_click' | 'email_click'
   trackSource: string
   className?: string
   target?: string

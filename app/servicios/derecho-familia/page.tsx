@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     'Abogada de Familia en CABA: Divorcio, Cuidado Personal y Alimentos | Dra. Esparza',
   description:
-    'Abogada de familia en CABA con 15+ años de experiencia. Divorcios, cuidado personal y régimen de comunicación, alimentos, violencia familiar y adopción. Consulta por WhatsApp.',
+    'Divorcios, cuidado personal y régimen de comunicación, alimentos, violencia familiar y adopción. Abogada de familia con +15 años de experiencia en Buenos Aires, Argentina.',
   keywords:
     'derecho de familia, abogada familia, cuidado personal, patria potestad, régimen de comunicación, violencia familiar, violencia doméstica, orden de protección, adopción, Buenos Aires, Argentina',
   robots: 'index, follow',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title:
       'Abogada de Familia en CABA: Divorcio, Cuidado Personal y Alimentos | Dra. Esparza',
     description:
-      'Abogada de familia en CABA con 15+ años de experiencia. Divorcios, cuidado personal y régimen de comunicación, alimentos, violencia familiar y adopción. Consulta por WhatsApp.',
+      'Divorcios, cuidado personal y régimen de comunicación, alimentos, violencia familiar y adopción. Abogada de familia con +15 años de experiencia en Buenos Aires, Argentina.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title:
       'Abogada de Familia en CABA: Divorcio, Cuidado Personal y Alimentos | Dra. Esparza',
     description:
-      'Abogada de familia en CABA con 15+ años de experiencia. Divorcios, cuidado personal y régimen de comunicación, alimentos, violencia familiar y adopción. Consulta por WhatsApp.',
+      'Divorcios, cuidado personal y régimen de comunicación, alimentos, violencia familiar y adopción. Abogada de familia con +15 años de experiencia en Buenos Aires, Argentina.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }

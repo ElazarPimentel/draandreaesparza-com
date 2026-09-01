@@ -178,6 +178,19 @@ export default function Page() {
             gravedad y persistencia de los hechos. No existe un &ldquo;plazo único&rdquo; legal
             obligatorio.
           </p>
+          <p>
+            Si los plazos, las prórrogas y los juzgados le resultan abrumadores, no hace falta
+            que lo resuelva sola o solo: entender el mapa de su caso concreto es exactamente lo
+            que hacemos en una primera consulta.{' '}
+            <TrackedLink
+              href="/#contact"
+              trackEvent="cta_click"
+              trackSource="cuanto_dura_intro_reassure"
+            >
+              Puede escribirnos por acá
+            </TrackedLink>
+            .
+          </p>
 
           <h2>¿Qué es una medida perimetral?</h2>
           <p>
@@ -194,7 +207,16 @@ export default function Page() {
           <p>
             Se dicta en el marco de la <strong>Ley 26.485</strong> de Protección Integral para
             Prevenir, Sancionar y Erradicar la Violencia contra las Mujeres, y de las leyes
-            provinciales y nacionales sobre violencia familiar (Ley 24.417 en lo aplicable).
+            provinciales y nacionales sobre violencia familiar (Ley 24.417 en lo aplicable). Si
+            quiere entender la medida a fondo — qué prohíbe exactamente, qué no es y cómo se
+            controla — la explicamos en lenguaje simple en{' '}
+            <TrackedLink
+              href="/articulos/que-es-una-perimetral"
+              trackEvent="cta_click"
+              trackSource="cuanto_dura_to_que_es"
+            >
+              ¿qué es una perimetral y cómo funciona?
+            </TrackedLink>
           </p>
 
           <h2>Plazos típicos</h2>
@@ -254,6 +276,27 @@ export default function Page() {
               juicios de divorcio, cuidado personal y régimen de comunicación con los hijos.
             </li>
           </ul>
+          <p>
+            Este último punto merece atención: es raro que una perimetral exista sola. Si su
+            situación se cruza con una denuncia por{' '}
+            <TrackedLink
+              href="/servicios/violencia-familiar"
+              trackEvent="cta_click"
+              trackSource="cuanto_dura_to_violencia_familiar"
+            >
+              violencia familiar
+            </TrackedLink>{' '}
+            o con una disputa por el{' '}
+            <TrackedLink
+              href="/servicios/cuidado-personal"
+              trackEvent="cta_click"
+              trackSource="cuanto_dura_to_cuidado_personal"
+            >
+              cuidado personal de los hijos
+            </TrackedLink>
+            , cada incumplimiento documentado — y cada prórroga pedida a tiempo — pesa después en
+            esos expedientes. Documentar bien hoy es litigar mejor mañana.
+          </p>
 
           <h2>¿Cómo se solicita la medida perimetral?</h2>
           <ol>
@@ -343,7 +386,17 @@ export default function Page() {
             <strong>3 y 6 meses iniciales, prorrogables las veces necesarias</strong>. El plazo
             concreto lo fija el juez en cada caso. Lo crucial no es la duración inicial sino{' '}
             <strong>pedir la prórroga antes del vencimiento</strong> mientras subsista el riesgo,
-            y denunciar cualquier incumplimiento de inmediato.
+            y denunciar cualquier incumplimiento de inmediato. Todo esto puede hacerse sin
+            abogado — y si prefiere asegurarse de que prórrogas, plazos y pruebas queden bien
+            planteados desde el principio, o su caso se cruza con hijos o una separación,{' '}
+            <TrackedLink
+              href="/#contact"
+              trackEvent="cta_click"
+              trackSource="cuanto_dura_conclusion_offer"
+            >
+              contáctenos
+            </TrackedLink>{' '}
+            y lo conversamos.
           </p>
         </div>
 
@@ -371,6 +424,7 @@ export default function Page() {
             <p>Si esta situación se relaciona con su caso, puede solicitar asesoramiento en:</p>
             <ul>
               <li><a href="/servicios/violencia-familiar">Violencia familiar</a></li>
+              <li><a href="/articulos/que-es-una-perimetral">¿Qué es una perimetral y cómo funciona?</a></li>
               <li><a href="/articulos/como-pedir-una-perimetral">¿Cómo pedir una perimetral? Guía paso a paso</a></li>
               <li><a href="/articulos/como-levantar-una-perimetral">¿Se puede levantar una perimetral?</a></li>
               <li><a href="/servicios/cuidado-personal">Cuidado personal de hijos</a></li>

@@ -8,7 +8,7 @@ import TrackedLink from '@/components/TrackedLink'
 export const metadata: Metadata = {
   title: 'Abogada de Sucesiones en Buenos Aires | Declaratoria de Herederos',
   description:
-    'Abogada para sucesiones en Buenos Aires: declaratoria de herederos, sucesión con o sin testamento, partición de bienes e inscripción de inmuebles y automotores.',
+    'Declaratoria de herederos, sucesión con o sin testamento, partición de bienes e inscripción de inmuebles y automotores. Abogada para sucesiones en Buenos Aires, Argentina.',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://draandreaesparza.com/servicios/sucesiones',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://draandreaesparza.com/servicios/sucesiones',
     title: 'Abogada de Sucesiones en Buenos Aires | Declaratoria de Herederos',
     description:
-      'Abogada para sucesiones en Buenos Aires: declaratoria de herederos, sucesión con o sin testamento, partición de bienes e inscripción de inmuebles y automotores.',
+      'Declaratoria de herederos, sucesión con o sin testamento, partición de bienes e inscripción de inmuebles y automotores. Abogada para sucesiones en Buenos Aires, Argentina.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Abogada de Sucesiones en Buenos Aires | Declaratoria de Herederos',
     description:
-      'Abogada para sucesiones en Buenos Aires: declaratoria de herederos, sucesión con o sin testamento, partición de bienes e inscripción de inmuebles y automotores.',
+      'Declaratoria de herederos, sucesión con o sin testamento, partición de bienes e inscripción de inmuebles y automotores. Abogada para sucesiones en Buenos Aires, Argentina.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }
@@ -40,7 +40,7 @@ const schemaService = {
   '@type': 'Service',
   name: 'Servicio de Sucesiones en Buenos Aires',
   description:
-    'Abogada para sucesiones en Buenos Aires: declaratoria de herederos, sucesión con o sin testamento, partición de bienes e inscripción de inmuebles y automotores.',
+    'Declaratoria de herederos, sucesión con o sin testamento, partición de bienes e inscripción de inmuebles y automotores. Abogada para sucesiones en Buenos Aires, Argentina.',
   provider: {
     '@type': 'LegalService',
     name: 'Estudio Jurídico Dra. Andrea Esparza',
@@ -55,7 +55,7 @@ const schemaService = {
   offers: {
     '@type': 'Offer',
     description:
-      'Abogada para sucesiones en Buenos Aires: declaratoria de herederos, sucesión con o sin testamento, partición de bienes e inscripción de inmuebles y automotores.',
+      'Declaratoria de herederos, sucesión con o sin testamento, partición de bienes e inscripción de inmuebles y automotores. Abogada para sucesiones en Buenos Aires, Argentina.',
   },
 }
 

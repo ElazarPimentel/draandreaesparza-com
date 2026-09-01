@@ -298,6 +298,7 @@ export default function Page() {
             <p>Si esta situación se relaciona con su caso, puede solicitar asesoramiento en:</p>
             <ul>
               <li><a href="/servicios/violencia-familiar">Violencia familiar</a></li>
+              <li><a href="/articulos/que-es-una-perimetral">¿Qué es una perimetral y cómo funciona?</a></li>
               <li><a href="/articulos/cuanto-dura-una-medida-perimetral-argentina">¿Cuánto dura una perimetral en Argentina?</a></li>
               <li><a href="/articulos/como-pedir-una-perimetral">¿Cómo pedir una perimetral?</a></li>
               <li><a href="/servicios/derecho-familia">Derecho de familia</a></li>

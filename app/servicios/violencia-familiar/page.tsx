@@ -8,7 +8,7 @@ import TrackedLink from '@/components/TrackedLink'
 export const metadata: Metadata = {
   title: 'Abogada de Violencia Familiar en CABA: Denuncia y Orden de Protección | Dra. Esparza',
   description:
-    'Abogada de violencia familiar en CABA: cómo denunciar en la OVD, orden de protección, exclusión del hogar y defensa del denunciado. Ley 26.485. Consulta por WhatsApp.',
+    'Cómo denunciar en la OVD, orden de protección, exclusión del hogar y defensa del denunciado. Ley 26.485. Abogada de violencia familiar en Buenos Aires, Argentina.',
   keywords:
     'abogada violencia familiar, denuncia violencia familiar, orden de protección, exclusión del hogar, OVD Buenos Aires, denuncia violencia doméstica, Ley 26.485, defensa denunciado violencia, medida perimetral, prohibición de acercamiento',
   robots: 'index, follow',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://draandreaesparza.com/servicios/violencia-familiar',
     title: 'Abogada de Violencia Familiar en CABA: Denuncia, Orden de Protección y Defensa',
     description:
-      'Cómo denunciar en la OVD, pedir una orden de protección, exclusión del hogar y ejercer defensa. Ley 26.485, Buenos Aires.',
+      'Cómo denunciar en la OVD, pedir una orden de protección, exclusión del hogar y ejercer defensa. Ley 26.485. Abogada en Buenos Aires, Argentina.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Abogada de Violencia Familiar en CABA: Denuncia, Orden de Protección y Defensa',
     description:
-      'Cómo denunciar en la OVD, pedir una orden de protección, exclusión del hogar y ejercer defensa. Ley 26.485, Buenos Aires.',
+      'Cómo denunciar en la OVD, pedir una orden de protección, exclusión del hogar y ejercer defensa. Ley 26.485. Abogada en Buenos Aires, Argentina.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }

@@ -8,7 +8,7 @@ import TrackedLink from '@/components/TrackedLink'
 export const metadata: Metadata = {
   title: 'Cuidado Personal Unilateral: Qué Significa, Consecuencias y Tipos | Dra. Esparza',
   description:
-    'Qué significa cuidado personal unilateral, consecuencias y diferencias con el compartido alternado o indistinto. Régimen de comunicación, centro de vida, Art. 648-656 CCyCN. Por Dra. Andrea Esparza.',
+    'Cuidado personal unilateral, compartido alternado o indistinto: diferencias y consecuencias. Régimen de comunicación, Art. 648-656 CCyCN. Dra. Andrea Esparza, abogada de familia en Buenos Aires, Argentina.',
   keywords:
     'cuidado personal hijos, cuidado unilateral, cuidado compartido, tenencia hijos, con quién viven los hijos divorcio, régimen de comunicación, centro de vida, abogada familia Buenos Aires, Art 653 CCyCN',
   robots: 'index, follow',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://draandreaesparza.com/servicios/cuidado-personal',
     title: 'Cuidado Personal Unilateral: Qué Significa, Consecuencias y Tipos',
     description:
-      'Qué significa cuidado personal unilateral, consecuencias y diferencias con el compartido alternado o indistinto. Por Dra. Andrea Esparza, abogada de familia en Buenos Aires.',
+      'Cuidado personal unilateral, compartido alternado o indistinto: diferencias y consecuencias. Dra. Andrea Esparza, abogada de familia en Buenos Aires, Argentina.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Cuidado Personal Unilateral: Qué Significa, Consecuencias y Tipos',
     description:
-      'Qué significa cuidado personal unilateral, consecuencias y diferencias con el compartido alternado o indistinto. Por Dra. Andrea Esparza, abogada de familia en Buenos Aires.',
+      'Cuidado personal unilateral, compartido alternado o indistinto: diferencias y consecuencias. Dra. Andrea Esparza, abogada de familia en Buenos Aires, Argentina.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }

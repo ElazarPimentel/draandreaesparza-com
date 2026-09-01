@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     'Derecho de Familia y Sucesiones Internacionales en Buenos Aires | Dra. Esparza',
   description:
-    'Abogada especialista en divorcios internacionales, sucesiones con bienes en el exterior y conflictos familiares transfronterizos. Derecho Internacional Privado aplicado. +25 años de experiencia.',
+    'Divorcios internacionales, sucesiones con bienes en el exterior y conflictos familiares transfronterizos. Derecho Internacional Privado aplicado. Abogada especialista en Buenos Aires, Argentina.',
   keywords:
     'divorcio internacional, sucesión internacional, herencia bienes exterior, derecho internacional privado, reconocimiento sentencia extranjera, divorcio en el extranjero Argentina, abogada DIP Buenos Aires',
   robots: 'index, follow',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title:
       'Derecho de Familia y Sucesiones Internacionales en Buenos Aires | Dra. Esparza',
     description:
-      'Abogada especialista en divorcios internacionales, sucesiones con bienes en el exterior y conflictos familiares transfronterizos. Derecho Internacional Privado aplicado. +25 años de experiencia.',
+      'Divorcios internacionales, sucesiones con bienes en el exterior y conflictos familiares transfronterizos. Derecho Internacional Privado aplicado. Abogada especialista en Buenos Aires, Argentina.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title:
       'Derecho de Familia y Sucesiones Internacionales en Buenos Aires | Dra. Esparza',
     description:
-      'Abogada especialista en divorcios internacionales, sucesiones con bienes en el exterior y conflictos familiares transfronterizos. Derecho Internacional Privado aplicado. +25 años de experiencia.',
+      'Divorcios internacionales, sucesiones con bienes en el exterior y conflictos familiares transfronterizos. Derecho Internacional Privado aplicado. Abogada especialista en Buenos Aires, Argentina.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }

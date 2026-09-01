@@ -8,7 +8,7 @@ import TrackedLink from '@/components/TrackedLink'
 export const metadata: Metadata = {
   title: 'Abogada de Divorcio en CABA: Express, Mutuo Acuerdo y Contencioso | Dra. Esparza',
   description:
-    'Abogada de divorcios en CABA y Buenos Aires. Divorcio express (60 días), mutuo acuerdo o contencioso. Liquidación de bienes, compensación económica, hijos. Consulta por WhatsApp.',
+    'Divorcio express (60 días), mutuo acuerdo o contencioso. Liquidación de bienes, compensación económica, hijos. Abogada de divorcios en CABA, Buenos Aires, Argentina.',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://draandreaesparza.com/servicios/divorcios-buenos-aires',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://draandreaesparza.com/servicios/divorcios-buenos-aires',
     title: 'Abogada de Divorcio en CABA: Express, Mutuo Acuerdo y Contencioso | Dra. Esparza',
     description:
-      'Abogada de divorcios en CABA y Buenos Aires. Divorcio express (60 días), mutuo acuerdo o contencioso. Liquidación de bienes y compensación económica.',
+      'Divorcio express (60 días), mutuo acuerdo o contencioso. Liquidación de bienes y compensación económica. Abogada de divorcios en CABA, Buenos Aires, Argentina.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Abogada de Divorcio en CABA: Express, Mutuo Acuerdo y Contencioso | Dra. Esparza',
     description:
-      'Abogada de divorcios en CABA y Buenos Aires. Divorcio express (60 días), mutuo acuerdo o contencioso. Liquidación de bienes y compensación económica.',
+      'Divorcio express (60 días), mutuo acuerdo o contencioso. Liquidación de bienes y compensación económica. Abogada de divorcios en CABA, Buenos Aires, Argentina.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }

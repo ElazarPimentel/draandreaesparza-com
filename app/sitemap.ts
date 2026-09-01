@@ -51,6 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'articulo-658-codigo-civil-obligacion-alimentaria',
     'kafala-derecho-islamico-adopcion',
     'casarse-en-argentina-si-ya-te-casaste-en-el-extranjero',
+    'que-es-una-perimetral',
   ]
 
   return [

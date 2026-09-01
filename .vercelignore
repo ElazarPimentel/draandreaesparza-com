@@ -1,0 +1,4 @@
+# Analysis and reporting artifacts - never part of the deployed site.
+# (gsc-reports/ is also gitignored, so it never reaches Vercel via the GitHub
+# integration either; this file makes the exclusion explicit for CLI deploys.)
+gsc-reports/

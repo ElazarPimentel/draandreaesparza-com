@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     'Abogada Especialista en Derecho de Familia, Divorcios y Sucesiones en Buenos Aires | Dra. Andrea Esparza',
   description:
-    'Abogada especialista en derecho de familia en Buenos Aires. Divorcios, divorcio express, sucesiones, cuota alimentaria y cuidado personal. Más de 25 años de experiencia.',
+    'Abogada especialista en derecho de familia en Buenos Aires, Argentina. Divorcios, divorcio express, cuota alimentaria, cuidado personal, sucesiones, violencia familiar y restitución internacional de menores. +25 años de experiencia',
   keywords:
     'derecho de familia, adopción, orden de protección, hogar de niños, juicio por alimentos, violencia familiar, violencia domestica, sucesiones, cuidado personal unilateral, patria potestad, abogada, divorcios, alimentos, testamentos, herencias, restitución internacional menores, sustracción menores, convenio la haya, Buenos Aires, Argentina',
   alternates: {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       'Abogada Especialista en Derecho de Familia, Divorcios y Sucesiones en Buenos Aires | Dra. Andrea Esparza',
     description:
-      'Abogada especialista en derecho de familia en Buenos Aires. Divorcios, divorcio express, sucesiones, cuota alimentaria y cuidado personal. Más de 25 años de experiencia.',
+      'Abogada especialista en derecho de familia en Buenos Aires, Argentina. Divorcios, divorcio express, cuota alimentaria, cuidado personal, sucesiones, violencia familiar y restitución internacional de menores. +25 años de experiencia',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg', width: 1200, height: 630 }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title:
       'Abogada Especialista en Derecho de Familia, Divorcios y Sucesiones en Buenos Aires | Dra. Andrea Esparza',
     description:
-      'Abogada especialista en derecho de familia, divorcios, divorcio express y sucesiones en Buenos Aires.',
+      'Abogada especialista en derecho de familia, divorcios, divorcio express y sucesiones en Buenos Aires, Argentina.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }

@@ -8,7 +8,7 @@ import TrackedLink from '@/components/TrackedLink'
 export const metadata: Metadata = {
   title: '¿Qué Organismo Toma una Medida de Protección Excepcional? CDNNyA y Defensoría Zonal',
   description:
-    'Qué es una medida de protección excepcional, qué organismo está facultado para tomarla (CDNNyA, Defensoría Zonal) y cómo funciona el control de legalidad. Ley 26.061, Art. 607 CCyCN.',
+    'Qué es una medida de protección excepcional, qué organismo puede tomarla (CDNNyA, Defensoría Zonal) y el control de legalidad. Ley 26.061. Abogada de familia en Buenos Aires, Argentina.',
   keywords:
     'medida de protección excepcional, control de legalidad, CDNNyA, Defensoría Zonal, Ley 26.061, Art 607, protección de niños, institucionalización, egreso, vinculaciones, abogada Buenos Aires',
   robots: 'index, follow',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://draandreaesparza.com/servicios/medida-proteccion-excepcional',
     title: 'Medida de Protección Excepcional: Qué Organismo la Toma (CDNNyA y Defensoría Zonal)',
     description:
-      'Qué es una medida de protección excepcional, qué organismo está facultado para tomarla (CDNNyA, Defensoría Zonal) y cómo funciona el control de legalidad.',
+      'Qué es una medida de protección excepcional, qué organismo puede tomarla y el control de legalidad. Abogada de familia en Buenos Aires, Argentina.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',

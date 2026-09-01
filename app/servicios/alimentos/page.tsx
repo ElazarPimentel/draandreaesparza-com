@@ -8,7 +8,7 @@ import TrackedLink from '@/components/TrackedLink'
 export const metadata: Metadata = {
   title: 'Cuota Alimentaria: Cómo Reclamarla, Aumentarla y Ejecutarla | Dra. Esparza',
   description:
-    '¿Cómo reclamar la cuota alimentaria? Abogada de alimentos en CABA: demanda, cuota provisoria en días, aumento por inflación, ejecución al deudor y cese. Consulta por WhatsApp.',
+    '¿Cómo reclamar la cuota alimentaria? Demanda, cuota provisoria en días, aumento por inflación, ejecución al deudor y cese. Abogada de alimentos en Buenos Aires, Argentina.',
   keywords:
     'juicio de alimentos, cuota alimentaria, demanda de alimentos, aumento de cuota, alimentos hijos menores, alimentos hijos mayores, pensión alimenticia, Buenos Aires, Argentina',
   robots: 'index, follow',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://draandreaesparza.com/servicios/alimentos',
     title: 'Cuota Alimentaria: Cómo Reclamarla, Aumentarla y Ejecutarla | Dra. Esparza',
     description:
-      '¿Cómo reclamar la cuota alimentaria? Abogada de alimentos en CABA: demanda, cuota provisoria en días, aumento por inflación, ejecución al deudor y cese. Consulta por WhatsApp.',
+      '¿Cómo reclamar la cuota alimentaria? Demanda, cuota provisoria en días, aumento por inflación, ejecución al deudor y cese. Abogada de alimentos en Buenos Aires, Argentina.',
     images: [{ url: 'https://draandreaesparza.com/assets/images/og-home.jpg' }],
     siteName: 'Dra. Andrea Esparza - Estudio Jurídico',
     locale: 'es_AR',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Cuota Alimentaria: Cómo Reclamarla, Aumentarla y Ejecutarla | Dra. Esparza',
     description:
-      '¿Cómo reclamar la cuota alimentaria? Abogada de alimentos en CABA: demanda, cuota provisoria en días, aumento por inflación, ejecución al deudor y cese. Consulta por WhatsApp.',
+      '¿Cómo reclamar la cuota alimentaria? Demanda, cuota provisoria en días, aumento por inflación, ejecución al deudor y cese. Abogada de alimentos en Buenos Aires, Argentina.',
     images: ['https://draandreaesparza.com/assets/images/og-home.jpg'],
   },
 }

@@ -38,7 +38,15 @@ export default function Footer() {
                   WhatsApp: +54 9 11 5561-7919
                 </TrackedLink>
               </li>
-              <li><a href="mailto:estudiomaesparza@gmail.com">estudiomaesparza@gmail.com</a></li>
+              <li>
+                <TrackedLink
+                  href="mailto:estudiomaesparza@gmail.com"
+                  trackEvent="email_click"
+                  trackSource="footer"
+                >
+                  estudiomaesparza@gmail.com
+                </TrackedLink>
+              </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/mar%C3%ADa-andrea-esparza-b478608b"
