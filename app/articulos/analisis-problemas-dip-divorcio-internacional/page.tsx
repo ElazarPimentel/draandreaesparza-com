@@ -383,6 +383,9 @@ export default function Page() {
               <li>
                 <a href="/servicios/sucesiones">Sucesiones y Herencias</a>
               </li>
+              <li>
+                <a href="/articulos/divorcio-de-un-diplomatico">Divorcio de un diplomático: inmunidad y jurisdicción</a>
+              </li>
             </ul>
           </div>
         </footer>

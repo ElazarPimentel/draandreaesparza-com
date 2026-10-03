@@ -42,6 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'cuando-puede-cesar-la-cuota-alimentaria',
     'rectificacion-de-partidas-registro-civil',
     'divorcio-en-argentina-si-te-casaste-en-el-extranjero',
+    'divorcio-de-un-diplomatico',
     'ley-27806-convenio-haya-cobro-internacional-de-alimentos',
     'como-levantar-una-perimetral',
     'como-pedir-una-perimetral',

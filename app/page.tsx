@@ -234,7 +234,7 @@ export default function HomePage() {
               <h3>¿Divorcio de un diplomático?</h3>
               <p>Divorcio en el exterior o en Argentina, reconocimiento e inscripción de la sentencia extranjera, traslados y residencia, y la protección de los hijos en una vida internacional.</p>
               <p>
-                <TrackedLink href="/articulos/divorcio-en-argentina-si-te-casaste-en-el-extranjero" trackEvent="cta_click" trackSource="flyer_divorcio_diplomatico" className="service-card-link">
+                <TrackedLink href="/articulos/divorcio-de-un-diplomatico" trackEvent="cta_click" trackSource="flyer_divorcio_diplomatico" className="service-card-link">
                   Leer artículo →
                 </TrackedLink>
               </p>
