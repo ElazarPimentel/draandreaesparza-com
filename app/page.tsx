@@ -149,6 +149,32 @@ const eventSchema = {
   about: ['Convención de La Haya de 1996', 'Responsabilidad Parental Transfronteriza', 'Derecho Internacional Privado', 'Derecho de Familia Internacional'],
 }
 
+const courseEventSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'EducationEvent',
+  name: 'Modificaciones al Proceso de Restitución de Menores',
+  description: 'Curso virtual del Área Académica del Colegio de Abogados de San Isidro, organizado por el Instituto de Derecho Internacional Privado. Ejes: restitución e interés superior del niño, tratados internacionales, Convención Interamericana y soluciones del Código Civil y Comercial de la Nación. Cuatro clases por videoconferencia, jueves de 18:30 a 20:30.',
+  startDate: '2026-10-01T18:30:00-03:00',
+  endDate: '2026-10-22T20:30:00-03:00',
+  eventSchedule: { '@type': 'Schedule', byDay: 'https://schema.org/Thursday', startTime: '18:30', endTime: '20:30', scheduleTimezone: 'America/Argentina/Buenos_Aires', repeatFrequency: 'P1W' },
+  eventStatus: 'https://schema.org/EventScheduled',
+  eventAttendanceMode: 'https://schema.org/OnlineEventAttendanceMode',
+  inLanguage: 'es-AR',
+  image: 'https://draandreaesparza.com/assets/images/flyers/curso-modificaciones-restitucion-menores-casi.webp',
+  url: 'https://draandreaesparza.com/#formacion',
+  location: { '@type': 'VirtualLocation', url: 'https://www.casi.com.ar/' },
+  performer: [
+    { '@type': 'Person', name: 'Dra. María Andrea Esparza', sameAs: 'https://draandreaesparza.com/#person' },
+    { '@type': 'Person', name: 'Dra. Flavia Andrea Medina' },
+  ],
+  organizer: [
+    { '@type': 'Organization', name: 'Colegio de Abogados de San Isidro', url: 'https://www.casi.com.ar/' },
+    { '@type': 'Organization', name: 'Instituto de Derecho Internacional Privado (CASI)' },
+  ],
+  offers: { '@type': 'Offer', url: 'https://www.casi.com.ar/', availability: 'https://schema.org/InStock', price: '172800', priceCurrency: 'ARS' },
+  about: ['Restitución internacional de menores', 'Interés superior del niño', 'Convención Interamericana sobre Restitución Internacional de Menores', 'Derecho Internacional Privado'],
+}
+
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -164,6 +190,7 @@ export default function HomePage() {
       <JsonLd data={personSchema} />
       <JsonLd data={faqSchema} />
       <JsonLd data={eventSchema} />
+      <JsonLd data={courseEventSchema} />
       <JsonLd data={websiteSchema} />
 
       <Nav />
@@ -202,6 +229,26 @@ export default function HomePage() {
         <div className="container">
           <h2>Recursos y Novedades</h2>
           <div className="cards-grid flyers-grid">
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/divorcio-diplomatico.webp" alt="¿Divorcio de un diplomático? Divorcio en el exterior o en Argentina, reconocimiento de la sentencia extranjera, traslados y situación migratoria, y protección de los hijos." width={853} height={1280} />
+              <h3>¿Divorcio de un diplomático?</h3>
+              <p>Divorcio en el exterior o en Argentina, reconocimiento e inscripción de la sentencia extranjera, traslados y residencia, y la protección de los hijos en una vida internacional.</p>
+              <p>
+                <TrackedLink href="/articulos/divorcio-en-argentina-si-te-casaste-en-el-extranjero" trackEvent="cta_click" trackSource="flyer_divorcio_diplomatico" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/curso-modificaciones-restitucion-menores-casi.webp" alt="Curso Modificaciones al Proceso de Restitución de Menores, Colegio de Abogados de San Isidro, docentes Dras. Flavia Andrea Medina y María Andrea Esparza, del 1 al 22 de octubre de 2026, modalidad virtual." width={588} height={828} />
+              <h3>Curso: Modificaciones al Proceso de Restitución de Menores</h3>
+              <p>Colegio de Abogados de San Isidro, Instituto de Derecho Internacional Privado. Docentes: Dras. Flavia Andrea Medina y María Andrea Esparza. Jueves 18:30 a 20:30, del 1 al 22 de octubre de 2026, virtual.</p>
+              <p>
+                <TrackedLink href="/articulos/volver-al-pais-de-origen-con-hijos-traslado-internacional" trackEvent="cta_click" trackSource="flyer_curso_restitucion_casi_articulo" className="service-card-link">
+                  Leer sobre restitución internacional →
+                </TrackedLink>
+              </p>
+            </div>
             <div className="specialty-card flyer-card">
               <FlyerImage src="/assets/images/flyers/exequatur.jpeg" alt="Exequátur: reconocimiento en Argentina de sentencias dictadas en el exterior." width={1254} height={1254} />
               <h3>Exequátur de sentencias extranjeras</h3>
@@ -382,6 +429,7 @@ export default function HomePage() {
               <li>Colaboradora del Instituto de Familia Internacional Multidisciplinar de España (IFIM)</li>
               <li>Docente del curso &ldquo;Responsabilidad Parental Transfronteriza&rdquo; — Colegio de Abogados de la Prov. de Buenos Aires y Fundación CIJUSO (2026)</li>
               <li>Disertante &mdash; &ldquo;Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996&rdquo;, Colegio de Abogados de La Matanza (15 de mayo de 2026, modalidad híbrida)</li>
+              <li>Docente &mdash; &ldquo;Modificaciones al Proceso de Restitución de Menores&rdquo;, Colegio de Abogados de San Isidro, Instituto de Derecho Internacional Privado (octubre 2026, modalidad virtual)</li>
               <li>Especialización en Derecho Islámico aplicado a Disputas Familiares y DIP — Elevify (2026)</li>
               <li>Publicada en Revista Internacional Personalidades Jurídicas, Vol. 1 (2024): &ldquo;Agencias Especializadas en Ley Islámica&rdquo;</li>
             </ul>
@@ -389,6 +437,15 @@ export default function HomePage() {
           <div id="formacion" className="accomplishments">
             <h3>Formación Continua y Disertaciones</h3>
             <div className="cards-grid">
+              <div className="specialty-card">
+                <div className="card-icon">🎓</div>
+                <h3>Docente &mdash; 1 al 22 de octubre de 2026</h3>
+                <h4>Modificaciones al Proceso de Restitución de Menores</h4>
+                <p>Colegio de Abogados de San Isidro (CASI), Área Académica. Organiza: Instituto de Derecho Internacional Privado. Junto a la Dra. Flavia Andrea Medina. Restitución e interés superior del niño, tratados internacionales, Convención Interamericana y soluciones del Código Civil y Comercial. Modalidad virtual, jueves 18:30 a 20:30 hs.</p>
+                <p>
+                  <TrackedLink href="https://www.casi.com.ar/" trackEvent="cta_click" trackSource="formacion_curso_restitucion_casi" className="service-card-link" target="_blank" rel="noopener">Inscripción (CASI)</TrackedLink>
+                </p>
+              </div>
               <div className="specialty-card">
                 <div className="card-icon">📅</div>
                 <h3>Próxima disertación &mdash; 15 de mayo de 2026</h3>
