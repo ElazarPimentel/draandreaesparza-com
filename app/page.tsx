@@ -656,6 +656,21 @@ export default function HomePage() {
         <div className="container">
           <h2>Publicaciones y Medios Académicos</h2>
 
+          <h3 className="section-subtitle">Andrea Esparza en los medios</h3>
+          <div className="publications-grid">
+            <div className="publication-card">
+              <div className="publication-icon">📰</div>
+              <h3>Conexión con Vos</h3>
+              <h4>Cuando el maltrato ocurre puertas adentro: cómo proteger a la infancia</h4>
+              <p>Con la participación de la Dra. Andrea Esparza: señales de alerta, dónde pedir ayuda y protección de los derechos de niñas, niños y adolescentes.</p>
+              <div className="publication-meta"><span>Protección de la infancia</span><span>•</span><span>Participación en medios</span></div>
+              <div className="publication-actions">
+                <TrackedLink href="/articulos/cuando-el-maltrato-ocurre-puertas-adentro" trackEvent="publication_click" trackSource="homepage_maltrato_infancia" className="read-btn">📖 Leer artículo</TrackedLink>
+                <TrackedLink href="https://conexionconvos.com/bienestar-salud/cuando-el-maltrato-ocurre-puertas-adentro/" trackEvent="publication_click" trackSource="homepage_maltrato_infancia_original" className="download-btn" target="_blank" rel="noopener noreferrer">Ver nota original →</TrackedLink>
+              </div>
+            </div>
+          </div>
+
           <h3 className="section-subtitle">Artículos y Análisis Jurídicos</h3>
           <div className="publications-grid">
             <div className="publication-card">

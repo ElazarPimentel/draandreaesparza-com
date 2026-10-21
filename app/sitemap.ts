@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const articles = [
+    'cuando-el-maltrato-ocurre-puertas-adentro',
     'analisis-problemas-dip-divorcio-internacional',
     'bioetica-reproduccion-asistida-subrogacion-vientres',
     'conceptos-ninez-adolescencia-dip',
