@@ -6,7 +6,7 @@ import TrackedLink from '@/components/TrackedLink'
 
 const CANONICAL = 'https://draandreaesparza.com/articulos/cuando-el-maltrato-ocurre-puertas-adentro'
 const ORIGINAL = 'https://conexionconvos.com/bienestar-salud/cuando-el-maltrato-ocurre-puertas-adentro/'
-const HEADLINE = "Conexión con Vos"
+const HEADLINE = "Cuando el maltrato ocurre puertas adentro: el caso de los hijos de Romina Yan reabre el debate sobre cómo proteger a la infancia"
 const DESCRIPTION = 'Andrea Esparza en Conexión con Vos: señales de maltrato infantil, dónde pedir ayuda y cómo proteger los derechos de niñas, niños y adolescentes.'
 
 export const metadata: Metadata = {
