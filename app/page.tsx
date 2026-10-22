@@ -280,20 +280,6 @@ export default function HomePage() {
               </p>
             </div>
             <div className="specialty-card flyer-card">
-              <FlyerImage src="/assets/images/flyers/kafala-adopcion.jpeg" alt="Kafala y adopción: institución del derecho islámico que protege al niño sin crear vínculo de filiación." width={1254} height={1254} />
-              <h3>Kafala y adopción</h3>
-              <p>Institución del derecho islámico que permite cuidar y proteger a un menor sin crear vínculo filiatorio. Figuras análogas en Argentina.</p>
-              <p>
-                <TrackedLink href="/articulos/kafala-derecho-islamico-adopcion" trackEvent="cta_click" trackSource="flyer_kafala_adopcion_articulo" className="service-card-link">
-                  Leer artículo completo →
-                </TrackedLink>
-                {' '}
-                <TrackedLink href="/comunicaciones/kafala-adopcion.pdf" trackEvent="cta_click" trackSource="flyer_kafala_adopcion_pdf" className="service-card-link" target="_blank" rel="noopener">
-                  Ver flyer (PDF) →
-                </TrackedLink>
-              </p>
-            </div>
-            <div className="specialty-card flyer-card">
               <FlyerImage src="/assets/images/flyers/traslado-internacional-menores.jpeg" alt="¿Sos extranjero y formaste una familia en Argentina? Traslado internacional de menores y restitución si volvés a tu país sin autorización." width={1024} height={1536} />
               <h3>Volver a tu país con tus hijos</h3>
               <p>Si sos extranjero y querés volver a tu país con tus hijos, un traslado sin autorización puede derivar en restitución internacional de menores.</p>
@@ -339,6 +325,20 @@ export default function HomePage() {
               <p>
                 <TrackedLink href="/articulos/ley-27806-convenio-haya-cobro-internacional-de-alimentos" trackEvent="cta_click" trackSource="flyer_ley_27806_alimentos" className="service-card-link">
                   Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/kafala-adopcion.jpeg" alt="Kafala y adopción: institución del derecho islámico que protege al niño sin crear vínculo de filiación." width={1254} height={1254} />
+              <h3>Kafala y adopción</h3>
+              <p>Institución del derecho islámico que permite cuidar y proteger a un menor sin crear vínculo filiatorio. Figuras análogas en Argentina.</p>
+              <p>
+                <TrackedLink href="/articulos/kafala-derecho-islamico-adopcion" trackEvent="cta_click" trackSource="flyer_kafala_adopcion_articulo" className="service-card-link">
+                  Leer artículo completo →
+                </TrackedLink>
+                {' '}
+                <TrackedLink href="/comunicaciones/kafala-adopcion.pdf" trackEvent="cta_click" trackSource="flyer_kafala_adopcion_pdf" className="service-card-link" target="_blank" rel="noopener">
+                  Ver flyer (PDF) →
                 </TrackedLink>
               </p>
             </div>
