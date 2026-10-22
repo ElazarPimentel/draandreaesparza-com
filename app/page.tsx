@@ -270,22 +270,12 @@ export default function HomePage() {
               </p>
             </div>
             <div className="specialty-card flyer-card">
-              <FlyerImage src="/assets/images/flyers/exequatur.jpeg" alt="Exequátur: reconocimiento en Argentina de sentencias dictadas en el exterior." width={1254} height={1254} />
-              <h3>Exequátur de sentencias extranjeras</h3>
-              <p>Reconocimiento judicial en Argentina de sentencias de divorcio, alimentos, régimen de comunicación y otras dictadas en el exterior.</p>
+              <FlyerImage src="/assets/images/flyers/casarse-dos-veces-matrimonio-extranjero.webp" alt="¿Te casaste en otro país y querés casarte nuevamente en Argentina con la misma persona? Podría tener consecuencias penales." width={1254} height={1254} />
+              <h3>¿Te casaste en otro país?</h3>
+              <p>Volver a casarte en Argentina con la misma persona no suma derechos: tu matrimonio extranjero ya produce efectos acá y repetirlo puede ser delito. Lo que corresponde es inscribirlo.</p>
               <p>
-                <TrackedLink href="/comunicaciones/exequatur.pdf" trackEvent="cta_click" trackSource="flyer_exequatur_pdf" className="service-card-link" target="_blank" rel="noopener">
-                  Ver flyer (PDF) →
-                </TrackedLink>
-              </p>
-            </div>
-            <div className="specialty-card flyer-card">
-              <FlyerImage src="/assets/images/flyers/divorcios-internacionales.jpeg" alt="Divorcios internacionales: matrimonios celebrados en el exterior, competencia, ley aplicable y bienes en distintos países." width={1254} height={1254} />
-              <h3>Divorcios internacionales</h3>
-              <p>Validez del matrimonio extranjero, competencia judicial, ley aplicable y bienes en distintos países.</p>
-              <p>
-                <TrackedLink href="/comunicaciones/divorcios-internacionales.pdf" trackEvent="cta_click" trackSource="flyer_divorcios_internacionales_pdf" className="service-card-link" target="_blank" rel="noopener">
-                  Ver flyer (PDF) →
+                <TrackedLink href="/articulos/casarse-en-argentina-si-ya-te-casaste-en-el-extranjero" trackEvent="cta_click" trackSource="flyer_casarse_dos_veces_extranjero" className="service-card-link">
+                  Leer artículo →
                 </TrackedLink>
               </p>
             </div>
@@ -300,46 +290,6 @@ export default function HomePage() {
                 {' '}
                 <TrackedLink href="/comunicaciones/kafala-adopcion.pdf" trackEvent="cta_click" trackSource="flyer_kafala_adopcion_pdf" className="service-card-link" target="_blank" rel="noopener">
                   Ver flyer (PDF) →
-                </TrackedLink>
-              </p>
-            </div>
-            <div className="specialty-card flyer-card">
-              <FlyerImage src="/assets/images/flyers/responsabilidad-parental-transfronteriza-haya-1996.webp" alt="Flyer de la disertación Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996." width={1440} height={1600} />
-              <h3>Disertación: Responsabilidad Parental Transfronteriza</h3>
-              <p>Flyer de la actividad del 15 de mayo de 2026 sobre la Convención de La Haya de 1996, organizada por el Colegio de Abogados de La Matanza.</p>
-              <p>
-                <TrackedLink href="/disertaciones/2026-05-15-responsabilidad-parental-transfronteriza-convencion-haya-1996.pdf" trackEvent="cta_click" trackSource="flyer_disertacion_haya_1996_pdf" className="service-card-link" target="_blank" rel="noopener">
-                  Ver flyer (PDF) →
-                </TrackedLink>
-              </p>
-            </div>
-            <div className="specialty-card flyer-card">
-              <FlyerImage src="/assets/images/flyers/cambio-residencia-ninos.jpeg" alt="Cambio de residencia de niños: autorización judicial de traslado y casos internacionales." width={400} height={400} />
-              <h3>Cambio de residencia de niños</h3>
-              <p>Mudarse con el hijo/a a otra ciudad o al exterior cuando el otro progenitor no está de acuerdo: autorización judicial, oposición y casos internacionales urgentes.</p>
-              <p>
-                <TrackedLink href="/articulos/cambio-residencia-hijos-autorizacion-judicial" trackEvent="cta_click" trackSource="flyer_cambio_residencia" className="service-card-link">
-                  Leer artículo →
-                </TrackedLink>
-              </p>
-            </div>
-            <div className="specialty-card flyer-card">
-              <FlyerImage src="/assets/images/flyers/hijos-otro-pais.jpeg" alt="Hijos viven en otro país: cómo mantener el vínculo con visitas y videollamadas." width={400} height={400} />
-              <h3>Hijos que viven en otro país</h3>
-              <p>Coordinación de viajes y visitas, videollamadas frecuentes y acuerdos legales válidos en ambos países para no perder el vínculo.</p>
-              <p>
-                <TrackedLink href="/articulos/hijos-viven-en-otro-pais-mantener-vinculo" trackEvent="cta_click" trackSource="flyer_hijos_otro_pais" className="service-card-link">
-                  Leer artículo →
-                </TrackedLink>
-              </p>
-            </div>
-            <div className="specialty-card flyer-card">
-              <FlyerImage src="/assets/images/flyers/violencia-vicaria.jpeg" alt="Violencia vicaria: lastimar a través de los hijos no es amor, es violencia." width={400} height={400} />
-              <h3>Violencia vicaria</h3>
-              <p>Lastimar a la otra persona a través de los hijos no es amor, es violencia. Cómo identificarla y qué hacer en consultas de derecho de familia nacional e internacional.</p>
-              <p>
-                <TrackedLink href="/articulos/violencia-vicaria-que-es" trackEvent="cta_click" trackSource="flyer_violencia_vicaria" className="service-card-link">
-                  Leer artículo →
                 </TrackedLink>
               </p>
             </div>
@@ -384,20 +334,70 @@ export default function HomePage() {
               </p>
             </div>
             <div className="specialty-card flyer-card">
-              <FlyerImage src="/assets/images/flyers/casarse-dos-veces-matrimonio-extranjero.webp" alt="¿Te casaste en otro país y querés casarte nuevamente en Argentina con la misma persona? Podría tener consecuencias penales." width={1254} height={1254} />
-              <h3>¿Te casaste en otro país?</h3>
-              <p>Volver a casarte en Argentina con la misma persona no suma derechos: tu matrimonio extranjero ya produce efectos acá y repetirlo puede ser delito. Lo que corresponde es inscribirlo.</p>
+              <h3>Ley 27.806: cobro internacional de alimentos</h3>
+              <p>Argentina ratificó el Convenio de La Haya de 2007 sobre Cobro Internacional de Alimentos. ¿Necesitás reclamar alimentos en otro país? Contactame 🌎⚖️</p>
               <p>
-                <TrackedLink href="/articulos/casarse-en-argentina-si-ya-te-casaste-en-el-extranjero" trackEvent="cta_click" trackSource="flyer_casarse_dos_veces_extranjero" className="service-card-link">
+                <TrackedLink href="/articulos/ley-27806-convenio-haya-cobro-internacional-de-alimentos" trackEvent="cta_click" trackSource="flyer_ley_27806_alimentos" className="service-card-link">
                   Leer artículo →
                 </TrackedLink>
               </p>
             </div>
             <div className="specialty-card flyer-card">
-              <h3>Ley 27.806: cobro internacional de alimentos</h3>
-              <p>Argentina ratificó el Convenio de La Haya de 2007 sobre Cobro Internacional de Alimentos. ¿Necesitás reclamar alimentos en otro país? Contactame 🌎⚖️</p>
+              <FlyerImage src="/assets/images/flyers/exequatur.jpeg" alt="Exequátur: reconocimiento en Argentina de sentencias dictadas en el exterior." width={1254} height={1254} />
+              <h3>Exequátur de sentencias extranjeras</h3>
+              <p>Reconocimiento judicial en Argentina de sentencias de divorcio, alimentos, régimen de comunicación y otras dictadas en el exterior.</p>
               <p>
-                <TrackedLink href="/articulos/ley-27806-convenio-haya-cobro-internacional-de-alimentos" trackEvent="cta_click" trackSource="flyer_ley_27806_alimentos" className="service-card-link">
+                <TrackedLink href="/comunicaciones/exequatur.pdf" trackEvent="cta_click" trackSource="flyer_exequatur_pdf" className="service-card-link" target="_blank" rel="noopener">
+                  Ver flyer (PDF) →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/divorcios-internacionales.jpeg" alt="Divorcios internacionales: matrimonios celebrados en el exterior, competencia, ley aplicable y bienes en distintos países." width={1254} height={1254} />
+              <h3>Divorcios internacionales</h3>
+              <p>Validez del matrimonio extranjero, competencia judicial, ley aplicable y bienes en distintos países.</p>
+              <p>
+                <TrackedLink href="/comunicaciones/divorcios-internacionales.pdf" trackEvent="cta_click" trackSource="flyer_divorcios_internacionales_pdf" className="service-card-link" target="_blank" rel="noopener">
+                  Ver flyer (PDF) →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/responsabilidad-parental-transfronteriza-haya-1996.webp" alt="Flyer de la disertación Responsabilidad Parental Transfronteriza a la luz de la Convención de La Haya de 1996." width={1440} height={1600} />
+              <h3>Disertación: Responsabilidad Parental Transfronteriza</h3>
+              <p>Flyer de la actividad del 15 de mayo de 2026 sobre la Convención de La Haya de 1996, organizada por el Colegio de Abogados de La Matanza.</p>
+              <p>
+                <TrackedLink href="/disertaciones/2026-05-15-responsabilidad-parental-transfronteriza-convencion-haya-1996.pdf" trackEvent="cta_click" trackSource="flyer_disertacion_haya_1996_pdf" className="service-card-link" target="_blank" rel="noopener">
+                  Ver flyer (PDF) →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/cambio-residencia-ninos.jpeg" alt="Cambio de residencia de niños: autorización judicial de traslado y casos internacionales." width={400} height={400} />
+              <h3>Cambio de residencia de niños</h3>
+              <p>Mudarse con el hijo/a a otra ciudad o al exterior cuando el otro progenitor no está de acuerdo: autorización judicial, oposición y casos internacionales urgentes.</p>
+              <p>
+                <TrackedLink href="/articulos/cambio-residencia-hijos-autorizacion-judicial" trackEvent="cta_click" trackSource="flyer_cambio_residencia" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/hijos-otro-pais.jpeg" alt="Hijos viven en otro país: cómo mantener el vínculo con visitas y videollamadas." width={400} height={400} />
+              <h3>Hijos que viven en otro país</h3>
+              <p>Coordinación de viajes y visitas, videollamadas frecuentes y acuerdos legales válidos en ambos países para no perder el vínculo.</p>
+              <p>
+                <TrackedLink href="/articulos/hijos-viven-en-otro-pais-mantener-vinculo" trackEvent="cta_click" trackSource="flyer_hijos_otro_pais" className="service-card-link">
+                  Leer artículo →
+                </TrackedLink>
+              </p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/violencia-vicaria.jpeg" alt="Violencia vicaria: lastimar a través de los hijos no es amor, es violencia." width={400} height={400} />
+              <h3>Violencia vicaria</h3>
+              <p>Lastimar a la otra persona a través de los hijos no es amor, es violencia. Cómo identificarla y qué hacer en consultas de derecho de familia nacional e internacional.</p>
+              <p>
+                <TrackedLink href="/articulos/violencia-vicaria-que-es" trackEvent="cta_click" trackSource="flyer_violencia_vicaria" className="service-card-link">
                   Leer artículo →
                 </TrackedLink>
               </p>
