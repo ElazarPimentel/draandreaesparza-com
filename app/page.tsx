@@ -224,31 +224,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured media publication */}
-      <section id="en-los-medios" className="publications-section">
-        <div className="container">
-          <h2>Andrea Esparza en los medios</h2>
-          <div className="publications-grid">
-            <div className="publication-card">
-              <div className="publication-icon">📰</div>
-              <h3>Conexión con Vos</h3>
-              <h4>Cuando el maltrato ocurre puertas adentro: cómo proteger a la infancia</h4>
-              <p>Con la participación de la Dra. Andrea Esparza: señales de alerta, dónde pedir ayuda y protección de los derechos de niñas, niños y adolescentes.</p>
-              <div className="publication-meta"><span>Protección de la infancia</span><span>•</span><span>Participación en medios</span></div>
-              <div className="publication-actions">
-                <TrackedLink href="/articulos/cuando-el-maltrato-ocurre-puertas-adentro" trackEvent="publication_click" trackSource="homepage_maltrato_infancia" className="read-btn">📖 Leer artículo</TrackedLink>
-                <TrackedLink href="https://conexionconvos.com/bienestar-salud/cuando-el-maltrato-ocurre-puertas-adentro/" trackEvent="publication_click" trackSource="homepage_maltrato_infancia_original" className="download-btn" target="_blank" rel="noopener noreferrer">Ver nota original →</TrackedLink>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Comunicaciones — flyers (imágenes + PDF) */}
       <section id="comunicaciones" className="comunicaciones-section">
         <div className="container">
           <h2>Recursos y Novedades</h2>
           <div className="cards-grid flyers-grid">
+            <div id="en-los-medios" className="specialty-card flyer-card">
+              <div className="publication-icon" aria-hidden="true">📰</div>
+              <h3>Cuando el maltrato ocurre puertas adentro: cómo proteger a la infancia</h3>
+              <p><strong>Andrea Esparza en los medios · Conexión con Vos</strong></p>
+              <p>Con la participación de la Dra. Andrea Esparza: señales de alerta, dónde pedir ayuda y protección de los derechos de niñas, niños y adolescentes.</p>
+              <p>
+                <TrackedLink href="/articulos/cuando-el-maltrato-ocurre-puertas-adentro" trackEvent="publication_click" trackSource="homepage_maltrato_infancia" className="service-card-link">Leer artículo →</TrackedLink>
+              </p>
+              <p>
+                <TrackedLink href="https://conexionconvos.com/bienestar-salud/cuando-el-maltrato-ocurre-puertas-adentro/" trackEvent="publication_click" trackSource="homepage_maltrato_infancia_original" className="service-card-link" target="_blank" rel="noopener noreferrer">Ver nota original →</TrackedLink>
+              </p>
+            </div>
             <div className="specialty-card flyer-card">
               <FlyerImage src="/assets/images/flyers/divorcio-diplomatico.webp" alt="¿Divorcio de un diplomático? Divorcio en el exterior o en Argentina, reconocimiento de la sentencia extranjera, traslados y situación migratoria, y protección de los hijos." width={853} height={1280} />
               <h3>¿Divorcio de un diplomático?</h3>
