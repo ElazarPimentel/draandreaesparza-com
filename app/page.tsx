@@ -98,6 +98,7 @@ const personSchema = {
   knowsAbout: ['Derecho de Familia', 'Divorcios', 'Alimentos', 'Sucesiones', 'Restitución Internacional de Menores', 'Derecho Internacional Privado', 'Derecho Islámico', 'Finanzas Islámicas', 'Responsabilidad Parental Transfronteriza'],
   sameAs: ['https://www.linkedin.com/in/maría-andrea-esparza-b478608b', 'https://www.asime.org/andrea-esparza/'],
   hasCredential: [
+    { '@type': 'EducationalOccupationalCredential', name: 'Capita Selecta en Sustracción de Menores. Casos complejos, cuestiones avanzadas y estrategias procesales (1ª Edición, 8 h)', credentialCategory: 'Certificate', dateCreated: '2026-10-29', url: 'https://draandreaesparza.com/certificados/cert-asime-capita-selecta-sustraccion-menores-2026-10-29.pdf', recognizedBy: { '@type': 'Organization', name: 'Asociación de Profesionales contra la Sustracción Internacional de Menores de España (ASIME)' } },
     { '@type': 'EducationalOccupationalCredential', name: 'Fundamentos del Derecho Islámico Relevantes para Disputas Familiares', credentialCategory: 'Certificate', recognizedBy: { '@type': 'EducationalOrganization', name: 'Elevify' } },
     { '@type': 'EducationalOccupationalCredential', name: 'DIP: Reconocimiento y Ejecución de Matrimonios Religiosos Extranjeros', credentialCategory: 'Certificate', recognizedBy: { '@type': 'EducationalOrganization', name: 'Elevify' } },
     { '@type': 'EducationalOccupationalCredential', name: 'Sustracción Internacional de Menores. Novedades del Derecho Nacional e Internacional (5ª Edición, 20 h)', credentialCategory: 'Certificate', recognizedBy: { '@type': 'Organization', name: 'Asociación de Profesionales contra la Sustracción Internacional de Menores de España (ASIME)' } },
@@ -229,6 +230,20 @@ export default function HomePage() {
         <div className="container">
           <h2>Recursos y Novedades</h2>
           <div className="cards-grid flyers-grid">
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/cert-publicacion-ridca-9-ninez-haya-1996-2026-11-10.webp" alt="Certificado de publicación de María Andrea Esparza en RIDCA, Edición Nº 9, Derecho Civil y Comercial, emitido el 10 de noviembre de 2026." width={1135} height={805} />
+              <h3>Publicación en RIDCA: protección internacional de la niñez</h3>
+              <p>Un nuevo instrumento internacional en materia de niñez se incorpora a la República Argentina. Artículo de María Andrea Esparza sobre la Convención de La Haya de 1996, publicado en la Edición Nº 9 de RIDCA. Certificado emitido el 10 de noviembre de 2026.</p>
+              <p><TrackedLink href="https://aidca.org/ridca9-civil-y-comercial-esparza-un-nuevo-instrumento-internacional-en-materia-de-ninez-se-incorpora-a-la-republica-argentina/" trackEvent="publication_click" trackSource="flyer_ridca9_ninez_articulo" className="service-card-link" target="_blank" rel="noopener noreferrer">Leer artículo en AIDCA →</TrackedLink></p>
+              <p><TrackedLink href="/certificados/cert-publicacion-ridca-9-ninez-haya-1996-2026-11-10.pdf" trackEvent="cta_click" trackSource="flyer_ridca9_ninez_certificado" className="service-card-link" target="_blank" rel="noopener noreferrer">Ver certificado (PDF) →</TrackedLink></p>
+            </div>
+            <div className="specialty-card flyer-card">
+              <FlyerImage src="/assets/images/flyers/cert-asime-capita-selecta-sustraccion-menores-2026-10-29.webp" alt="Certificado ASIME de María Andrea Esparza: Capita Selecta en Sustracción de Menores, casos complejos, cuestiones avanzadas y estrategias procesales, primera edición, 8 horas, Madrid, 29 de octubre de 2026." width={720} height={545} />
+              <h3>ASIME: casos complejos de sustracción de menores</h3>
+              <p>Capita Selecta en Sustracción de Menores. Casos complejos, cuestiones avanzadas y estrategias procesales (1ª edición). Curso telemático de especialización de ASIME, 8 horas lectivas. Madrid, 29 de octubre de 2026.</p>
+              <p><TrackedLink href="/articulos/volver-al-pais-de-origen-con-hijos-traslado-internacional" trackEvent="cta_click" trackSource="flyer_asime_capita_selecta_articulo" className="service-card-link">Leer sobre restitución internacional →</TrackedLink></p>
+              <p><TrackedLink href="/certificados/cert-asime-capita-selecta-sustraccion-menores-2026-10-29.pdf" trackEvent="cta_click" trackSource="flyer_asime_capita_selecta_certificado" className="service-card-link" target="_blank" rel="noopener noreferrer">Ver certificado (PDF) →</TrackedLink></p>
+            </div>
             <div id="en-los-medios" className="specialty-card flyer-card">
               <div className="publication-icon" aria-hidden="true">📰</div>
               <h3>Cuando el maltrato ocurre puertas adentro: cómo proteger a la infancia</h3>
@@ -449,6 +464,13 @@ export default function HomePage() {
           <div id="formacion" className="accomplishments">
             <h3>Formación Continua y Disertaciones</h3>
             <div className="cards-grid">
+              <div className="specialty-card">
+                <div className="card-icon">📜</div>
+                <h3>Certificación — ASIME (España)</h3>
+                <h4>Capita Selecta en Sustracción de Menores. Casos complejos, cuestiones avanzadas y estrategias procesales</h4>
+                <p>Primera edición. Participación con aprovechamiento en el curso telemático de especialización de ASIME, de 8 horas lectivas. Madrid, 29 de octubre de 2026.</p>
+                <p><TrackedLink href="/certificados/cert-asime-capita-selecta-sustraccion-menores-2026-10-29.pdf" trackEvent="cta_click" trackSource="formacion_asime_capita_selecta_pdf" className="service-card-link" target="_blank" rel="noopener noreferrer">Ver certificado (PDF)</TrackedLink></p>
+              </div>
               <div className="specialty-card">
                 <div className="card-icon">🎓</div>
                 <h3>Docente &mdash; 1 al 22 de octubre de 2026</h3>
@@ -751,6 +773,17 @@ export default function HomePage() {
 
           <h3 className="section-subtitle-extra">Publicaciones Académicas (RIDCA - AIDCA)</h3>
           <div className="publications-grid">
+            <div className="publication-card">
+              <div className="publication-icon">📄</div>
+              <h3>RIDCA - Revista Iberoamericana</h3>
+              <h4>Un nuevo instrumento internacional en materia de niñez se incorpora a la República Argentina</h4>
+              <p>Artículo de María Andrea Esparza sobre la Convención de La Haya de 1996 y la protección internacional de la niñez.</p>
+              <div className="publication-meta"><span>Julio 2026</span><span>•</span><span>RIDCA Nº 9 · Derecho Civil y Comercial</span></div>
+              <div className="publication-actions">
+                <TrackedLink href="https://aidca.org/ridca9-civil-y-comercial-esparza-un-nuevo-instrumento-internacional-en-materia-de-ninez-se-incorpora-a-la-republica-argentina/" trackEvent="publication_click" trackSource="homepage_ridca9_ninez_original" className="read-btn" target="_blank" rel="noopener noreferrer">Leer artículo en AIDCA →</TrackedLink>
+                <TrackedLink href="/certificados/cert-publicacion-ridca-9-ninez-haya-1996-2026-11-10.pdf" trackEvent="publication_click" trackSource="homepage_ridca9_ninez_certificado" className="download-btn" target="_blank" rel="noopener noreferrer">Ver certificado (PDF)</TrackedLink>
+              </div>
+            </div>
             <div className="publication-card">
               <div className="publication-icon">📄</div>
               <h3>RIDCA - Revista Iberoamericana</h3>

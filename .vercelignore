@@ -2,3 +2,9 @@
 # (gsc-reports/ is also gitignored, so it never reaches Vercel via the GitHub
 # integration either; this file makes the exclusion explicit for CLI deploys.)
 gsc-reports/
+
+pm/
+
+gsc-service-account.json
+
+.env*
